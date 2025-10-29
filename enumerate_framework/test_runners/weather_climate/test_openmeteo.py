@@ -515,19 +515,7 @@ def run(test_config=None):
         "tests": all_results
     }
 
-    save_result("openmeteo", summary)
-
-    # Ensure a canonical copy under enumerate_framework/output/api_tests
-    try:
-        from pathlib import Path
-        root_output = Path(__file__).parents[2] / "output" / "api_tests"
-        root_output.mkdir(parents=True, exist_ok=True)
-        dst = root_output / "openmeteo.json"
-        with open(dst, 'w', encoding='utf-8') as f:
-            json.dump(summary, f, ensure_ascii=False, indent=2)
-        print(f"  ✓ 同步保存: {dst}")
-    except Exception as sync_err:
-        print(f"  ⚠ 无法同步保存标准输出路径: {sync_err}")
+    save_result("weather_climate/openmeteo", summary)
 
     print(f"\n总测试数: {len(all_results)}")
     print("所有测试已完成！")

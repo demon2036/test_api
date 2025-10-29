@@ -146,11 +146,16 @@ out skel qt;"""
         except requests.exceptions.RequestException as e:
             raise Exception(f"Overpass API request failed: {str(e)}")
 
-    def _calculate_centroid(self, element: Dict) -> Tuple[float, float]:
+    def _calculate_centroid(
+        self,
+        element: Dict,
+        node_lookup: Optional[Dict[int, Tuple[float, float]]] = None
+    ) -> Tuple[Optional[float], Optional[float]]:
         """Calculate centroid for ways and relations.
 
         Args:
             element: OSM element dictionary
+            node_lookup: Optional mapping of node id -> (lat, lon)
 
         Returns:
             Tuple of (lat, lon)
@@ -162,19 +167,44 @@ out skel qt;"""
         if 'center' in element:
             return (element['center']['lat'], element['center']['lon'])
 
+        if node_lookup and element['type'] == 'way':
+            node_coords = [
+                node_lookup.get(node_id)
+                for node_id in element.get('nodes', [])
+                if node_lookup.get(node_id) is not None
+            ]
+            if node_coords:
+                lat = sum(coord[0] for coord in node_coords) / len(node_coords)
+                lon = sum(coord[1] for coord in node_coords) / len(node_coords)
+                return (lat, lon)
+
+        if node_lookup and element['type'] == 'relation':
+            node_coords = []
+            for member in element.get('members', []):
+                if member.get('type') == 'node':
+                    coord = node_lookup.get(member.get('ref'))
+                    if coord:
+                        node_coords.append(coord)
+            if node_coords:
+                lat = sum(coord[0] for coord in node_coords) / len(node_coords)
+                lon = sum(coord[1] for coord in node_coords) / len(node_coords)
+                return (lat, lon)
+
         # Fallback: return None if no coordinates available
         return (None, None)
 
     def _format_element(
         self,
         element: Dict,
-        include_metadata: bool = False
+        include_metadata: bool = False,
+        node_lookup: Optional[Dict[int, Tuple[float, float]]] = None
     ) -> Any:
         """Format an OSM element for output.
 
         Args:
             element: Raw OSM element from Overpass API
             include_metadata: Whether to include full metadata
+            node_lookup: Optional mapping of node id -> (lat, lon)
 
         Returns:
             Formatted element (string ID or dict with metadata)
@@ -184,7 +214,7 @@ out skel qt;"""
         if not include_metadata:
             return element_id
 
-        lat, lon = self._calculate_centroid(element)
+        lat, lon = self._calculate_centroid(element, node_lookup)
 
         return {
             "id": element_id,
@@ -228,6 +258,14 @@ out skel qt;"""
         # Extract elements
         elements = response.get('elements', [])
 
+        node_lookup = {
+            elem['id']: (elem.get('lat'), elem.get('lon'))
+            for elem in elements
+            if elem.get('type') == 'node'
+            and elem.get('lat') is not None
+            and elem.get('lon') is not None
+        }
+
         # Filter out node references (nodes that are part of ways)
         # We only want the actual features, not the geometry nodes
         main_elements = [
@@ -236,7 +274,7 @@ out skel qt;"""
         ]
 
         # Format as IDs only
-        items = [self._format_element(elem, include_metadata=False)
+        items = [self._format_element(elem, include_metadata=False, node_lookup=node_lookup)
                 for elem in main_elements[:max_items]]
 
         # Build tag description
@@ -292,6 +330,14 @@ out skel qt;"""
         # Extract elements
         elements = response.get('elements', [])
 
+        node_lookup = {
+            elem['id']: (elem.get('lat'), elem.get('lon'))
+            for elem in elements
+            if elem.get('type') == 'node'
+            and elem.get('lat') is not None
+            and elem.get('lon') is not None
+        }
+
         # Filter out node references
         main_elements = [
             elem for elem in elements
@@ -299,7 +345,7 @@ out skel qt;"""
         ]
 
         # Format with full metadata
-        items = [self._format_element(elem, include_metadata=True)
+        items = [self._format_element(elem, include_metadata=True, node_lookup=node_lookup)
                 for elem in main_elements[:max_items]]
 
         # Build tag description
@@ -361,6 +407,14 @@ out skel qt;"""
         # Extract elements
         elements = response.get('elements', [])
 
+        node_lookup = {
+            elem['id']: (elem.get('lat'), elem.get('lon'))
+            for elem in elements
+            if elem.get('type') == 'node'
+            and elem.get('lat') is not None
+            and elem.get('lon') is not None
+        }
+
         # Filter out node references
         main_elements = [
             elem for elem in elements
@@ -368,7 +422,7 @@ out skel qt;"""
         ]
 
         # Format with full metadata
-        items = [self._format_element(elem, include_metadata=True)
+        items = [self._format_element(elem, include_metadata=True, node_lookup=node_lookup)
                 for elem in main_elements[:max_items]]
 
         # Build tag description
@@ -431,11 +485,21 @@ out skel qt;"""
         Returns:
             Parks that have playground=yes tag
         """
-        return [
-            elem for elem in elements
-            if elem.get('tags', {}).get('playground') == 'yes'
-            or elem.get('tags', {}).get('leisure') == 'playground'
-        ]
+        results = []
+        for elem in elements:
+            tags = elem.get('tags', {})
+            value = tags.get('playground')
+
+            if value:
+                normalized = value.lower()
+                if normalized not in {'no', '0', 'false', 'off'}:
+                    results.append(elem)
+                    continue
+
+            if tags.get('leisure') == 'playground':
+                results.append(elem)
+
+        return results
 
     def get_connected_lines(self, station_elements: List[Dict]) -> List[Dict]:
         """Get subway stations with their connected line information.

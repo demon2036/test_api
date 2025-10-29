@@ -4,8 +4,8 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-# 脚本文件所在目录
-BASE_DIR = Path(__file__).parent.parent
+# 脚本文件所在目录 - 使用resolve()获取绝对路径
+BASE_DIR = Path(__file__).resolve().parent.parent
 # 定位到 enumerate_framework/output/api_tests
 OUTPUT_DIR = BASE_DIR / "output" / "api_tests"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
