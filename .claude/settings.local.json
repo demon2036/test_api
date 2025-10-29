@@ -5,7 +5,8 @@
       "WebFetch(domain:dblp.org)",
       "WebSearch",
       "Bash(curl:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(tree:*)"
     ],
     "deny": [],
     "ask": []

@@ -4,8 +4,10 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-# 输出目录
-OUTPUT_DIR = Path("output/api_tests")
+# 脚本文件所在目录
+BASE_DIR = Path(__file__).parent.parent
+# 定位到 enumerate_framework/output/api_tests
+OUTPUT_DIR = BASE_DIR / "output" / "api_tests"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -13,10 +15,12 @@ def save_result(api_name, result_data):
     """保存测试结果到JSON文件
 
     Args:
-        api_name: API名称（用作文件名）
+        api_name: API名称（用作文件名,可以包含子目录）
         result_data: 要保存的数据字典
     """
     output_file = OUTPUT_DIR / f"{api_name}.json"
+    # 确保父目录存在
+    output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(result_data, f, ensure_ascii=False, indent=2)
     print(f"  ✓ 结果已保存: {output_file}")
