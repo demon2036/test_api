@@ -26,34 +26,34 @@ def save_result(api_name, result_data):
     print(f"  ✓ 结果已保存: {output_file}")
 
 
-def create_test_result(identifier, question, api_info, data, data_key, **extra_fields):
+def create_test_result(question, answers, api_info=None, **extra_fields):
     """创建标准格式的测试结果
 
     Args:
-        identifier: 标识符（如package名、author名等）
         question: 问题描述
-        api_info: API信息字典
-        data: 数据列表
-        data_key: 数据在结果中的键名
+        answers: 答案列表（可以是简单值列表或包含元数据的字典列表）
+        api_info: API信息字典（可选）
         **extra_fields: 其他要包含的字段
 
     Returns:
         dict: 格式化的测试结果
     """
+    # Ensure answers is at least an empty list to simplify downstream handling
+    normalized_answers = answers if isinstance(answers, list) else [answers] if answers is not None else []
+
     result = {
         "question": question,
-        "api_info": api_info,
-        f"total_{data_key}": len(data),
-        f"sample_{data_key}": data[:10] if len(data) > 10 else data,
+        "answers": normalized_answers,
+        "answer_count": len(normalized_answers),
         "timestamp": datetime.now().isoformat()
     }
 
+    # 如果提供了api_info，则添加
+    if api_info:
+        result["api_info"] = api_info
+
     # 添加额外字段
     result.update(extra_fields)
-
-    # 如果数据量不太大，包含完整数据
-    if len(data) <= 10000:
-        result[f"all_{data_key}"] = data
 
     return result
 

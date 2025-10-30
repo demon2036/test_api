@@ -47,7 +47,11 @@ enumerate_framework/
 │   ├── test_crtsh.py          # crt.sh测试模块
 │   ├── test_openlibrary.py    # Open Library测试模块
 │   ├── test_sec_edgar.py      # SEC EDGAR测试模块
-│   ├── test_pubmed.py         # PubMed测试模块
+│   ├── academic_research/     # 学术/科研测试模块
+│   │   ├── __init__.py
+│   │   ├── dblp.py            # DBLP 综合测试模块
+│   │   ├── pubmed.py          # PubMed 综合测试模块
+│   │   └── zenodo.py          # Zenodo 综合测试模块
 │   │
 │   ├── test_spotify.py        # Spotify测试模块（需要API Key）
 │   ├── test_youtube.py        # YouTube测试模块（需要API Key）
@@ -98,6 +102,15 @@ python test_runners/test_npm.py
 
 # 测试GitHub
 python test_runners/test_github.py
+
+# 测试DBLP（基础 + 增强）
+python test_runners/academic_research/dblp.py
+
+# 测试PubMed（基础 + 增强）
+python test_runners/academic_research/pubmed.py
+
+# 测试Zenodo（基础 + 增强）
+python test_runners/academic_research/zenodo.py
 
 # 测试任意API
 python test_runners/test_<api_name>.py

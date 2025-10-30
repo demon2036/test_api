@@ -11,6 +11,10 @@ class HuggingFaceFetcher(BaseFetcher):
 
     BASE_URL = "https://huggingface.co/api"
     RESOURCE_TYPES = {"models", "datasets", "spaces"}
+    QUESTION_TYPES = {
+        "basic": "basic_enumeration",
+        "advanced": "advanced_query"
+    }
 
     def __init__(self, api_token: Optional[str] = None):
         """Initialize Hugging Face fetcher
@@ -82,7 +86,64 @@ class HuggingFaceFetcher(BaseFetcher):
             "spaces": "Spaces"
         }
         query_str = " 且 ".join(parts) if parts else f"所有{resource_names[resource_type]}"
-        return f"列出Hugging Face上{query_str}的所有{resource_names[resource_type]}"
+        return f"列出 Hugging Face Hub 上{query_str}的所有{resource_names[resource_type]}"
+
+    def build_advanced_question(
+        self,
+        resource_type: str,
+        sort: str,
+        limit: int,
+        direction: int = -1,
+        filter_tag: Optional[str] = None,
+        search: Optional[str] = None,
+        secondary_filters: Optional[Dict[str, str]] = None
+    ) -> str:
+        """构建高级查询问题描述，强调 Hugging Face Hub 来源"""
+        resource_names = {
+            "models": "模型",
+            "datasets": "数据集",
+            "spaces": "Spaces"
+        }
+        resource_name = resource_names.get(resource_type, resource_type)
+
+        sort_labels = {
+            "downloads": "下载量",
+            "likes": "点赞数",
+            "lastModified": "最近更新"
+        }
+        sort_label = sort_labels.get(sort, sort)
+
+        qualifiers: List[str] = []
+        if filter_tag:
+            qualifiers.append(f"带有“{filter_tag}”标签")
+        if search:
+            qualifiers.append(f"与“{search}”相关")
+
+        if secondary_filters:
+            secondary_mapping = {
+                "library": lambda value: f"使用“{value}”库",
+                "tag": lambda value: f"包含“{value}”标签"
+            }
+            for key, value in secondary_filters.items():
+                formatter = secondary_mapping.get(key)
+                if formatter and value:
+                    qualifiers.append(formatter(value))
+
+        qualifier_text = "、".join(qualifiers)
+        if qualifier_text:
+            qualifier_text = f"{qualifier_text}的"
+
+        if sort == "lastModified":
+            sort_phrase = "最近更新的"
+        else:
+            if direction == -1:
+                sort_phrase = f"{sort_label}最高的"
+            else:
+                sort_phrase = f"{sort_label}最低的"
+
+        limit_text = f"{limit}个" if limit else "指定数量的"
+
+        return f"在 Hugging Face Hub 上列出{qualifier_text}{resource_name}中{sort_phrase}{limit_text}"
 
     def fetch(self, resource_type: str = "models", **kwargs) -> Tuple[List[str], Dict, str]:
         """Generic fetch method for all resource types

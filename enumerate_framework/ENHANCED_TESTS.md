@@ -58,7 +58,7 @@
 
 #### 运行测试
 ```bash
-python test_runners/test_dblp_enhanced.py
+python test_runners/academic_research/dblp.py
 ```
 
 #### 预期输出
@@ -130,7 +130,7 @@ python test_enhanced_apis.py
 输出目录：
 ```
 output/api_tests/
-├── dblp_enhanced.json     # DBLP增强测试结果
+├── academic_research/dblp.json     # DBLP综合测试结果
 └── github_enhanced.json   # GitHub增强测试结果
 ```
 

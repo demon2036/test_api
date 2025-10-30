@@ -7,8 +7,10 @@ from pathlib import Path
 if __name__ == "__main__":
     sys.path.insert(0, str(Path(__file__).parent.parent.parent))
     from test_runners.utils import save_result, create_test_result, print_header
+    from test_runners.code_ecosystem.test_configs.package_config import get_config
 else:
     from ..utils import save_result, create_test_result, print_header
+    from .test_configs.package_config import get_config
 
 
 def run(test_config=None):
@@ -23,28 +25,34 @@ def run(test_config=None):
     from fetchers.code_ecosystem.homebrew import HomebrewFetcher
     fetcher = HomebrewFetcher()
 
-    # 默认配置 - 流行的Homebrew formulae
-    config = {
-        "formulae": ['python', 'node', 'git', 'wget', 'curl']
-    }
+    # 从配置文件加载
+    config = get_config("homebrew")
+    formulae = config["packages"]
 
     # 合并用户配置
-    if test_config:
-        config.update(test_config)
+    if test_config and "formulae" in test_config:
+        formulae = test_config["formulae"]
 
     results = []
 
-    for formula in config["formulae"]:
+    for formula in formulae:
         print(f"\n测试formula: {formula}")
         versions, api_info, question = fetcher.fetch(formula=formula)
 
+        answers = [
+            {
+                "answer": version,
+                "variant_type": "stable" if idx == 0 else "versioned_formula"
+            }
+            for idx, version in enumerate(versions)
+        ]
+
         result = create_test_result(
-            identifier=formula,
             question=question,
+            answers=answers,
             api_info=api_info,
-            data=versions,
-            data_key="versions",
-            formula=formula
+            formula=formula,
+            ecosystem="Homebrew"
         )
         results.append(result)
 
@@ -54,7 +62,7 @@ def run(test_config=None):
     save_result("code_ecosystem/homebrew", {
         "api_name": "Homebrew Formulae",
         "requires_auth": False,
-        "config": config,
+        "config": {"formulae": formulae},
         "tests": results
     })
 

@@ -151,7 +151,7 @@ This section summarizes the available APIs and proposes more complex, metadata-b
         *   `get_aliases`: List all aliases for the 'openssl@3' formula.
         *   `filter_deprecated`: Filter deprecated formulae.
 
-### Academic/Research (3 APIs)
+### Academic/Research (1 API)
 
 *   **DBLP:** Enumerate all publications for an author using their PID.
     *   **Existing Advanced Questions:**
@@ -159,18 +159,6 @@ This section summarizes the available APIs and proposes more complex, metadata-b
         *   Filter by venue (conference/journal).
         *   Filter by year range.
         *   Filter by publication type.
-*   **PubMed:** Enumerate all publications for an author (preferably via ORCID).
-    *   **Advanced Questions (Implemented):**
-        *   `filter_by_author_role`: List all publications by author X where they are the corresponding author.
-        *   `filter_by_article_type`: Find all publications by author X that are review articles.
-        *   `filter_by_journal`: List all publications by author X that were published in the 'Nature' journal.
-        *   `filter_by_year`: Filter publications by year range.
-*   **Zenodo:** Enumerate all research data for a researcher (via ORCID).
-    *   **Advanced Questions (Implemented):**
-        *   `filter_by_size`: List all datasets by researcher X that are over 1GB in size.
-        *   `filter_by_resource_type`: Find all software publications by researcher X.
-        *   `filter_by_license`: List all publications by researcher X that have a Creative Commons license.
-        *   `filter_by_year`: Filter records by year range.
 
 ### Media/Entertainment (3 APIs)
 
@@ -292,7 +280,7 @@ To assist with testing, the APIs listed above can be grouped by their authentica
 ### APIs Requiring an API Key or OAuth
 
 *   **Code Ecosystem:** GitHub, Homebrew (key recommended for full access)
-*   **Academic/Research:** PubMed, Zenodo
+*   **Academic/Research:** PubMed, Zenodo (see `GEMINI_SECONDARY_APIS.md`)
 *   **Media/Entertainment:** Spotify, YouTube, TMDb
 
 ## 8. How to Use

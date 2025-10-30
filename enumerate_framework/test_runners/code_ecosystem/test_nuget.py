@@ -6,9 +6,33 @@ from pathlib import Path
 # 支持独立运行和作为模块导入
 if __name__ == "__main__":
     sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-    from test_runners.utils import save_result, create_test_result, print_header
+    from test_runners.utils import save_result, print_header
+    from test_runners.code_ecosystem.code_utils import (
+        load_package_config,
+        merge_test_config,
+        build_base_result,
+        build_enhanced_result,
+    )
 else:
-    from ..utils import save_result, create_test_result, print_header
+    from ..utils import save_result, print_header
+    from .code_utils import (
+        load_package_config,
+        merge_test_config,
+        build_base_result,
+        build_enhanced_result,
+    )
+
+
+def _format_nuget_version(version):
+    """Standardized answer payload for NuGet versions."""
+    published = version.get('published')
+    formatted_date = published[:10] if isinstance(published, str) and published else None
+    return {
+        "answer": version.get('version', ''),
+        "published": formatted_date,
+        "authors": version.get('authors', []),
+        "is_listed": version.get('listed', True)
+    }
 
 
 def run(test_config=None):
@@ -25,14 +49,9 @@ def run(test_config=None):
     from fetchers.code_ecosystem.nuget import NuGetFetcher
     fetcher = NuGetFetcher()
 
-    # 默认配置
-    config = {
-        "packages": ["Newtonsoft.Json"],
-    }
-
-    # 合并用户配置
-    if test_config:
-        config.update(test_config)
+    # 加载配置（从test_configs）
+    default_config = load_package_config("nuget", extended=test_config and test_config.get("extended", False))
+    config = merge_test_config(default_config, test_config)
 
     all_results = []
 
@@ -51,16 +70,13 @@ def run(test_config=None):
         for v in versions_with_metadata[:5]:
             print(f"    - {v['version']} ({v.get('published', 'Unknown')[:10] if v.get('published') else 'Unknown'})")
 
-        base_result = {
-            "question": base_question,
-            "total_count": total_count,
-            "versions": [
-                {
-                    "version": v['version'],
-                    "published": v.get('published', '')[:10] if v.get('published') else None
-                } for v in versions_with_metadata
-            ]
-        }
+        base_result = build_base_result(
+            question=base_question,
+            versions=[_format_nuget_version(v) for v in versions_with_metadata],
+            package=package,
+            ecosystem="NuGet",
+            query_category="base_enumeration"
+        )
 
         # ==================== 增强问题 1：预发布版本 ====================
         print(f"\n[增强问题 1/2] 列出所有预发布版本（包含alpha、beta、rc等）")
@@ -77,19 +93,18 @@ def run(test_config=None):
             for v in prerelease_versions[:10]:
                 print(f"    - {v['version']}")
 
-        enhanced_result_1 = {
-            "question": f"列出NuGet上{package}包的所有预发布版本",
-            "filter_type": "prerelease",
-            "filter_value": "alpha|beta|rc|pre|preview",
-            "total_count": filtered_count,
-            "percentage": f"{percentage:.1f}%",
-            "versions": [
-                {
-                    "version": v['version'],
-                    "published": v.get('published', '')[:10] if v.get('published') else None
-                } for v in prerelease_versions
-            ]
-        }
+        enhanced_result_1 = build_enhanced_result(
+            question=f"列出NuGet上{package}包的所有预发布版本",
+            filtered_versions=prerelease_versions,
+            format_func=lambda v: {
+                **_format_nuget_version(v),
+                "is_prerelease": True
+            },
+            package=package,
+            ecosystem="NuGet",
+            filter="include_prerelease=True",
+            match_percentage=f"{percentage:.1f}%"
+        )
 
         # ==================== 增强问题 2：稳定版本 ====================
         print(f"\n[增强问题 2/2] 列出所有稳定版本（排除预发布版本）")
@@ -106,25 +121,24 @@ def run(test_config=None):
             for v in stable_versions[-5:]:
                 print(f"    - {v['version']}")
 
-        enhanced_result_2 = {
-            "question": f"列出NuGet上{package}包的所有稳定版本",
-            "filter_type": "stable",
-            "filter_value": "exclude_prerelease",
-            "total_count": filtered_count,
-            "percentage": f"{percentage:.1f}%",
-            "versions": [
-                {
-                    "version": v['version'],
-                    "published": v.get('published', '')[:10] if v.get('published') else None
-                } for v in stable_versions[:20]  # 只保存前20个以节省空间
-            ]
-        }
+        enhanced_result_2 = build_enhanced_result(
+            question=f"列出NuGet上{package}包的所有稳定版本",
+            filtered_versions=stable_versions,
+            format_func=lambda v: {
+                **_format_nuget_version(v),
+                "is_prerelease": False
+            },
+            package=package,
+            ecosystem="NuGet",
+            filter="exclude_prerelease=True",
+            match_percentage=f"{percentage:.1f}%"
+        )
 
         # ==================== 汇总结果 ====================
         package_result = {
             "package": package,
-            "base_test": base_result,
-            "enhanced_tests": [
+            "tests": [
+                base_result,
                 enhanced_result_1,
                 enhanced_result_2
             ],

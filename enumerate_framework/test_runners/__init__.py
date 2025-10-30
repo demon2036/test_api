@@ -5,8 +5,6 @@ from .code_ecosystem import (
     test_npm,
     test_pypi,
     test_github,
-    test_github_forked_repos,
-    test_github_new_features,
     test_crates,
     test_rubygems,
     test_nuget,
@@ -18,12 +16,9 @@ from .code_ecosystem import (
 
 # 学术/科研相关测试
 from .academic_research import (
-    test_dblp,
-    test_dblp_enhanced,
-    test_pubmed,
-    test_pubmed_enhanced,
-    test_zenodo,
-    test_zenodo_enhanced,
+    dblp,
+    run_pubmed as pubmed,  # deprecated, kept for backward compatibility
+    run_zenodo as zenodo,  # deprecated, kept for backward compatibility
 )
 
 # AI/ML相关测试
@@ -34,7 +29,6 @@ from .media_entertainment import (
     test_spotify,
     test_youtube,
     test_tmdb,
-    test_openlibrary,
 )
 
 # 政府/开放数据相关测试

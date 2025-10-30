@@ -1,20 +1,21 @@
-"""Academic Research API Tests"""
+"""Academic Research API Tests
 
-# Import all test modules to make them available
-from . import (
-    test_dblp,
-    test_dblp_enhanced,
-    test_pubmed,
-    test_pubmed_enhanced,
-    test_zenodo,
-    test_zenodo_enhanced,
-)
+Active test runners:
+- dblp: DBLP API test runner (modularized, actively maintained)
+
+Deprecated test runners (see deprecated/ folder):
+- pubmed: PubMed API test runner (deprecated, moved to deprecated/)
+- zenodo: Zenodo API test runner (deprecated, moved to deprecated/)
+"""
+
+# Active test modules
+from . import dblp
+
+# Deprecated test modules (for backward compatibility)
+from .deprecated import run_pubmed, run_zenodo
 
 __all__ = [
-    'test_dblp',
-    'test_dblp_enhanced',
-    'test_pubmed',
-    'test_pubmed_enhanced',
-    'test_zenodo',
-    'test_zenodo_enhanced',
+    'dblp',
+    'run_pubmed',  # deprecated
+    'run_zenodo',  # deprecated
 ]
