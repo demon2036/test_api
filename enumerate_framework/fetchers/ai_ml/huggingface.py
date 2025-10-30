@@ -407,3 +407,216 @@ class HuggingFaceFetcher(BaseFetcher):
             "identifier": kwargs.get('identifier', ''),
             "ecosystem": "AI/ML Models & Datasets"
         }
+
+    # ============= Leaderboard Functionality =============
+
+    def fetch_leaderboard(
+        self,
+        leaderboard_id: str = "open-llm-leaderboard/results",
+        max_items: int = 10000,
+        full: bool = False
+    ) -> Tuple[List, Dict, str]:
+        """Fetch leaderboard data from Hugging Face
+
+        Args:
+            leaderboard_id: Leaderboard dataset ID (default: open-llm-leaderboard/results)
+            max_items: Maximum items to fetch
+            full: Whether to include full metadata
+
+        Returns:
+            Tuple of (models, api_info, question)
+        """
+        try:
+            from datasets import load_dataset
+
+            # Load the leaderboard dataset
+            dataset = load_dataset(leaderboard_id, split='train')
+
+            # Limit the number of items
+            if len(dataset) > max_items:
+                dataset = dataset.select(range(max_items))
+
+            api_info = {
+                "api_endpoint": f"https://huggingface.co/datasets/{leaderboard_id}",
+                "method": "datasets.load_dataset",
+                "parameters": {"leaderboard_id": leaderboard_id, "max_items": max_items},
+                "authentication": "Optional (for higher rate limits)",
+                "documentation": "https://huggingface.co/docs/datasets"
+            }
+
+            if full:
+                # Extract full metadata
+                models = [self._extract_leaderboard_metadata(entry) for entry in dataset]
+                api_info["metadata_fields"] = self._get_leaderboard_metadata_fields()
+            else:
+                # Extract only model IDs/names
+                models = [entry.get('model', entry.get('model_name', 'Unknown')) for entry in dataset]
+
+            question = f"列出 Hugging Face {leaderboard_id.split('/')[0]} 排行榜上的所有模型"
+            if full:
+                question += "（包含完整元数据）"
+
+            return models, api_info, question
+
+        except Exception as e:
+            print(f"  ✗ Leaderboard API错误: {e}")
+            return [], {"error": str(e)}, ""
+
+    def fetch_leaderboard_with_metadata(
+        self,
+        leaderboard_id: str = "open-llm-leaderboard/results",
+        max_items: int = 10000
+    ) -> Tuple[List[Dict], Dict, str]:
+        """Fetch leaderboard with complete metadata
+
+        Args:
+            leaderboard_id: Leaderboard dataset ID
+            max_items: Maximum items to fetch
+
+        Returns:
+            Tuple of (models_with_metadata, api_info, question)
+        """
+        return self.fetch_leaderboard(leaderboard_id=leaderboard_id, max_items=max_items, full=True)
+
+    def _extract_leaderboard_metadata(self, entry: Dict) -> Dict:
+        """Extract metadata from leaderboard entry
+
+        Args:
+            entry: Raw leaderboard entry
+
+        Returns:
+            Metadata dictionary
+        """
+        # Common fields across different leaderboards
+        metadata = {
+            'model': entry.get('model', entry.get('model_name', 'Unknown')),
+            'author': entry.get('author', entry.get('organization', '')),
+        }
+
+        # Extract scores/metrics
+        # Different leaderboards have different score fields
+        score_fields = ['average', 'score', 'Average', 'Score']
+        for field in score_fields:
+            if field in entry:
+                metadata['average_score'] = entry[field]
+                break
+
+        # Extract benchmark scores
+        # Common benchmark fields
+        benchmarks = ['MMLU', 'ARC', 'HellaSwag', 'TruthfulQA', 'Winogrande', 'GSM8K',
+                     'IFEval', 'BBH', 'MATH', 'GPQA', 'MUSR', 'MMLU-PRO']
+        for benchmark in benchmarks:
+            if benchmark in entry:
+                metadata[benchmark] = entry[benchmark]
+
+        # Extract model properties
+        property_fields = ['params', 'parameters', 'size', 'license', 'likes',
+                          'Type', 'Precision', 'Architecture']
+        for field in property_fields:
+            if field in entry:
+                metadata[field.lower()] = entry[field]
+
+        return metadata
+
+    def _get_leaderboard_metadata_fields(self) -> List[str]:
+        """Get metadata fields for leaderboard"""
+        return [
+            "model", "author", "average_score", "params", "license",
+            "MMLU", "ARC", "HellaSwag", "TruthfulQA", "Winogrande", "GSM8K",
+            "IFEval", "BBH", "MATH", "GPQA", "MUSR", "MMLU-PRO"
+        ]
+
+    # ============= Leaderboard Filter Methods =============
+
+    def filter_leaderboard_by_params(
+        self,
+        models: List[Dict],
+        max_params: Optional[float] = None,
+        min_params: Optional[float] = None
+    ) -> List[Dict]:
+        """Filter leaderboard models by parameter count
+
+        Args:
+            models: List of model metadata dicts
+            max_params: Maximum parameters (in billions)
+            min_params: Minimum parameters (in billions)
+
+        Returns:
+            Filtered list of models
+        """
+        def get_params(model):
+            params = model.get('params', model.get('parameters', 0))
+            if isinstance(params, str):
+                # Parse strings like "7B", "13B", "70B"
+                import re
+                match = re.search(r'(\d+\.?\d*)\s*[BbMm]?', params)
+                if match:
+                    num = float(match.group(1))
+                    if 'b' in params.lower() or 'B' in params:
+                        return num
+                    elif 'm' in params.lower() or 'M' in params:
+                        return num / 1000
+            return float(params) if params else 0
+
+        filtered = models
+        if min_params is not None:
+            filtered = [m for m in filtered if get_params(m) >= min_params]
+        if max_params is not None:
+            filtered = [m for m in filtered if get_params(m) <= max_params]
+        return filtered
+
+    def filter_leaderboard_by_organization(
+        self,
+        models: List[Dict],
+        organization: str
+    ) -> List[Dict]:
+        """Filter leaderboard models by organization
+
+        Args:
+            models: List of model metadata dicts
+            organization: Organization name (case-insensitive partial match)
+
+        Returns:
+            Filtered list of models
+        """
+        org_lower = organization.lower()
+        return [
+            m for m in models
+            if org_lower in m.get('author', '').lower() or
+               org_lower in m.get('model', '').lower()
+        ]
+
+    def filter_leaderboard_by_score(
+        self,
+        models: List[Dict],
+        min_score: float
+    ) -> List[Dict]:
+        """Filter leaderboard models by minimum average score
+
+        Args:
+            models: List of model metadata dicts
+            min_score: Minimum average score
+
+        Returns:
+            Filtered list of models
+        """
+        return [m for m in models if m.get('average_score', 0) >= min_score]
+
+    def get_leaderboard_top_n(
+        self,
+        models: List[Dict],
+        n: int,
+        sort_by: str = 'average_score'
+    ) -> List[Dict]:
+        """Get top N models from leaderboard
+
+        Args:
+            models: List of model metadata dicts
+            n: Number of top models to return
+            sort_by: Field to sort by (default: average_score)
+
+        Returns:
+            Top N models
+        """
+        sorted_models = sorted(models, key=lambda m: m.get(sort_by, 0), reverse=True)
+        return sorted_models[:n]

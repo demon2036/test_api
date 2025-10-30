@@ -1,11 +1,13 @@
-question,answers,source_file,question_type
+question,answers,source_file,question_type,hash_question,hash_answer
 列出 Hugging Face Hub 上作者 'openai-community'的所有模型,"openai-community/gpt2
 openai-community/openai-gpt
 openai-community/gpt2-large
 openai-community/gpt2-medium
 openai-community/gpt2-xl
 openai-community/roberta-base-openai-detector
-openai-community/roberta-large-openai-detector",huggingface.json,normal
+openai-community/roberta-large-openai-detector",huggingface.json,normal,"列出 Hugging Face Hub 上作者 'openai-community'的所有模型
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：20d9123c3d70f1eb4e0aa91f3ae28f23
+请问这个项的原始值是什么？",openai-community/openai-gpt
 列出 Hugging Face Hub 上作者 'meta-llama'的所有模型,"meta-llama/Llama-3.1-8B-Instruct
 meta-llama/Llama-3.2-1B
 meta-llama/Llama-3.2-3B-Instruct
@@ -75,7 +77,9 @@ meta-llama/Llama-4-Maverick-17B-128E-Original
 meta-llama/Llama-4-Maverick-17B-128E-Instruct-Original
 meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8-Original
 meta-llama/Llama-Prompt-Guard-2-22M
-meta-llama/Llama-Prompt-Guard-2-86M",huggingface.json,normal
+meta-llama/Llama-Prompt-Guard-2-86M",huggingface.json,normal,"列出 Hugging Face Hub 上作者 'meta-llama'的所有模型
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：57c73bf381ef90517f982196a847281e
+请问这个项的原始值是什么？",meta-llama/Llama-Guard-3-1B
 列出 Hugging Face Hub 上作者 'google'的所有模型,"google/embeddinggemma-300m
 google/gemma-3-4b-it
 google/medgemma-4b-it
@@ -1125,7 +1129,9 @@ google/gemma-3-270m-it-qat-q4_0-unquantized
 google/embeddinggemma-300m-qat-q4_0-unquantized
 google/embeddinggemma-300m-qat-q8_0-unquantized
 google/timesfm-2.5-200m-flax
-google/vaultgemma-1b",huggingface.json,normal
+google/vaultgemma-1b",huggingface.json,normal,"列出 Hugging Face Hub 上作者 'google'的所有模型
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：e394eff3a05a1efcafa5b27c6b56a8b5
+请问这个项的原始值是什么？",google/t5-small-ssm-nq
 列出 Hugging Face Hub 上作者 'microsoft'的所有模型,"microsoft/UserLM-8b
 microsoft/VibeVoice-1.5B
 microsoft/Phi-4-multimodal-instruct
@@ -1551,7 +1557,9 @@ microsoft/Dayhoff-170m-UR90
 microsoft/Phi-Ground
 microsoft/chatbench-distilgpt2
 microsoft/chatbench-llama3-8b
-microsoft/chatbench-mistral-7b",huggingface.json,normal
+microsoft/chatbench-mistral-7b",huggingface.json,normal,"列出 Hugging Face Hub 上作者 'microsoft'的所有模型
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：33858d30fc9b5d06055194543334b6b3
+请问这个项的原始值是什么？",microsoft/stable-diffusion-v1.5-webnn
 在 Hugging Face Hub 上列出带有“text-generation”标签的模型中下载量最高的100个,"openai-community/gpt2
 Qwen/Qwen2.5-7B-Instruct
 Qwen/Qwen3-0.6B
@@ -1651,7 +1659,9 @@ Qwen/Qwen3-Next-80B-A3B-Thinking
 Qwen/Qwen2.5-Coder-1.5B
 IlyaGusev/saiga_llama3_8b
 unsloth/mistral-7b-v0.3-bnb-4bit
-Qwen/Qwen3-8B-FP8",huggingface.json,advanced
+Qwen/Qwen3-8B-FP8",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“text-generation”标签的模型中下载量最高的100个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：c34ae22fa61d47dfde487916a580fd7f
+请问这个项的原始值是什么？",Qwen/Qwen3-Coder-30B-A3B-Instruct
 在 Hugging Face Hub 上列出带有“pytorch”标签的模型中点赞数最高的100个,"meta-llama/Meta-Llama-3-8B
 openai/whisper-large-v3
 bigscience/bloom
@@ -1751,7 +1761,9 @@ replit/replit-code-v1-3b
 anon8231489123/gpt4-x-alpaca-13b-native-4bit-128g
 Gustavosta/MagicPrompt-Stable-Diffusion
 jinaai/jina-embeddings-v2-base-en
-cardiffnlp/twitter-roberta-base-sentiment-latest",huggingface.json,advanced
+cardiffnlp/twitter-roberta-base-sentiment-latest",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“pytorch”标签的模型中点赞数最高的100个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：36fb5b94550bbce89d2e9614e6d3f55b
+请问这个项的原始值是什么？",meta-llama/Meta-Llama-3-8B
 在 Hugging Face Hub 上列出带有“zh”标签的模型中下载量最高的100个,"FacebookAI/xlm-roberta-base
 google-bert/bert-base-multilingual-cased
 jinaai/jina-embeddings-v3
@@ -1851,7 +1863,9 @@ MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
 Helsinki-NLP/opus-mt-mul-en
 mistralai/Ministral-8B-Instruct-2410
 Wan-AI/Wan2.1-I2V-14B-480P-Diffusers
-baichuan-inc/Baichuan-M2-32B",huggingface.json,advanced
+baichuan-inc/Baichuan-M2-32B",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“zh”标签的模型中下载量最高的100个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：fac435365821fa88a54bb78cc217c03a
+请问这个项的原始值是什么？",M-CLIP/XLM-Roberta-Large-Vit-B-32
 在 Hugging Face Hub 上列出模型中最近更新的100个,"DalvinaGiehlgraff25/blockassist
 kairodynedynamics/ARIA-4
 f8473962/blockassist
@@ -1951,7 +1965,9 @@ jquick2/cA6rpdzyJPSfSkNp
 CryptanBat/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-powerful_untamed_wolf
 pendisky/blockassist
 jialicheng/unlearn-so_cifar100_resnet-50_salun_4_42
-jquick2/8EidqHKoVKBIw6Fd",huggingface.json,advanced
+jquick2/8EidqHKoVKBIw6Fd",huggingface.json,advanced,"在 Hugging Face Hub 上列出模型中最近更新的100个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：f57dc8c2486265b76b6d83ec1a0d514c
+请问这个项的原始值是什么？",jquick2/UYCASJOy4yFfQP6r
 在 Hugging Face Hub 上列出与“medical”相关的数据集中下载量最高的50个,"lavita/medical-qa-shared-task-v1-toy
 FreedomIntelligence/medical-o1-reasoning-SFT
 meoconxinhxan/Medical-Eval-HumanityLastExam
@@ -2001,7 +2017,9 @@ medalpaca/medical_meadow_wikidoc
 jinaai/medical-prescriptions
 General-Medical-AI/GMAI-Reasoning10K
 WhissleAI/speech-simulated-medical-exams
-chinmays18/medical-prescription-dataset",huggingface.json,advanced
+chinmays18/medical-prescription-dataset",huggingface.json,advanced,"在 Hugging Face Hub 上列出与“medical”相关的数据集中下载量最高的50个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：44def1aafe7e8420516b2265c9bd8fd6
+请问这个项的原始值是什么？",lavita/medical-qa-datasets
 在 Hugging Face Hub 上列出带有“text-generation”标签、使用“pytorch”库的模型中下载量最高的50个,"openai-community/gpt2
 meta-llama/Llama-3.1-8B-Instruct
 facebook/opt-125m
@@ -2050,7 +2068,9 @@ meta-llama/Llama-2-13b-chat-hf
 HuggingFaceM4/tiny-random-LlamaForCausalLM
 EleutherAI/gpt-neox-20b
 facebook/opt-1.3b
-ai-forever/ruGPT-3.5-13B",huggingface.json,advanced
+ai-forever/ruGPT-3.5-13B",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“text-generation”标签、使用“pytorch”库的模型中下载量最高的50个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：e369934ef4b90557b8782b223b6f62e1
+请问这个项的原始值是什么？",deepseek-ai/deepseek-coder-1.3b-instruct
 在 Hugging Face Hub 上列出带有“image-classification”标签的模型中下载量最高的100个,"Falconsai/nsfw_image_detection
 dima806/fairface_age_image_detection
 timm/mobilenetv3_small_100.lamb_in1k
@@ -2150,7 +2170,9 @@ nvidia/MambaVision-S-1K
 Ateeqq/ai-vs-human-image-detector
 facebook/convnextv2-base-22k-224
 timm/convnextv2_tiny.fcmae_ft_in22k_in1k
-google/vit-large-patch16-224",huggingface.json,advanced
+google/vit-large-patch16-224",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“image-classification”标签的模型中下载量最高的100个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：61e1dd62403e71253ab386c474035490
+请问这个项的原始值是什么？",timm/tf_mobilenetv3_large_minimal_100.in1k
 在 Hugging Face Hub 上列出带有“question-answering”标签的模型中下载量最高的100个,"deepset/roberta-base-squad2
 ahotrod/electra_large_discriminator_squad2_512
 monologg/koelectra-small-v2-distilled-korquad-384
@@ -2250,7 +2272,9 @@ weathon/BLIP-Reward
 mrm8488/longformer-base-4096-finetuned-squadv2
 mav23/SuperCorrect-7B-GGUF
 behbudiy/Mistral-7B-Instruct-Uz
-Intel/tiny-random-bert_ipex_model",huggingface.json,advanced
+Intel/tiny-random-bert_ipex_model",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“question-answering”标签的模型中下载量最高的100个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：32230175f899bc4be94456ed6025abeb
+请问这个项的原始值是什么？",bigwiz83/sapbert-from-pubmedbert-squad2
 在 Hugging Face Hub 上列出带有“text-classification”标签的模型中点赞数最高的100个,"facebook/bart-large-mnli
 ProsusAI/finbert
 distilbert/distilbert-base-uncased-finetuned-sst-2-english
@@ -2350,7 +2374,9 @@ TheBloke/llama-2-70b-Guanaco-QLoRA-fp16
 MoritzLaurer/bge-m3-zeroshot-v2.0
 MoritzLaurer/ModernBERT-large-zeroshot-v2.0
 bhadresh-savani/bert-base-uncased-emotion
-Hello-SimpleAI/chatgpt-detector-roberta",huggingface.json,advanced
+Hello-SimpleAI/chatgpt-detector-roberta",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“text-classification”标签的模型中点赞数最高的100个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：24405edc6feeca62205df2682c32f925
+请问这个项的原始值是什么？",amberoad/bert-multilingual-passage-reranking-msmarco
 在 Hugging Face Hub 上列出带有“tf”标签的模型中点赞数最高的100个,"sentence-transformers/all-MiniLM-L6-v2
 openai-community/gpt2
 google-bert/bert-base-uncased
@@ -2450,7 +2476,9 @@ thenlper/gte-small
 google/mt5-small
 oliverguhr/fullstop-punctuation-multilang-large
 nvidia/segformer-b0-finetuned-ade-512-512
-distilbert/distilroberta-base",huggingface.json,advanced
+distilbert/distilroberta-base",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“tf”标签的模型中点赞数最高的100个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：476b342441c946bbb8acae1a91eddb36
+请问这个项的原始值是什么？",google/flan-t5-xxl
 在 Hugging Face Hub 上列出带有“jax”标签的模型中下载量最高的100个,"google/electra-base-discriminator
 google-bert/bert-base-uncased
 FacebookAI/roberta-large
@@ -2550,7 +2578,9 @@ microsoft/graphcodebert-base
 microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext
 monologg/kobert
 seyonec/ChemBERTa-zinc-base-v1
-indobenchmark/indobert-base-p1",huggingface.json,advanced
+indobenchmark/indobert-base-p1",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“jax”标签的模型中下载量最高的100个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：fcab1ef4009422491129b0c07af978e6
+请问这个项的原始值是什么？",nlpaueb/legal-bert-small-uncased
 在 Hugging Face Hub 上列出带有“en”标签的模型中下载量最高的100个,"sentence-transformers/all-MiniLM-L6-v2
 google/electra-base-discriminator
 google-bert/bert-base-uncased
@@ -2650,7 +2680,9 @@ openai-community/gpt2-large
 facebook/roberta-hate-speech-dynabench-r4-target
 google-bert/bert-large-uncased
 intfloat/multilingual-e5-large-instruct
-microsoft/deberta-large-mnli",huggingface.json,advanced
+microsoft/deberta-large-mnli",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“en”标签的模型中下载量最高的100个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：cb6a59f9adea181c90f7edafa85a4001
+请问这个项的原始值是什么？",Qwen/Qwen2.5-0.5B-Instruct
 在 Hugging Face Hub 上列出带有“multilingual”标签的模型中点赞数最高的100个,"deepseek-ai/DeepSeek-OCR
 stepfun-ai/GOT-OCR2_0
 microsoft/Phi-4-multimodal-instruct
@@ -2750,7 +2782,9 @@ google/madlad400-10b-mt
 OpenGVLab/InternVL2-26B
 Kwaipilot/KAT-V1-40B
 jinaai/jina-reranker-m0
-facebook/wav2vec2-xls-r-300m",huggingface.json,advanced
+facebook/wav2vec2-xls-r-300m",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“multilingual”标签的模型中点赞数最高的100个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：f5e1884ff6b37f3f63dd9730ca1dbe7d
+请问这个项的原始值是什么？",tabularisai/multilingual-sentiment-analysis
 在 Hugging Face Hub 上列出带有“ja”标签的模型中下载量最高的100个,"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
 FacebookAI/xlm-roberta-base
 google-bert/bert-base-multilingual-cased
@@ -2850,7 +2884,9 @@ facebook/mms-1b-all
 tohoku-nlp/bert-large-japanese-v2
 google/byt5-base
 Epiculous/Violet_Twilight-v0.2-GGUF
-segment-any-text/sat-12l-sm",huggingface.json,advanced
+segment-any-text/sat-12l-sm",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“ja”标签的模型中下载量最高的100个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：46432672d28833792db4668bcc24c73d
+请问这个项的原始值是什么？",openai/whisper-medium
 在 Hugging Face Hub 上列出与“finance”相关的数据集中下载量最高的50个,"artefactory/Argimi-Ardian-Finance-10k-text
 bwzheng2010/yahoo-finance-data
 artefactory/Argimi-Ardian-Finance-10k-text-image
@@ -2900,7 +2936,9 @@ mohit9999/all_news_finance_sm_1h2023_custom
 iamjoon/finance_news_summarizer
 AdiOO7/llama-2-finance
 oemd001/financeDataset
-poornima9348/finance-alpaca-1k-test",huggingface.json,advanced
+poornima9348/finance-alpaca-1k-test",huggingface.json,advanced,"在 Hugging Face Hub 上列出与“finance”相关的数据集中下载量最高的50个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：c6812e00a027bb8a02279ca5a7126c76
+请问这个项的原始值是什么？",thomaskim1130/FinanceRAG-Lingua
 在 Hugging Face Hub 上列出与“code”相关的数据集中下载量最高的50个,"livecodebench/code_generation_lite
 aadarsh99/kyvo-datasets-and-codebooks
 nick007x/github-code-2025
@@ -2950,7 +2988,9 @@ claudios/code_search_net
 mattymchen/codejudgebench
 CyberNative/Code_Vulnerability_Security_DPO
 Codec-SUPERB/librispeech_synth
-Nan-Do/code-search-net-python",huggingface.json,advanced
+Nan-Do/code-search-net-python",huggingface.json,advanced,"在 Hugging Face Hub 上列出与“code”相关的数据集中下载量最高的50个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：10602ffdccddd446ff36667075486f07
+请问这个项的原始值是什么？",aadarsh99/kyvo-datasets-and-codebooks
 在 Hugging Face Hub 上列出带有“image-classification”标签、使用“tf”库的模型中下载量最高的50个,"google/vit-base-patch16-224
 apple/mobilevit-small
 nvidia/mit-b3
@@ -2975,14 +3015,18 @@ optimum-intel-internal-testing/tiny-random-vit
 nvidia/mit-b2
 facebook/convnext-tiny-224
 facebook/convnextv2-tiny-1k-224
-facebook/convnext-large-224-22k-1k",huggingface.json,advanced
+facebook/convnext-large-224-22k-1k",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“image-classification”标签、使用“tf”库的模型中下载量最高的50个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：3f9a7dc97276ac5852e0c00c44728d49
+请问这个项的原始值是什么？",nvidia/mit-b0
 在 Hugging Face Hub 上列出带有“question-answering”标签、包含“multilingual”标签的模型中下载量最高的50个,"deepset/xlm-roberta-large-squad2
 timpal0l/mdeberta-v3-base-squad2
 Lamapi/next-4b
 mrm8488/bert-multi-cased-finetuned-xquadv1
 AlexKay/xlm-roberta-large-qa-multilingual-finedtuned-ru
 deepset/xlm-roberta-base-squad2-distilled
-deutsche-telekom/bert-multi-english-german-squad2",huggingface.json,advanced
+deutsche-telekom/bert-multi-english-german-squad2",huggingface.json,advanced,"在 Hugging Face Hub 上列出带有“question-answering”标签、包含“multilingual”标签的模型中下载量最高的50个
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：3c05e276c7a2f13b72929e02f1655e6c
+请问这个项的原始值是什么？",deepset/xlm-roberta-base-squad2-distilled
 列出GitHub用户torvalds的所有公开仓库及元数据,"torvalds/linux
 torvalds/GuitarPedal
 torvalds/uemacs
@@ -2991,16 +3035,22 @@ torvalds/libgit2
 torvalds/test-tlb
 torvalds/subsurface-for-dirk
 torvalds/libdc-for-dirk
-torvalds/1590A",github.json,normal
+torvalds/1590A",github.json,normal,"列出GitHub用户torvalds的所有公开仓库及元数据
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：73257b80b6bdd24de474272741267953
+请问这个项的原始值是什么？",torvalds/linux
 列出GitHub用户torvalds的所有仓库，其中star数超过1000的,"torvalds/linux
 torvalds/GuitarPedal
-torvalds/uemacs",github.json,advanced
+torvalds/uemacs",github.json,advanced,"列出GitHub用户torvalds的所有仓库，其中star数超过1000的
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：fa3cca16df2a4ea5bea891cb4802ee05
+请问这个项的原始值是什么？",torvalds/GuitarPedal
 列出GitHub用户torvalds的所有仓库，其中主语言是C的,"torvalds/linux
 torvalds/uemacs
 torvalds/pesconvert
 torvalds/libgit2
 torvalds/test-tlb
-torvalds/libdc-for-dirk",github.json,advanced
+torvalds/libdc-for-dirk",github.json,advanced,"列出GitHub用户torvalds的所有仓库，其中主语言是C的
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：d5d2ad7e278f0636c4e2809c34434b7d
+请问这个项的原始值是什么？",torvalds/pesconvert
 列出GitHub用户torvalds的所有仓库，其中在2010年后创建的,"torvalds/linux
 torvalds/GuitarPedal
 torvalds/uemacs
@@ -3009,11 +3059,15 @@ torvalds/libgit2
 torvalds/test-tlb
 torvalds/subsurface-for-dirk
 torvalds/libdc-for-dirk
-torvalds/1590A",github.json,advanced
+torvalds/1590A",github.json,advanced,"列出GitHub用户torvalds的所有仓库，其中在2010年后创建的
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：c3aaeb025e8ecfb2f5935062a4e55075
+请问这个项的原始值是什么？",torvalds/libgit2
 列出torvalds用户所有仓库中，被fork数超过100的,"torvalds/linux
 torvalds/uemacs
-torvalds/test-tlb",github.json,advanced
-列出nodejs/node仓库中所有pre-release版本,,github.json,advanced
+torvalds/test-tlb",github.json,advanced,"列出torvalds用户所有仓库中，被fork数超过100的
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：4852d1470def6be0af0dc4d829ed06f0
+请问这个项的原始值是什么？",torvalds/test-tlb
+列出nodejs/node仓库中所有pre-release版本,,github.json,advanced,,
 列出rails/rails仓库中超过1年未更新的分支,"0-5-stable
 0-6-stable
 0-7-stable
@@ -3033,12 +3087,16 @@ torvalds/test-tlb",github.json,advanced
 5-1-stable
 5-2-stable
 6-0-stable
-6-1-sec",github.json,advanced
+6-1-sec",github.json,advanced,"列出rails/rails仓库中超过1年未更新的分支
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：5be78e080b72804754ea6903ddcbe7c1
+请问这个项的原始值是什么？",2-3-stable
 找出torvalds用户star最多的仓库,"torvalds/linux
 torvalds/uemacs
 torvalds/GuitarPedal
 torvalds/test-tlb
-torvalds/pesconvert",github.json,advanced
+torvalds/pesconvert",github.json,advanced,"找出torvalds用户star最多的仓库
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：4852d1470def6be0af0dc4d829ed06f0
+请问这个项的原始值是什么？",torvalds/test-tlb
 列出Rust serde库在crates.io上的所有版本,"1.0.228
 1.0.227
 1.0.226
@@ -3353,7 +3411,9 @@ torvalds/pesconvert",github.json,advanced
 0.3.0
 0.2.1
 0.2.0
-0.0.0",crates.json,normal
+0.0.0",crates.json,normal,"列出Rust serde库在crates.io上的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：cc7f9e9d8a0fe5033a71b8dcd99b7390
+请问这个项的原始值是什么？",1.0.125
 列出Crates.io上serde包在2024年发布的所有版本,"1.0.217
 1.0.216
 1.0.215
@@ -3377,10 +3437,14 @@ torvalds/pesconvert",github.json,advanced
 1.0.197
 1.0.196
 1.0.195
-1.0.194",crates.json,advanced
+1.0.194",crates.json,advanced,"列出Crates.io上serde包在2024年发布的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：dab5ae29437e4bff876e0563cbeb5270
+请问这个项的原始值是什么？",1.0.217
 列出Crates.io上serde包所有被撤回的版本,"1.0.95
 1.0.31
-0.7.6",crates.json,advanced
+0.7.6",crates.json,advanced,"列出Crates.io上serde包所有被撤回的版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：975372f84775abff0ad658aaca292f6e
+请问这个项的原始值是什么？",1.0.31
 列出Crates.io上serde包的所有预发布版本,"1.0.172-alpha.0
 0.9.0-rc4
 0.9.0-rc3
@@ -3388,7 +3452,9 @@ torvalds/pesconvert",github.json,advanced
 0.9.0-rc1
 0.8.0-rc3
 0.8.0-rc2
-0.8.0-rc1",crates.json,advanced
+0.8.0-rc1",crates.json,advanced,"列出Crates.io上serde包的所有预发布版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：b138b2777ab5e12aff710585ca6f1cad
+请问这个项的原始值是什么？",0.8.0-rc3
 列出Crates.io上serde包的所有稳定版本,"1.0.228
 1.0.227
 1.0.226
@@ -3695,7 +3761,9 @@ torvalds/pesconvert",github.json,advanced
 0.3.0
 0.2.1
 0.2.0
-0.0.0",crates.json,advanced
+0.0.0",crates.json,advanced,"列出Crates.io上serde包的所有稳定版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：1365a443865661e3c1ef58e0be4a1a2b
+请问这个项的原始值是什么？",1.0.169
 列出Rust rand库在crates.io上的所有版本,"0.10.0-rc.0
 0.9.2
 0.9.1
@@ -3773,14 +3841,20 @@ torvalds/pesconvert",github.json,advanced
 0.1.4
 0.1.3
 0.1.2
-0.1.1",crates.json,normal
+0.1.1",crates.json,normal,"列出Rust rand库在crates.io上的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：d7952ebd6b113b0be45d3f63d2992bcb
+请问这个项的原始值是什么？",0.3.20
 列出Crates.io上rand包在2024年发布的所有版本,"0.9.0-beta.1
 0.9.0-beta.0
 0.9.0-alpha.2
 0.9.0-alpha.1
-0.9.0-alpha.0",crates.json,advanced
+0.9.0-alpha.0",crates.json,advanced,"列出Crates.io上rand包在2024年发布的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：9e5feff97b7883c1d3bdc479b1029d51
+请问这个项的原始值是什么？",0.9.0-beta.1
 列出Crates.io上rand包所有被撤回的版本,"0.7.1
-0.4.4",crates.json,advanced
+0.4.4",crates.json,advanced,"列出Crates.io上rand包所有被撤回的版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：d01dd492a8f006d2eee9bb9c0af8432f
+请问这个项的原始值是什么？",0.4.4
 列出Crates.io上rand包的所有预发布版本,"0.10.0-rc.0
 0.9.0-beta.3
 0.9.0-beta.1
@@ -3797,7 +3871,9 @@ torvalds/pesconvert",github.json,advanced
 0.5.0-pre.1
 0.5.0-pre.0
 0.3.21-pre.0
-0.4.0-pre.0",crates.json,advanced
+0.4.0-pre.0",crates.json,advanced,"列出Crates.io上rand包的所有预发布版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：53bef679ef05017275957cc9ee43af2d
+请问这个项的原始值是什么？",0.9.0-alpha.2
 列出Crates.io上rand包的所有稳定版本,"0.9.2
 0.9.1
 0.9.0
@@ -3858,7 +3934,9 @@ torvalds/pesconvert",github.json,advanced
 0.1.4
 0.1.3
 0.1.2
-0.1.1",crates.json,advanced
+0.1.1",crates.json,advanced,"列出Crates.io上rand包的所有稳定版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：778cf622c50bfcd4ed0298c65159386a
+请问这个项的原始值是什么？",0.9.0
 列出Conda conda-forge频道上numpy的所有版本,"1.10.4
 1.11.0
 1.11.1
@@ -3962,12 +4040,16 @@ torvalds/pesconvert",github.json,advanced
 2.3.1
 2.3.2
 2.3.3
-2.3.4",conda.json,normal
+2.3.4",conda.json,normal,"列出Conda conda-forge频道上numpy的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：fdd149987faa7f4fe4f88b655248b1c6
+请问这个项的原始值是什么？",1.14.6
 列出Conda上numpy包的所有预发布版本,"1.14.0rc1
 2.0.0rc1
 2.0.0rc2
 2.1.0rc1
-2.2.0rc1",conda.json,advanced
+2.2.0rc1",conda.json,advanced,"列出Conda上numpy包的所有预发布版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：9d60d1b74e76a7bbc5aa927418d65e08
+请问这个项的原始值是什么？",1.14.0rc1
 列出Conda上numpy包的所有稳定版本,"1.10.4
 1.11.0
 1.11.1
@@ -4066,7 +4148,9 @@ torvalds/pesconvert",github.json,advanced
 2.3.1
 2.3.2
 2.3.3
-2.3.4",conda.json,advanced
+2.3.4",conda.json,advanced,"列出Conda上numpy包的所有稳定版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：60bb9160e6bb2b4b9fe9fe950117f207
+请问这个项的原始值是什么？",1.24.4
 列出Conda conda-forge频道上pandas的所有版本,"0.17.0
 0.17.1
 0.18.1
@@ -4155,7 +4239,9 @@ torvalds/pesconvert",github.json,advanced
 2.3.0
 2.3.1
 2.3.2
-2.3.3",conda.json,normal
+2.3.3",conda.json,normal,"列出Conda conda-forge频道上pandas的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：9db531902daddabddb83b22e9629f0ad
+请问这个项的原始值是什么？",2.1.1
 列出Conda上pandas包的所有预发布版本,"0.21.0rc1
 0.23.0rc2
 0.24.0rc1
@@ -4169,7 +4255,9 @@ torvalds/pesconvert",github.json,advanced
 2.0.0rc0
 2.0.0rc1
 2.1.0rc0
-2.2.0rc0",conda.json,advanced
+2.2.0rc0",conda.json,advanced,"列出Conda上pandas包的所有预发布版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：5d94a4b6ed2eeeab714bd7ce85407607
+请问这个项的原始值是什么？",0.24.0rc1
 列出Conda上pandas包的所有稳定版本,"0.17.0
 0.17.1
 0.18.1
@@ -4244,7 +4332,9 @@ torvalds/pesconvert",github.json,advanced
 2.3.0
 2.3.1
 2.3.2
-2.3.3",conda.json,advanced
+2.3.3",conda.json,advanced,"列出Conda上pandas包的所有稳定版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：2c837ab2c7cadbdc35b5bd7115e9eff1
+请问这个项的原始值是什么？",2.2.1
 列出Python requests库在PyPI上的所有发布版本号,"0.10.0
 0.10.1
 0.10.2
@@ -4398,11 +4488,15 @@ torvalds/pesconvert",github.json,advanced
 2.8.1
 2.9.0
 2.9.1
-2.9.2",pypi.json,normal
+2.9.2",pypi.json,normal,"列出Python requests库在PyPI上的所有发布版本号
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：3625c2197bb33f9bf10e1cd36027f0d9
+请问这个项的原始值是什么？",0.13.2
 列出PyPI上requests包在2024年发布的所有版本,"2.32.0
 2.32.1
 2.32.2
-2.32.3",pypi.json,advanced
+2.32.3",pypi.json,advanced,"列出PyPI上requests包在2024年发布的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：b88d38210fc06e0ece3f87439d291ebb
+请问这个项的原始值是什么？",2.32.3
 列出PyPI上requests包所有包含wheel文件的版本,"2.0.0
 2.0.1
 2.1.0
@@ -4479,10 +4573,14 @@ torvalds/pesconvert",github.json,advanced
 2.8.1
 2.9.0
 2.9.1
-2.9.2",pypi.json,advanced
+2.9.2",pypi.json,advanced,"列出PyPI上requests包所有包含wheel文件的版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：cba3d49676afd845e11811c274141e0d
+请问这个项的原始值是什么？",2.14.0
 列出PyPI上requests包所有被撤回的版本,"2.32.0
-2.32.1",pypi.json,advanced
-列出PyPI上requests包的所有预发布版本,,pypi.json,advanced
+2.32.1",pypi.json,advanced,"列出PyPI上requests包所有被撤回的版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：62adb1c31f7f2e3fc8a96af8d50622e4
+请问这个项的原始值是什么？",2.32.0
+列出PyPI上requests包的所有预发布版本,,pypi.json,advanced,,
 列出PyPI上requests包的所有稳定版本,"0.10.0
 0.10.1
 0.10.2
@@ -4502,7 +4600,9 @@ torvalds/pesconvert",github.json,advanced
 0.13.4
 0.13.5
 0.13.6
-0.13.7",pypi.json,advanced
+0.13.7",pypi.json,advanced,"列出PyPI上requests包的所有稳定版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：268413a2bf1e0655743248fa22848813
+请问这个项的原始值是什么？",0.13.1
 列出Python django库在PyPI上的所有发布版本号,"1.1.3
 1.1.4
 1.10
@@ -4905,7 +5005,9 @@ torvalds/pesconvert",github.json,advanced
 5.2b1
 5.2rc1
 6.0a1
-6.0b1",pypi.json,normal
+6.0b1",pypi.json,normal,"列出Python django库在PyPI上的所有发布版本号
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：f0cd7ae10aa827e01d407b533e167e76
+请问这个项的原始值是什么？",3.2.17
 列出PyPI上django包在2024年发布的所有版本,"3.2.24
 3.2.25
 4.2.10
@@ -4934,7 +5036,9 @@ torvalds/pesconvert",github.json,advanced
 5.1.4
 5.1a1
 5.1b1
-5.1rc1",pypi.json,advanced
+5.1rc1",pypi.json,advanced,"列出PyPI上django包在2024年发布的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：19bbdecfa6ce3c33e1aa42dc000a8eb4
+请问这个项的原始值是什么？",5.0.1
 列出PyPI上django包所有包含wheel文件的版本,"1.10
 1.10.1
 1.10.2
@@ -5285,9 +5389,13 @@ torvalds/pesconvert",github.json,advanced
 5.2b1
 5.2rc1
 6.0a1
-6.0b1",pypi.json,advanced
+6.0b1",pypi.json,advanced,"列出PyPI上django包所有包含wheel文件的版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：acff46b161a3b7d6ed01ba79a032acc9
+请问这个项的原始值是什么？",3.2
 列出PyPI上django包所有被撤回的版本,"4.2.12
-5.0.5",pypi.json,advanced
+5.0.5",pypi.json,advanced,"列出PyPI上django包所有被撤回的版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：61a08b6c8dcb1719741f6ecde6311cc9
+请问这个项的原始值是什么？",5.0.5
 列出PyPI上django包的所有预发布版本,"1.10a1
 1.10b1
 1.10rc1
@@ -5338,7 +5446,9 @@ torvalds/pesconvert",github.json,advanced
 5.2b1
 5.2rc1
 6.0a1
-6.0b1",pypi.json,advanced
+6.0b1",pypi.json,advanced,"列出PyPI上django包的所有预发布版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：bfe913fc052fd5ebdc1d1a2a4abf62f2
+请问这个项的原始值是什么？",2.2b1
 列出PyPI上django包的所有稳定版本,"1.1.3
 1.1.4
 1.10
@@ -5358,7 +5468,9 @@ torvalds/pesconvert",github.json,advanced
 1.11.13
 1.11.14
 1.11.15
-1.11.16",pypi.json,advanced
+1.11.16",pypi.json,advanced,"列出PyPI上django包的所有稳定版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：cb9cc8981898224a2fe45ac6ff7d4244
+请问这个项的原始值是什么？",1.11
 列出Ruby rails在RubyGems上的所有版本,"8.1.1
 8.1.0
 8.1.0.rc1
@@ -5868,7 +5980,9 @@ torvalds/pesconvert",github.json,advanced
 0.9.1
 0.9.0
 0.8.5
-0.8.0",rubygems.json,normal
+0.8.0",rubygems.json,normal,"列出Ruby rails在RubyGems上的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：d145ff7951d11da88fabd524ce4257d9
+请问这个项的原始值是什么？",3.0.0.beta3
 列出RubyGems上rails包在2024年发布的所有版本,"8.0.1
 8.0.0.1
 8.0.0
@@ -5905,7 +6019,9 @@ torvalds/pesconvert",github.json,advanced
 6.1.7.10
 6.1.7.9
 6.1.7.8
-6.1.7.7",rubygems.json,advanced
+6.1.7.7",rubygems.json,advanced,"列出RubyGems上rails包在2024年发布的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：c6ece42f5e0816afc864e900d8751f1f
+请问这个项的原始值是什么？",7.2.2.1
 列出RubyGems上rails包的所有预发布版本,"8.1.0.rc1
 8.1.0.beta1
 8.0.0.rc2
@@ -6079,7 +6195,9 @@ torvalds/pesconvert",github.json,advanced
 3.0.0.beta2
 3.0.0.beta
 2.3.9.pre
-2.3.8.pre1",rubygems.json,advanced
+2.3.8.pre1",rubygems.json,advanced,"列出RubyGems上rails包的所有预发布版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：4a26759932a3969b476c89d0fc0544c8
+请问这个项的原始值是什么？",3.1.0.rc4
 列出RubyGems上rails包的所有稳定版本,"8.1.1
 8.1.0
 8.0.4
@@ -6415,7 +6533,9 @@ torvalds/pesconvert",github.json,advanced
 0.9.1
 0.9.0
 0.8.5
-0.8.0",rubygems.json,advanced
+0.8.0",rubygems.json,advanced,"列出RubyGems上rails包的所有稳定版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：ac89fcfde17a74de6a78d6145a934433
+请问这个项的原始值是什么？",3.0.16
 列出Ruby jekyll在RubyGems上的所有版本,"4.4.1
 4.4.0
 4.3.4
@@ -6567,10 +6687,14 @@ torvalds/pesconvert",github.json,advanced
 0.1.5
 0.1.4
 0.1.3
-0.1.2",rubygems.json,normal
+0.1.2",rubygems.json,normal,"列出Ruby jekyll在RubyGems上的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：83e266cb1712b47c265f77a8f9e18451
+请问这个项的原始值是什么？",3.4.1
 列出RubyGems上jekyll包在2024年发布的所有版本,"4.3.4
 3.10.0
-3.9.5",rubygems.json,advanced
+3.9.5",rubygems.json,advanced,"列出RubyGems上jekyll包在2024年发布的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：7de5f41f5bef3bfca9827328bdbdc7f3
+请问这个项的原始值是什么？",3.10.0
 列出RubyGems上jekyll包的所有预发布版本,"4.0.0.pre.beta1
 4.0.0.pre.alpha1
 3.8.0.pre.rc2
@@ -6603,7 +6727,9 @@ torvalds/pesconvert",github.json,advanced
 1.0.0.beta4
 1.0.0.beta3
 1.0.0.beta2
-1.0.0.beta1",rubygems.json,advanced
+1.0.0.beta1",rubygems.json,advanced,"列出RubyGems上jekyll包的所有预发布版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：676f76fa3ec0cf142cd41805720721d3
+请问这个项的原始值是什么？",3.0.0.pre.beta2
 列出RubyGems上jekyll包的所有稳定版本,"4.4.1
 4.4.0
 4.3.4
@@ -6722,7 +6848,9 @@ torvalds/pesconvert",github.json,advanced
 0.1.5
 0.1.4
 0.1.3
-0.1.2",rubygems.json,advanced
+0.1.2",rubygems.json,advanced,"列出RubyGems上jekyll包的所有稳定版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：35c36e89ef751b74c7aa3b07d7e0f6b6
+请问这个项的原始值是什么？",1.5.0
 列出NPM上react包的所有发布版本号,"0.0.1
 0.0.2
 0.0.3
@@ -9300,7 +9428,9 @@ torvalds/pesconvert",github.json,advanced
 19.3.0-canary-b4455a6e-20251027
 0.0.0-experimental-b4455a6e-20251027
 19.3.0-canary-4f931700-20251029
-0.0.0-experimental-4f931700-20251029",npm.json,normal
+0.0.0-experimental-4f931700-20251029",npm.json,normal,"列出NPM上react包的所有发布版本号
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：a69c2c9a23eb1b97bda0c4cf99397f5f
+请问这个项的原始值是什么？",19.2.0-canary-6a7650c7-20250405
 列出NPM上react包在2024年发布的所有版本,"18.3.0-canary-1d5667a12-20240102
 0.0.0-experimental-1d5667a12-20240102
 18.3.0-canary-f1039be4a-20240107
@@ -9829,7 +9959,9 @@ torvalds/pesconvert",github.json,advanced
 19.1.0-canary-fc8a898d-20241226
 0.0.0-experimental-fc8a898d-20241226
 19.1.0-canary-c01b8058-20241229
-0.0.0-experimental-c01b8058-20241229",npm.json,advanced
+0.0.0-experimental-c01b8058-20241229",npm.json,advanced,"列出NPM上react包在2024年发布的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：90e24ce3402dfe5bde740f480ea7552b
+请问这个项的原始值是什么？",19.0.0-canary-db913d8e17-20240422
 列出NPM上react包的所有major版本（x.0.0）,"15.0.0-rc.1
 15.0.0-rc.2
 15.0.0
@@ -11564,9 +11696,13 @@ torvalds/pesconvert",github.json,advanced
 0.0.0-experimental-6160773f-20251023
 0.0.0-experimental-408b38ef-20251023
 0.0.0-experimental-b4455a6e-20251027
-0.0.0-experimental-4f931700-20251029",npm.json,advanced
+0.0.0-experimental-4f931700-20251029",npm.json,advanced,"列出NPM上react包的所有major版本（x.0.0）
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：4e4853fc53c28973dc59b67a14ac90d3
+请问这个项的原始值是什么？",18.0.0-rc.0-next-5318971f5-20220202
 列出NPM上react包所有被标记为废弃的版本,"0.7.1
-16.6.2",npm.json,advanced
+16.6.2",npm.json,advanced,"列出NPM上react包所有被标记为废弃的版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：638ee240d76c96a775f61ee44b37fe27
+请问这个项的原始值是什么？",0.7.1
 列出NPM上react包的所有预发布版本,"0.9.0-rc1
 0.10.0-rc1
 0.11.0-rc1
@@ -12714,7 +12850,9 @@ torvalds/pesconvert",github.json,advanced
 19.3.0-canary-6160773f-20251023
 19.3.0-canary-408b38ef-20251023
 19.3.0-canary-b4455a6e-20251027
-19.3.0-canary-4f931700-20251029",npm.json,advanced
+19.3.0-canary-4f931700-20251029",npm.json,advanced,"列出NPM上react包的所有预发布版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：81a68ed291a282c605b889a17d1e9381
+请问这个项的原始值是什么？",18.0.0-rc.1-next-05c283c3c-20220302
 列出NPM上react包的所有稳定版本,"0.0.1
 0.0.2
 0.0.3
@@ -12734,7 +12872,9 @@ torvalds/pesconvert",github.json,advanced
 0.5.2
 0.6.0
 0.6.1
-0.6.2",npm.json,advanced
+0.6.2",npm.json,advanced,"列出NPM上react包的所有稳定版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：44b732a6709d52e07db0367d4938965c
+请问这个项的原始值是什么？",0.2.0
 列出NPM上react包由'jeffbski'发布的所有版本,"0.0.1
 0.0.2
 0.0.3
@@ -12759,7 +12899,9 @@ torvalds/pesconvert",github.json,advanced
 0.7.0
 0.7.1
 0.8.0
-0.9.0-rc1",npm.json,advanced
+0.9.0-rc1",npm.json,advanced,"列出NPM上react包由'jeffbski'发布的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：44b732a6709d52e07db0367d4938965c
+请问这个项的原始值是什么？",0.2.0
 列出NPM上react包中包含依赖'loose-envify'的所有版本,"15.0.0
 15.0.1
 15.0.2-alpha.1
@@ -14378,7 +14520,9 @@ torvalds/pesconvert",github.json,advanced
 18.3.0-canary-720de7f81a-20241220
 0.0.0-experimental-720de7f81a-20241220
 18.3.0-canary-1dba980e1f-20241220
-0.0.0-experimental-1dba980e1f-20241220",npm.json,advanced
+0.0.0-experimental-1dba980e1f-20241220",npm.json,advanced,"列出NPM上react包中包含依赖'loose-envify'的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：273de213838260bfea4698b408237a10
+请问这个项的原始值是什么？",18.3.0-next-1e3e30dae-20221108
 列出NPM上vue包的所有发布版本号,"0.0.0
 0.6.0
 0.7.0
@@ -14920,7 +15064,9 @@ torvalds/pesconvert",github.json,advanced
 3.5.19
 3.5.20
 3.5.21
-3.5.22",npm.json,normal
+3.5.22",npm.json,normal,"列出NPM上vue包的所有发布版本号
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：524afa829505ea291be68e6b080c4593
+请问这个项的原始值是什么？",1.0.26-csp
 列出NPM上vue包在2024年发布的所有版本,"3.4.4
 3.4.5
 3.4.6
@@ -14978,7 +15124,9 @@ torvalds/pesconvert",github.json,advanced
 3.5.10
 3.5.11
 3.5.12
-3.5.13",npm.json,advanced
+3.5.13",npm.json,advanced,"列出NPM上vue包在2024年发布的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：df286a7a5ce1ae8690ecf6e355b00450
+请问这个项的原始值是什么？",3.4.6
 列出NPM上vue包的所有major版本（x.0.0）,"0.0.0
 1.0.0-alpha.1
 1.0.0-alpha.2
@@ -15074,7 +15222,9 @@ torvalds/pesconvert",github.json,advanced
 3.0.0-rc.11
 3.0.0-rc.12
 3.0.0-rc.13
-3.0.0",npm.json,advanced
+3.0.0",npm.json,advanced,"列出NPM上vue包的所有major版本（x.0.0）
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：86d39f3dd61c3ad1692b446609037cfa
+请问这个项的原始值是什么？",1.0.0-rc.1
 列出NPM上vue包所有被标记为废弃的版本,"1.0.5
 1.0.12-csp
 2.0.0
@@ -15199,7 +15349,9 @@ torvalds/pesconvert",github.json,advanced
 2.7.15
 2.7.16-beta.1
 2.7.16-beta.2
-2.7.16",npm.json,advanced
+2.7.16",npm.json,advanced,"列出NPM上vue包所有被标记为废弃的版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：c7cf251330d44a24a48a64903a04d704
+请问这个项的原始值是什么？",2.6.0-beta.2
 列出NPM上vue包的所有预发布版本,"0.11.0-rc
 0.11.0-rc2
 0.11.0-rc3
@@ -15385,7 +15537,9 @@ torvalds/pesconvert",github.json,advanced
 3.5.0-beta.3
 3.5.0-rc.1
 3.6.0-alpha.1
-3.6.0-alpha.2",npm.json,advanced
+3.6.0-alpha.2",npm.json,advanced,"列出NPM上vue包的所有预发布版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：b622c450a97296a1632f429c3cb1d3d7
+请问这个项的原始值是什么？",2.7.0-alpha.11
 列出NPM上vue包的所有稳定版本,"0.0.0
 0.6.0
 0.7.0
@@ -15405,7 +15559,9 @@ torvalds/pesconvert",github.json,advanced
 0.9.0
 0.9.1
 0.9.2
-0.9.3",npm.json,advanced
+0.9.3",npm.json,advanced,"列出NPM上vue包的所有稳定版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：cc9277bdbe32ee7d701e38b33f439011
+请问这个项的原始值是什么？",0.8.4
 列出NPM上vue包由'yyx990803'发布的所有版本,"0.0.0
 0.6.0
 0.7.0
@@ -15945,7 +16101,9 @@ torvalds/pesconvert",github.json,advanced
 3.5.19
 3.5.20
 3.5.21
-3.5.22",npm.json,advanced
+3.5.22",npm.json,advanced,"列出NPM上vue包由'yyx990803'发布的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：3a3e7c431c45d84fc599c9643b9873ca
+请问这个项的原始值是什么？",3.2.39
 列出NPM上vue包中包含依赖'@vue/runtime-dom'的所有版本,"3.0.0-alpha.0
 3.0.0-alpha.1
 3.0.0-alpha.2
@@ -16194,7 +16352,9 @@ torvalds/pesconvert",github.json,advanced
 3.5.19
 3.5.20
 3.5.21
-3.5.22",npm.json,advanced
+3.5.22",npm.json,advanced,"列出NPM上vue包中包含依赖'@vue/runtime-dom'的所有版本
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：593ed86d9e989b97a31fa84858ccd5a0
+请问这个项的原始值是什么？",3.3.0
 列出Spotify艺术家ID 2c32JruIkUyfdycHmhIph4 的所有专辑和单曲,"寓話γ
 寓話
 I SCREAM LIVE3
@@ -16249,7 +16409,9 @@ Beyond META
 愛と花
 戸惑いテレパシー
 夜が降り止む前に
-花と心臓",spotify.json,normal
+花と心臓",spotify.json,normal,"列出Spotify艺术家ID 2c32JruIkUyfdycHmhIph4 的所有专辑和单曲
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：4af845a4cd9b0c02721a8226c08d20cd
+请问这个项的原始值是什么？",光
 列出Spotify艺术家 花譜 (KAF) 的所有合作专辑,"キャンディーゲリラ
 光
 Kanojo wa Ima Meikyu no Naka
@@ -16277,7 +16439,9 @@ Beyond META
 わたしの線香
 飛翔するmeme
 あさひ
-愛と花",spotify.json,advanced
+愛と花",spotify.json,advanced,"列出Spotify艺术家 花譜 (KAF) 的所有合作专辑
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：c9a6496a9e341f0e47f0e38f20812ae5
+请问这个项的原始值是什么？",しゅげーハイ!!!
 列出Spotify艺术家 花譜 (KAF) 在2020年及之后发行的完整专辑,"寓話γ
 寓話
 I SCREAM LIVE3
@@ -16288,7 +16452,9 @@ I SCREAM LIVE2
 魔法
 I SCREAM LIVE
 観測γ
-観測",spotify.json,advanced
+観測",spotify.json,advanced,"列出Spotify艺术家 花譜 (KAF) 在2020年及之后发行的完整专辑
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：c9d9dd3e58b5c36705542582d3aa1acd
+请问这个项的原始值是什么？",I SCREAM LIVE3
 列出Spotify艺术家 花譜 (KAF) 的所有完整专辑（不含单曲）,"寓話γ
 寓話
 I SCREAM LIVE3
@@ -16299,7 +16465,9 @@ I SCREAM LIVE2
 魔法
 I SCREAM LIVE
 観測γ
-観測",spotify.json,advanced
+観測",spotify.json,advanced,"列出Spotify艺术家 花譜 (KAF) 的所有完整专辑（不含单曲）
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：e6522c37ac4913a43c78bf174ebcb932
+请问这个项的原始值是什么？",寓話γ
 列出Spotify艺术家 花譜 (KAF) 的所有单曲,"キャンディーゲリラ
 ありふれてたい
 光
@@ -16343,7 +16511,9 @@ Beyond META
 愛と花
 戸惑いテレパシー
 夜が降り止む前に
-花と心臓",spotify.json,advanced
+花と心臓",spotify.json,advanced,"列出Spotify艺术家 花譜 (KAF) 的所有单曲
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：c36398b5bece85625c8bcf220cfd2c68
+请问这个项的原始值是什么？",飛翔するmeme
 列出Spotify专辑ID 6MP2s7uj6MnvO5lfCbEZ2m 的所有曲目,"アポカリプスより - 瀬名航 Remix
 何者 - 威戸れもね。 Remix
 俯瞰する事象 - あばらや Remix
@@ -16356,8 +16526,12 @@ Beyond META
 カルぺ・ディエム - 駱駝法師 Remix
 スワン - cosMo@暴走P Remix
 代替嬉々 - TORIENA Remix
-Replaceable Goodbye - KAIRUI Remix",spotify.json,normal
-列出专辑《寓話γ》中时长超过5分钟的曲目,Replaceable Goodbye - KAIRUI Remix,spotify.json,advanced
+Replaceable Goodbye - KAIRUI Remix",spotify.json,normal,"列出Spotify专辑ID 6MP2s7uj6MnvO5lfCbEZ2m 的所有曲目
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：099944a0d471826f207d3adc7c42a13f
+请问这个项的原始值是什么？",カルぺ・ディエム - 駱駝法師 Remix
+列出专辑《寓話γ》中时长超过5分钟的曲目,Replaceable Goodbye - KAIRUI Remix,spotify.json,advanced,"列出专辑《寓話γ》中时长超过5分钟的曲目
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：59a92848c3cee96eda67dacc91026cff
+请问这个项的原始值是什么？",Replaceable Goodbye - KAIRUI Remix
 列出Spotify艺术家ID 1rFELoNfdLOYWPwtrBN6zS 的所有专辑和单曲,"CHOCOLATE LIVE3
 CHOCOLATE LIVE2
 NEW ROMANCER2
@@ -16389,7 +16563,9 @@ NEW ROMANCER
 Flowering
 ピロウトーク
 ユーエンミー
-クライベイビー",spotify.json,normal
+クライベイビー",spotify.json,normal,"列出Spotify艺术家ID 1rFELoNfdLOYWPwtrBN6zS 的所有专辑和单曲
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：5ba3e5557c9a5eed6a9861d6e6cd80b7
+请问这个项的原始值是什么？",Singularity Live
 列出Spotify艺术家 理芽 (RIM) 的所有合作专辑,"imagine
 Singularity Live
 キャンディーゲリラ
@@ -16398,19 +16574,25 @@ Singularity Live
 アイノ最適解
 きみが大人になったんだ
 泡沫
-舞 (feat. 理芽)",spotify.json,advanced
+舞 (feat. 理芽)",spotify.json,advanced,"列出Spotify艺术家 理芽 (RIM) 的所有合作专辑
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：bb110a454fadd9b811fcb54b061619c9
+请问这个项的原始值是什么？",imagine
 列出Spotify艺术家 理芽 (RIM) 在2020年及之后发行的完整专辑,"CHOCOLATE LIVE3
 CHOCOLATE LIVE2
 NEW ROMANCER2
 imagine
 Singularity Live
-NEW ROMANCER",spotify.json,advanced
+NEW ROMANCER",spotify.json,advanced,"列出Spotify艺术家 理芽 (RIM) 在2020年及之后发行的完整专辑
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：5ba3e5557c9a5eed6a9861d6e6cd80b7
+请问这个项的原始值是什么？",Singularity Live
 列出Spotify艺术家 理芽 (RIM) 的所有完整专辑（不含单曲）,"CHOCOLATE LIVE3
 CHOCOLATE LIVE2
 NEW ROMANCER2
 imagine
 Singularity Live
-NEW ROMANCER",spotify.json,advanced
+NEW ROMANCER",spotify.json,advanced,"列出Spotify艺术家 理芽 (RIM) 的所有完整专辑（不含单曲）
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：adf2ee6e2921b8cc83a3fab18add0b2f
+请问这个项的原始值是什么？",NEW ROMANCER2
 列出Spotify艺术家 理芽 (RIM) 的所有单曲,"キャンディーゲリラ
 ノマネ
 閃光だった (Rearranged Ver.)
@@ -16436,7 +16618,9 @@ NEW ROMANCER",spotify.json,advanced
 Flowering
 ピロウトーク
 ユーエンミー
-クライベイビー",spotify.json,advanced
+クライベイビー",spotify.json,advanced,"列出Spotify艺术家 理芽 (RIM) 的所有单曲
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：3ed1ba1d18f5a8347c8be7cd5dd163ac
+请问这个项的原始值是什么？",ピロウトーク
 列出Spotify专辑ID 6u2qGCefe2wQx3HLPwAtuz 的所有曲目,"らしさ
 私以外私じゃないの
 ノックブーツ
@@ -16458,10 +16642,14 @@ Chronicle A
 スーパーヒーロー
 かいか
 大迷惑星。
-ナイトオンザプラネット",spotify.json,normal
+ナイトオンザプラネット",spotify.json,normal,"列出Spotify专辑ID 6u2qGCefe2wQx3HLPwAtuz 的所有曲目
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：3ba94f8e9cb65ff0a8ad465d6ccfcb3e
+请问这个项的原始值是什么？",No.5
 列出专辑《CHOCOLATE LIVE3》中时长超过5分钟的曲目,"マスカラまつげ
 NAO
-センチメンタル・キス",spotify.json,advanced
+センチメンタル・キス",spotify.json,advanced,"列出专辑《CHOCOLATE LIVE3》中时长超过5分钟的曲目
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：3c46fdd071e979b10c7a2ccc395e72f0
+请问这个项的原始值是什么？",NAO
 列出TMDb人物 Tom Hanks (ID: 31) 的所有影视作品,"玩具总动员 5
 约翰·坎迪：我喜欢我
 Billy Joel: And So It Goes
@@ -16790,7 +16978,9 @@ Untitled Greyhound Sequel
 Untitled Berlin Noir Series
 Major Matt Mason
 In the Garden of Beasts
-Beautiful",tmdb.json,normal
+Beautiful",tmdb.json,normal,"列出TMDb人物 Tom Hanks (ID: 31) 的所有影视作品
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：1a5bdce55b4373f29f8c9d0e73cf3e3b
+请问这个项的原始值是什么？",The Entertainment Biz
 筛选TMDb人物 Tom Hanks (ID: 31) 同时作为演员和制片人的所有作品,"极地特快
 查理·威尔森的战争
 荒岛余生
@@ -16810,11 +17000,15 @@ The 2010s
 The Seventies
 The Nineties
 从地球到月球
-太平洋战争",tmdb.json,advanced
+太平洋战争",tmdb.json,advanced,"筛选TMDb人物 Tom Hanks (ID: 31) 同时作为演员和制片人的所有作品
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：1a158c84d34ecae2c8585ed26c2674d0
+请问这个项的原始值是什么？",太平洋战争
 筛选TMDb人物 Tom Hanks (ID: 31) 的所有科幻类影视作品,"云图
 Electric City
 圆圈
-芬奇",tmdb.json,advanced
+芬奇",tmdb.json,advanced,"筛选TMDb人物 Tom Hanks (ID: 31) 的所有科幻类影视作品
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：b081cf7efd0863e1a573b1dd69e1270d
+请问这个项的原始值是什么？",芬奇
 筛选TMDb人物 Tom Hanks (ID: 31) 的所有喜剧类影视作品,"阿甘正传
 辛普森一家
 西雅图未眠夜
@@ -16907,7 +17101,9 @@ Jimmy Kimmel Live!
 恋爱学分
 Connie and Carla
 规则改变
-妈妈咪呀2：再次出发",tmdb.json,advanced
+妈妈咪呀2：再次出发",tmdb.json,advanced,"筛选TMDb人物 Tom Hanks (ID: 31) 的所有喜剧类影视作品
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：e78ec7810b0a455287b180fd750f6f4e
+请问这个项的原始值是什么？",约翰·奥利弗上周今夜秀
 列出TMDb人物 Brad Pitt (ID: 287) 的所有影视作品,"Cover-Up
 海达
 银莲花
@@ -17145,7 +17341,9 @@ Pretty/Handsome
 Ocean's Fourteen
 Night People
 Heart of the Beast
-Black Hole",tmdb.json,normal
+Black Hole",tmdb.json,normal,"列出TMDb人物 Brad Pitt (ID: 287) 的所有影视作品
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：8ce97d2fcd0ab4d6368b196d3d5d559c
+请问这个项的原始值是什么？",搏击俱乐部
 筛选TMDb人物 Brad Pitt (ID: 287) 同时作为演员和制片人的所有作品,"双狼
 神枪手之死
 生命之树
@@ -17162,7 +17360,9 @@ F1：狂飙飞车
 时间之旅：IMAX神奇体验
 星际探索
 The Adventures of Cliff Booth
-The Riders",tmdb.json,advanced
+The Riders",tmdb.json,advanced,"筛选TMDb人物 Brad Pitt (ID: 287) 同时作为演员和制片人的所有作品
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：ff7898aab79076220ae521910bcc2534
+请问这个项的原始值是什么？",The Adventures of Cliff Booth
 筛选TMDb人物 Brad Pitt (ID: 287) 的所有科幻类影视作品,"十二猴子
 超级大坏蛋
 僵尸世界大战
@@ -17171,7 +17371,9 @@ The Riders",tmdb.json,advanced
 House of Time
 玉子
 编号17
-看不见手的风景",tmdb.json,advanced
+看不见手的风景",tmdb.json,advanced,"筛选TMDb人物 Brad Pitt (ID: 287) 的所有科幻类影视作品
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：9d3f927fade97609cde4a26b40e1a92b
+请问这个项的原始值是什么？",死侍2：我爱我家
 筛选TMDb人物 Brad Pitt (ID: 287) 的所有喜剧类影视作品,"偷拐抢骗
 史密斯夫妇
 双狼
@@ -17229,7 +17431,9 @@ House of Time
 不可抗拒
 亿万富翁
 看不见手的风景
-回到高中时",tmdb.json,advanced
+回到高中时",tmdb.json,advanced,"筛选TMDb人物 Brad Pitt (ID: 287) 的所有喜剧类影视作品
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：5a354492ca804d47ebe0fb2749cecf62
+请问这个项的原始值是什么？",狗年
 列出TMDb人物 Leonardo DiCaprio (ID: 6193) 的所有影视作品,"斯科塞斯先生
 一战再战
 YANUNI
@@ -17408,7 +17612,9 @@ Howl
 Home
 Evel Knievel on Tour
 Carthage Must Be Destroyed
-Billy Summers",tmdb.json,normal
+Billy Summers",tmdb.json,normal,"列出TMDb人物 Leonardo DiCaprio (ID: 6193) 的所有影视作品
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：1ebe2a2a9514a1165f84045c52ff440d
+请问这个项的原始值是什么？",肥伦今夜秀
 筛选TMDb人物 Leonardo DiCaprio (ID: 6193) 同时作为演员和制片人的所有作品,"飞行家
 华尔街之狼
 洪水来临前
@@ -17419,10 +17625,14 @@ Billy Summers",tmdb.json,normal
 kid 90
 The Devil in the White City
 Untitled Hawaiian Gangster Project
-Howl",tmdb.json,advanced
+Howl",tmdb.json,advanced,"筛选TMDb人物 Leonardo DiCaprio (ID: 6193) 同时作为演员和制片人的所有作品
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：699d7c8d4c90af4649a91134c6af1fc7
+请问这个项的原始值是什么？",Untitled Hawaiian Gangster Project
 筛选TMDb人物 Leonardo DiCaprio (ID: 6193) 的所有科幻类影视作品,"盗梦空间
 魔精3
-Don't Look Up",tmdb.json,advanced
+Don't Look Up",tmdb.json,advanced,"筛选TMDb人物 Leonardo DiCaprio (ID: 6193) 的所有科幻类影视作品
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：df33140d8fece748cb7aa2f4a0e5d0e8
+请问这个项的原始值是什么？",Don't Look Up
 筛选TMDb人物 Leonardo DiCaprio (ID: 6193) 的所有喜剧类影视作品,"名人百态
 华尔街之狼
 魔精3
@@ -17441,7 +17651,9 @@ Parenthood
 Teen Choice Awards
 哈桑·明哈杰：爱国者有话说
 肥伦今夜秀
-Gardener of Eden",tmdb.json,advanced
+Gardener of Eden",tmdb.json,advanced,"筛选TMDb人物 Leonardo DiCaprio (ID: 6193) 的所有喜剧类影视作品
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：59526fa7927d8aa4feaec41c6ff3d661
+请问这个项的原始值是什么？",名人百态
 筛选电视剧《权力的游戏》(ID: 1399) 第 1 季中有客串明星的所有剧集,"S01E01 凛冬将至
 S01E02 国王大道
 S01E03 雪诺大人
@@ -17451,7 +17663,9 @@ S01E06 黄金王冠
 S01E07 成王败寇
 S01E08 针锋相对
 S01E09 贝勒神像
-S01E10 血火同源",tmdb.json,advanced
+S01E10 血火同源",tmdb.json,advanced,"筛选电视剧《权力的游戏》(ID: 1399) 第 1 季中有客串明星的所有剧集
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：84fd8e20c2bfb8985f1501dbc044cea7
+请问这个项的原始值是什么？",S01E02 国王大道
 列出YouTube频道 花譜 -KAF- (UCQ1U65-CQdIoZ2_NA4Z4F7A) 的所有视频,"花譜「過去を喰らう」「ゲシュタルト」【KAMITSUBAKI FES ’24 Ver.】
 やらかした かふっち #花譜 #切り抜き #未確認少女観測部 #shorts
 「ありふれてたい」#花譜 #アルマちゃん  #アニメ #anime #shorts
@@ -18187,10 +18401,16 @@ Kizuna AI × 花譜 #63 「かりそめ」【オリジナルMV】
 【歌ってみた】猛独が襲う covered by 花譜
 花譜　#03
 花譜　#02
-花譜　#01",youtube.json,normal
+花譜　#01",youtube.json,normal,"列出YouTube频道 花譜 -KAF- (UCQ1U65-CQdIoZ2_NA4Z4F7A) 的所有视频
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：58937e4e717f577d5c8c71d9ec4e1da8
+请问这个项的原始值是什么？",「Inner Arts」#歌ってみた ④  #花譜 #shorts
 筛选频道 花譜 -KAF- (UCQ1U65-CQdIoZ2_NA4Z4F7A) 中时长超过60分钟的视频,"「おいら花譜だよ！全員集合の日！-目指せ100万人！達成目前SP-」
-花譜 #127 「予兆（怪）」",youtube.json,advanced
-找出频道 花譜 -KAF- (UCQ1U65-CQdIoZ2_NA4Z4F7A) 中观看次数最多的视频,花譜　#22　「過去を喰らう」 【オリジナルMV】,youtube.json,advanced
+花譜 #127 「予兆（怪）」",youtube.json,advanced,"筛选频道 花譜 -KAF- (UCQ1U65-CQdIoZ2_NA4Z4F7A) 中时长超过60分钟的视频
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：9852c5a22f2299cdbac8915dc2adffb4
+请问这个项的原始值是什么？",花譜 #127 「予兆（怪）」
+找出频道 花譜 -KAF- (UCQ1U65-CQdIoZ2_NA4Z4F7A) 中观看次数最多的视频,花譜　#22　「過去を喰らう」 【オリジナルMV】,youtube.json,advanced,"找出频道 花譜 -KAF- (UCQ1U65-CQdIoZ2_NA4Z4F7A) 中观看次数最多的视频
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：3f6a04ab9f9c5da11528d5f3e191992e
+请问这个项的原始值是什么？",花譜　#22　「過去を喰らう」 【オリジナルMV】
 筛选频道 花譜 -KAF- (UCQ1U65-CQdIoZ2_NA4Z4F7A) 中观看次数超过100万的视频,"花譜 # 148「代替嬉々」【Original MV】
 【組曲2】花譜×Moe Shop # 147「My Life」【「怪歌(再)」LIVE MV】
 【組曲2】花譜×星街すいせい # 143「一世風靡」【オリジナルMV】
@@ -18287,7 +18507,9 @@ Kizuna AI × 花譜 #63 「かりそめ」【オリジナルMV】
 【歌ってみた】回る空うさぎ covered by 花譜
 【歌ってみた】死んでしまったのだろうか covered by 花譜
 【歌ってみた】またねがあれば covered by 花譜
-【歌ってみた】猛独が襲う covered by 花譜",youtube.json,advanced
+【歌ってみた】猛独が襲う covered by 花譜",youtube.json,advanced,"筛选频道 花譜 -KAF- (UCQ1U65-CQdIoZ2_NA4Z4F7A) 中观看次数超过100万的视频
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：800eaa901d8e3644121eefa8839a6854
+请问这个项的原始值是什么？",【歌ってみた】粉雪 covered by 花譜
 搜索频道 花譜 -KAF- (UCQ1U65-CQdIoZ2_NA4Z4F7A) 中包含'不可解/Incomprehensible'关键词的视频,"花譜 # 132 花譜 3rd ONE-MAN LIVE「不可解参(想)」 【Digest Trailer】
 花譜「狂感覚」不可解参(想)Live ver. #shorts
 花譜「未観測」不可解参(想)Live ver. #shorts
@@ -18347,7 +18569,9 @@ Kizuna AI × 花譜 #63 「かりそめ」【オリジナルMV】
 花譜　#28 「不可解感謝篇」
 花譜　#26 「不可解開幕前御挨拶篇」
 花譜　#23　「不可解」 -感謝編-
-花譜　#20　「不可解」 -御願編-",youtube.json,advanced
+花譜　#20　「不可解」 -御願編-",youtube.json,advanced,"搜索频道 花譜 -KAF- (UCQ1U65-CQdIoZ2_NA4Z4F7A) 中包含'不可解/Incomprehensible'关键词的视频
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：2eb06f70db5b2b2ce0e2cd69ac66e9d4
+请问这个项的原始值是什么？",花譜「糸」不可解参(想)Live ver. #shorts
 列出YouTube频道 理芽 -RIM- (UCfBkUgaJ6eqYA9_TX2cmq9A) 的所有视频,"予想外な6周年記念の最終曲 #衝撃 #野球
 理芽 × 花譜 - キャンディーゲリラ / RIM & KAF - Candy Guerrilla
 今夜このまま - あいみょん Covered by 理芽 / RIM #shorts
@@ -18737,7 +18961,9 @@ Wonderland - iri Covered by 理芽 / RIM
 Shape of You - Ed Sheeran Covered by 理芽 / RIM
 bad guy - Billie Eilish Covered by 理芽 / RIM
 「初めまして」- 理芽 #02
-「来訪者」- 理芽 #01",youtube.json,normal
+「来訪者」- 理芽 #01",youtube.json,normal,"列出YouTube频道 理芽 -RIM- (UCfBkUgaJ6eqYA9_TX2cmq9A) 的所有视频
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：caa40b5521979a105c22a49646d4e4ec
+请问这个项的原始值是什么？",マンダリン - R Sound Design Covered by 理芽 / RIM
 筛选频道 理芽 -RIM- (UCfBkUgaJ6eqYA9_TX2cmq9A) 中时长超过60分钟的视频,"【理芽】活動6周年記念特別番組 【ゲスト：花譜】 #理芽6周年
 理芽、また歌うってよ #拡声の会
 理芽、歌うってよ #拡声の会
@@ -18752,8 +18978,12 @@ SINKA LIVE直前！「NEW ROMANCER2」アルバムリリース特番
 【事故回】理芽ﾁの留学エピ紹介「結構ガチで死にかけた話」他【#ぐいりめ vol.3】
 【祝初回】この番組タイトルなに？【#ぐいりめ vol.1】
 「IMAGINARY WORLD」 前夜祭生配信   理芽 & te'resa
-「IMAGINARY WORLD」 開催記念SP配信   理芽 & te'resa",youtube.json,advanced
-找出频道 理芽 -RIM- (UCfBkUgaJ6eqYA9_TX2cmq9A) 中观看次数最多的视频,理芽 - 食虫植物 / RIM - Carnivorous Plant (Official Music Video),youtube.json,advanced
+「IMAGINARY WORLD」 開催記念SP配信   理芽 & te'resa",youtube.json,advanced,"筛选频道 理芽 -RIM- (UCfBkUgaJ6eqYA9_TX2cmq9A) 中时长超过60分钟的视频
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：749424081edc5ee1a6f0ad000cc25c03
+请问这个项的原始值是什么？",【未公開デモ曲 - ララ】Guaino 競馬始める / Guiano＆理芽で行った初キャンプが楽しすぎた【#ぐいりめ vol.9】
+找出频道 理芽 -RIM- (UCfBkUgaJ6eqYA9_TX2cmq9A) 中观看次数最多的视频,理芽 - 食虫植物 / RIM - Carnivorous Plant (Official Music Video),youtube.json,advanced,"找出频道 理芽 -RIM- (UCfBkUgaJ6eqYA9_TX2cmq9A) 中观看次数最多的视频
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：ef1691d7439511389657e50a7a5f3e31
+请问这个项的原始值是什么？",理芽 - 食虫植物 / RIM - Carnivorous Plant (Official Music Video)
 筛选频道 理芽 -RIM- (UCfBkUgaJ6eqYA9_TX2cmq9A) 中观看次数超过100万的视频,"HALVES - 嫌々 Covered by 理芽 / RIM
 I WANNA BE YOUR SLAVE  - Måneskin Covered by 理芽 / RIM
 春雷 - 米津玄師 Covered by 理芽 / RIM
@@ -18769,8 +18999,10 @@ I WANNA BE YOUR SLAVE  - Måneskin Covered by 理芽 / RIM
 理芽 - Flowering (with Misumi) / RIM - Flowering (with Misumi) (Official Music Video)
 理芽 - ピロウトーク / RIM - Pillow Talk (Official Music Video)
 理芽 - 食虫植物 / RIM - Carnivorous Plant (Official Music Video)
-理芽 - ユーエンミー / RIM - You & Me (Official Music Video)",youtube.json,advanced
-搜索频道 理芽 -RIM- (UCfBkUgaJ6eqYA9_TX2cmq9A) 中包含'不可解/Incomprehensible'关键词的视频,,youtube.json,advanced
+理芽 - ユーエンミー / RIM - You & Me (Official Music Video)",youtube.json,advanced,"筛选频道 理芽 -RIM- (UCfBkUgaJ6eqYA9_TX2cmq9A) 中观看次数超过100万的视频
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：057d8c7c1dfe39f707d4560e64a85684
+请问这个项的原始值是什么？",理芽 - インナアチャイルド / RIM - Inner Child (Official Music Video) #29
+搜索频道 理芽 -RIM- (UCfBkUgaJ6eqYA9_TX2cmq9A) 中包含'不可解/Incomprehensible'关键词的视频,,youtube.json,advanced,,
 列出DBLP中作者 (PID: l/YannLeCun)的所有出版物,"Forgotten Polygons: Multimodal Large Language Models are Shape-Blind.
 Improving Pre-trained Self-Supervised Embeddings Through Effective Entropy Maximization.
 RoboPEPP: Vision-Based Robot Pose and Joint Angle Estimation through Embedding Predictive Pre-Training.
@@ -19192,8 +19424,10 @@ Handwritten Digit Recognition: Applications of Neural Net Chips and Automatic Le
 Handwritten Digit Recognition with a Back-Propagation Network.
 Optimal Brain Damage.
 Using curvature information to improve back-propagation.
-GEMINI: Gradient Estimation Through Matrix Inversion After Noise Injection.",dblp.json,normal
-列出DBLP中作者Yann LeCun (PID: l/YannLeCun)作为第2作者的所有出版物,,dblp.json,normal
+GEMINI: Gradient Estimation Through Matrix Inversion After Noise Injection.",dblp.json,normal,"列出DBLP中作者 (PID: l/YannLeCun)的所有出版物
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：aca6666786db749f511468fa0621fbc5
+请问这个项的原始值是什么？",Source separation with scattering Non-Negative Matrix Factorization.
+列出DBLP中作者Yann LeCun (PID: l/YannLeCun)作为第2作者的所有出版物,,dblp.json,normal,,
 列出DBLP中作者Yann LeCun (PID: l/YannLeCun)发表在CVPR会议的所有出版物,"RoboPEPP: Vision-Based Robot Pose and Joint Angle Estimation through Embedding Predictive Pre-Training.
 Transformers without Normalization.
 Navigation World Models.
@@ -19214,7 +19448,9 @@ Large-scale Learning with SVM and Convolutional for Generic Object Categorizatio
 Dimensionality Reduction by Learning an Invariant Mapping.
 Learning a Similarity Metric Discriminatively, with Application to Face Verification.
 Learning Methods for Generic Object Recognition with Invariance to Pose and Lighting.
-Global Training of Document Processing Systems Using Graph Transformer Networks.",dblp.json,normal
+Global Training of Document Processing Systems Using Graph Transformer Networks.",dblp.json,normal,"列出DBLP中作者Yann LeCun (PID: l/YannLeCun)发表在CVPR会议的所有出版物
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：9480e12bc615306e8170707c4caa07cb
+请问这个项的原始值是什么？",Transformers without Normalization.
 列出DBLP中作者Yann LeCun (PID: l/YannLeCun)在2020年后发表的所有出版物,"Forgotten Polygons: Multimodal Large Language Models are Shape-Blind.
 Improving Pre-trained Self-Supervised Embeddings Through Effective Entropy Maximization.
 RoboPEPP: Vision-Based Robot Pose and Joint Angle Estimation through Embedding Predictive Pre-Training.
@@ -19374,7 +19610,9 @@ Understanding Dimensional Collapse in Contrastive Self-supervised Learning.
 Learning in High Dimension Always Amounts to Extrapolation.
 Sparse Coding with Multi-Layer Decoders using Variance Regularization.
 Implicit Rank-Minimizing Autoencoder.
-Implicit Rank-Minimizing Autoencoder.",dblp.json,normal
+Implicit Rank-Minimizing Autoencoder.",dblp.json,normal,"列出DBLP中作者Yann LeCun (PID: l/YannLeCun)在2020年后发表的所有出版物
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：965a99e2649933611bcd258e06fb52ec
+请问这个项的原始值是什么？",A Generalization of ViT/MLP-Mixer to Graphs.
 列出DBLP中作者 (PID: 10/3248)的所有出版物,"International AI Safety Report.
 How to Represent Part-Whole Hierarchies in a Neural Network.
 A Generalist Framework for Panoptic Segmentation of Images and Videos.
@@ -19673,15 +19911,19 @@ Shape Representation in Parallel Systems.
 Some Demonstrations of the Effects of Structural Descriptions in Mental Imagery.
 Representation and Control in Vision.
 Relaxation and its role in vision.
-Using Relaxation to find a Puppet.",dblp.json,normal
-列出DBLP中作者Geoffrey E. Hinton (PID: 10/3248)作为第2作者的所有出版物,,dblp.json,normal
+Using Relaxation to find a Puppet.",dblp.json,normal,"列出DBLP中作者 (PID: 10/3248)的所有出版物
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：514a970e60a0440b8218ee0a970636f6
+请问这个项的原始值是什么？",Gaussian-Bernoulli RBMs Without Tears.
+列出DBLP中作者Geoffrey E. Hinton (PID: 10/3248)作为第2作者的所有出版物,,dblp.json,normal,,
 列出DBLP中作者Geoffrey E. Hinton (PID: 10/3248)发表在CVPR会议的所有出版物,"CvxNet: Learnable Convex Decomposition.
 Robust Boltzmann Machines for recognition and denoising.
 Modeling the joint density of two images under a variety of transformations.
 On deep generative models with applications to recognition.
 Dynamical binary latent variable models for 3D human pose tracking.
 Modeling pixel means and covariances using factorized third-order boltzmann machines.
-Unsupervised Learning of Image Transformations.",dblp.json,normal
+Unsupervised Learning of Image Transformations.",dblp.json,normal,"列出DBLP中作者Geoffrey E. Hinton (PID: 10/3248)发表在CVPR会议的所有出版物
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：cc4c722c733bb064417a5a9442fd5a3f
+请问这个项的原始值是什么？",Dynamical binary latent variable models for 3D human pose tracking.
 列出DBLP中作者Geoffrey E. Hinton (PID: 10/3248)在2020年后发表的所有出版物,"International AI Safety Report.
 How to Represent Part-Whole Hierarchies in a Neural Network.
 A Generalist Framework for Panoptic Segmentation of Images and Videos.
@@ -19722,7 +19964,9 @@ Neural Additive Models: Interpretable Machine Learning with Neural Nets.
 Big Self-Supervised Models are Strong Semi-Supervised Learners.
 Teaching with Commentaries.
 Unsupervised part representation by Flow Capsules.
-Canonical Capsules: Unsupervised Capsules in Canonical Pose.",dblp.json,normal
+Canonical Capsules: Unsupervised Capsules in Canonical Pose.",dblp.json,normal,"列出DBLP中作者Geoffrey E. Hinton (PID: 10/3248)在2020年后发表的所有出版物
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：8ad5349e9d00a272b5e7ed1343879b65
+请问这个项的原始值是什么？",Unsupervised part representation by Flow Capsules.
 列出DBLP中作者 (PID: 56/953)的所有出版物,"Artificial Neural Networks and Machine Learning - ICANN 2025 - 34th International Conference on Artificial Neural Networks, Kaunas, Lithuania, September 9-12, 2025, Proceedings, Part I
 Artificial Neural Networks and Machine Learning - ICANN 2025 - 34th International Conference on Artificial Neural Networks, Kaunas, Lithuania, September 9-12, 2025, Proceedings, Part II
 Artificial Neural Networks and Machine Learning - ICANN 2025 - 34th International Conference on Artificial Neural Networks, Kaunas, Lithuania, September 9-12, 2025, Proceedings, Part III
@@ -20925,14 +21169,18 @@ Speaker Independent Speech Recognition with Neural Networks and Speech Knowledge
 A Neural Network to Detect Homologies in Proteins.
 Data-Driven Execution of Multi-Layered Networks for Automatic Speech Recognition.
 Use of neural networks for the recognition of place of articulation.
-Use of Multi-Layered Networks for Coding Speech with Phonetic Features.",dblp.json,normal
-列出DBLP中作者Yoshua Bengio (PID: 56/953)作为第2作者的所有出版物,,dblp.json,normal
+Use of Multi-Layered Networks for Coding Speech with Phonetic Features.",dblp.json,normal,"列出DBLP中作者 (PID: 56/953)的所有出版物
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：4fda9fa62f56fb1c7e49c0d75285455b
+请问这个项的原始值是什么？",Constant Memory Attentive Neural Processes.
+列出DBLP中作者Yoshua Bengio (PID: 56/953)作为第2作者的所有出版物,,dblp.json,normal,,
 列出DBLP中作者Yoshua Bengio (PID: 56/953)发表在CVPR会议的所有出版物,"Multi-Image Super-Resolution for Remote Sensing using Deep Recurrent Networks.
 On the Iterative Refinement of Densely Connected Representation Levels for Semantic Segmentation.
 The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation.
 Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space.
 ReSeg: A Recurrent Neural Network-Based Model for Semantic Segmentation.
-Global Training of Document Processing Systems Using Graph Transformer Networks.",dblp.json,normal
+Global Training of Document Processing Systems Using Graph Transformer Networks.",dblp.json,normal,"列出DBLP中作者Yoshua Bengio (PID: 56/953)发表在CVPR会议的所有出版物
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：6e535ba8f8ca7c1350f602ef802d87cc
+请问这个项的原始值是什么？",ReSeg: A Recurrent Neural Network-Based Model for Semantic Segmentation.
 列出DBLP中作者Yoshua Bengio (PID: 56/953)在2020年后发表的所有出版物,"Artificial Neural Networks and Machine Learning - ICANN 2025 - 34th International Conference on Artificial Neural Networks, Kaunas, Lithuania, September 9-12, 2025, Proceedings, Part I
 Artificial Neural Networks and Machine Learning - ICANN 2025 - 34th International Conference on Artificial Neural Networks, Kaunas, Lithuania, September 9-12, 2025, Proceedings, Part II
 Artificial Neural Networks and Machine Learning - ICANN 2025 - 34th International Conference on Artificial Neural Networks, Kaunas, Lithuania, September 9-12, 2025, Proceedings, Part III
@@ -21415,7 +21663,9 @@ COVI-AgentSim: an Agent-based Model for Evaluating Methods of Digital Contact Tr
 Gradient Starvation: A Learning Proclivity in Neural Networks.
 RetroGNN: Approximating Retrosynthesis by Graph Neural Networks for De Novo Drug Design.
 Inductive Biases for Deep Learning of Higher-Level Cognition.
-Machine Learning for Glacier Monitoring in the Hindu Kush Himalaya.",dblp.json,normal
+Machine Learning for Glacier Monitoring in the Hindu Kush Himalaya.",dblp.json,normal,"列出DBLP中作者Yoshua Bengio (PID: 56/953)在2020年后发表的所有出版物
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：c4a4d72a9cecb6c2a078a70141cfee23
+请问这个项的原始值是什么？",RGFN: Synthesizable Molecular Generation Using GFlowNets.
 列出DBLP中作者 (PID: s/JurgenSchmidhuber)的所有出版物,"Mindstorms in Natural Language-Based Societies of Mind.
 Accelerating the inference of string generation-based chemical reaction models for industrial applications.
 On the Distillation of Stories for Transferring Narrative Arcs in Collections of Independent Media.
@@ -21967,10 +22217,14 @@ Networks adjusting networks
 Making the world differentiable: on using self supervised fully recurrent neural networks for dynamic reinforcement learning and planning in non-stationary environments
 Learning to generate focus trajectories for attentive vision
 Towards compositional learning with dynamic neural networks
-Evolutionary principles in self-referential learning, or on learning how to learn: The meta-meta-. hook",dblp.json,normal
-列出DBLP中作者Jürgen Schmidhuber (PID: s/JurgenSchmidhuber)作为第2作者的所有出版物,,dblp.json,normal
+Evolutionary principles in self-referential learning, or on learning how to learn: The meta-meta-. hook",dblp.json,normal,"列出DBLP中作者 (PID: s/JurgenSchmidhuber)的所有出版物
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：2c83fd19e95e98cd99e3d879ba32e759
+请问这个项的原始值是什么？",PyBrain.
+列出DBLP中作者Jürgen Schmidhuber (PID: s/JurgenSchmidhuber)作为第2作者的所有出版物,,dblp.json,normal,,
 列出DBLP中作者Jürgen Schmidhuber (PID: s/JurgenSchmidhuber)发表在CVPR会议的所有出版物,"Tune-an-Ellipse: CLIP Has Potential to Find what you Want.
-Multi-column deep neural networks for image classification.",dblp.json,normal
+Multi-column deep neural networks for image classification.",dblp.json,normal,"列出DBLP中作者Jürgen Schmidhuber (PID: s/JurgenSchmidhuber)发表在CVPR会议的所有出版物
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：9635587c6be591746c77905d880f54f0
+请问这个项的原始值是什么？",Tune-an-Ellipse: CLIP Has Potential to Find what you Want.
 列出DBLP中作者Jürgen Schmidhuber (PID: s/JurgenSchmidhuber)在2020年后发表的所有出版物,"Mindstorms in Natural Language-Based Societies of Mind.
 Accelerating the inference of string generation-based chemical reaction models for industrial applications.
 On the Distillation of Stories for Transferring Narrative Arcs in Collections of Independent Media.
@@ -22136,4 +22390,6 @@ Hierarchical Relational Inference.
 Learning Associative Inference Using Fast Weight Memory.
 Unsupervised Object Keypoint Learning using Local Spatial Predictability.
 On the Binding Problem in Artificial Neural Networks.
-Meta Learning Backpropagation And Improving It.",dblp.json,normal
+Meta Learning Backpropagation And Improving It.",dblp.json,normal,"列出DBLP中作者Jürgen Schmidhuber (PID: s/JurgenSchmidhuber)在2020年后发表的所有出版物
+其中有一个项经过MD5哈希转换（使用Python的hashlib.md5，UTF-8编码）后的结果是：f8523fd8b7314ca2a1b8cb974e07a9e5
+请问这个项的原始值是什么？",Metalearning Continual Learning Algorithms.
