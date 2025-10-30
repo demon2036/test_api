@@ -1,0 +1,5618 @@
+{
+  "api_name": "Spotify",
+  "requires_auth": true,
+  "auth_type": "OAuth 2.0",
+  "philosophy": "Enumerate All - Complete enumeration without truncation",
+  "metadata_utilized": [
+    "artists (collaboration filtering)",
+    "release_date (year filtering)",
+    "album_type (album/single separation)",
+    "duration_ms (length filtering)"
+  ],
+  "config": {
+    "artists": [
+      {
+        "id": "2c32JruIkUyfdycHmhIph4",
+        "name": "花譜 (KAF)"
+      },
+      {
+        "id": "1rFELoNfdLOYWPwtrBN6zS",
+        "name": "理芽 (RIM)"
+      }
+    ]
+  },
+  "tests": [
+    {
+      "question": "列出Spotify艺术家ID 2c32JruIkUyfdycHmhIph4 的所有专辑和单曲",
+      "answers": [
+        {
+          "answer": "寓話γ",
+          "album_id": "6MP2s7uj6MnvO5lfCbEZ2m",
+          "rank": 1,
+          "album_type": "album",
+          "release_date": "2025-07-16",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6MP2s7uj6MnvO5lfCbEZ2m",
+          "uri": "spotify:album:6MP2s7uj6MnvO5lfCbEZ2m"
+        },
+        {
+          "answer": "寓話",
+          "album_id": "4dD0hnVXxV4nJ0aZO23Wrb",
+          "rank": 2,
+          "album_type": "album",
+          "release_date": "2024-12-25",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 15,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4dD0hnVXxV4nJ0aZO23Wrb",
+          "uri": "spotify:album:4dD0hnVXxV4nJ0aZO23Wrb"
+        },
+        {
+          "answer": "I SCREAM LIVE3",
+          "album_id": "0xjfTvTWWZYPsXhJot2ERo",
+          "rank": 3,
+          "album_type": "album",
+          "release_date": "2024-10-30",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 21,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0xjfTvTWWZYPsXhJot2ERo",
+          "uri": "spotify:album:0xjfTvTWWZYPsXhJot2ERo"
+        },
+        {
+          "answer": "狂想γ",
+          "album_id": "30ckre1FRXiRxTRUZzGVUo",
+          "rank": 4,
+          "album_type": "album",
+          "release_date": "2024-03-27",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/30ckre1FRXiRxTRUZzGVUo",
+          "uri": "spotify:album:30ckre1FRXiRxTRUZzGVUo"
+        },
+        {
+          "answer": "I SCREAM LIVE2",
+          "album_id": "4wgGY5wg7aJDPuepWEGnHx",
+          "rank": 5,
+          "album_type": "album",
+          "release_date": "2023-09-27",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 31,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4wgGY5wg7aJDPuepWEGnHx",
+          "uri": "spotify:album:4wgGY5wg7aJDPuepWEGnHx"
+        },
+        {
+          "answer": "狂想",
+          "album_id": "1GDzE0TWO5XvWYbI9fSsCz",
+          "rank": 6,
+          "album_type": "album",
+          "release_date": "2023-03-08",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 15,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1GDzE0TWO5XvWYbI9fSsCz",
+          "uri": "spotify:album:1GDzE0TWO5XvWYbI9fSsCz"
+        },
+        {
+          "answer": "魔法γ",
+          "album_id": "6Bou3BnkK1s5I9CR1YZ6kJ",
+          "rank": 7,
+          "album_type": "album",
+          "release_date": "2021-12-22",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6Bou3BnkK1s5I9CR1YZ6kJ",
+          "uri": "spotify:album:6Bou3BnkK1s5I9CR1YZ6kJ"
+        },
+        {
+          "answer": "魔法",
+          "album_id": "4QUfYAgz2I7uypWpeTAWov",
+          "rank": 8,
+          "album_type": "album",
+          "release_date": "2020-12-16",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 15,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4QUfYAgz2I7uypWpeTAWov",
+          "uri": "spotify:album:4QUfYAgz2I7uypWpeTAWov"
+        },
+        {
+          "answer": "I SCREAM LIVE",
+          "album_id": "5vyFD36aBJV4QMvQNAUQwM",
+          "rank": 9,
+          "album_type": "album",
+          "release_date": "2020-08-19",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 43,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5vyFD36aBJV4QMvQNAUQwM",
+          "uri": "spotify:album:5vyFD36aBJV4QMvQNAUQwM"
+        },
+        {
+          "answer": "観測γ",
+          "album_id": "6XsfDbHG5HlsCRd8Go0dOG",
+          "rank": 10,
+          "album_type": "album",
+          "release_date": "2020-08-12",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6XsfDbHG5HlsCRd8Go0dOG",
+          "uri": "spotify:album:6XsfDbHG5HlsCRd8Go0dOG"
+        },
+        {
+          "answer": "観測",
+          "album_id": "0V1BmWezVWcFC3hO3yFEPy",
+          "rank": 11,
+          "album_type": "album",
+          "release_date": "2020-08-12",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 15,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0V1BmWezVWcFC3hO3yFEPy",
+          "uri": "spotify:album:0V1BmWezVWcFC3hO3yFEPy"
+        },
+        {
+          "answer": "キャンディーゲリラ",
+          "album_id": "3QFRqrFMAEDKOfqJ7eg4WR",
+          "rank": 12,
+          "album_type": "single",
+          "release_date": "2025-10-29",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3QFRqrFMAEDKOfqJ7eg4WR",
+          "uri": "spotify:album:3QFRqrFMAEDKOfqJ7eg4WR"
+        },
+        {
+          "answer": "ありふれてたい",
+          "album_id": "1yb4TwVfrN82eRc2cDburT",
+          "rank": 13,
+          "album_type": "single",
+          "release_date": "2025-10-15",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1yb4TwVfrN82eRc2cDburT",
+          "uri": "spotify:album:1yb4TwVfrN82eRc2cDburT"
+        },
+        {
+          "answer": "光",
+          "album_id": "5ssEvdycaj6hwndNCrYZtF",
+          "rank": 14,
+          "album_type": "single",
+          "release_date": "2025-09-03",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Mori Calliope"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5ssEvdycaj6hwndNCrYZtF",
+          "uri": "spotify:album:5ssEvdycaj6hwndNCrYZtF"
+        },
+        {
+          "answer": "ひとえに壊れて",
+          "album_id": "0S8w6MVn1fdFCuowqBUrar",
+          "rank": 15,
+          "album_type": "single",
+          "release_date": "2025-08-20",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0S8w6MVn1fdFCuowqBUrar",
+          "uri": "spotify:album:0S8w6MVn1fdFCuowqBUrar"
+        },
+        {
+          "answer": "撃って",
+          "album_id": "4ElSGlQyBm3gs9NP2TRPnG",
+          "rank": 16,
+          "album_type": "single",
+          "release_date": "2025-06-25",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4ElSGlQyBm3gs9NP2TRPnG",
+          "uri": "spotify:album:4ElSGlQyBm3gs9NP2TRPnG"
+        },
+        {
+          "answer": "EAT THE PAST (English Ver.)",
+          "album_id": "0KgHMAHdQyquQ61s5Zlj1w",
+          "rank": 17,
+          "album_type": "single",
+          "release_date": "2025-06-11",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0KgHMAHdQyquQ61s5Zlj1w",
+          "uri": "spotify:album:0KgHMAHdQyquQ61s5Zlj1w"
+        },
+        {
+          "answer": "Kanojo wa Ima Meikyu no Naka",
+          "album_id": "451nYjcCpDxQSeZUz3aMZZ",
+          "rank": 18,
+          "album_type": "single",
+          "release_date": "2025-04-08",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 3,
+          "available_markets_count": 184,
+          "artist_names": [
+            "MARUMOCHI from HoneyWorks",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "MARUMOCHI from HoneyWorks",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/451nYjcCpDxQSeZUz3aMZZ",
+          "uri": "spotify:album:451nYjcCpDxQSeZUz3aMZZ"
+        },
+        {
+          "answer": "代替嬉々",
+          "album_id": "4LM6qzhU17Ljl4TBB3fLAp",
+          "rank": 19,
+          "album_type": "single",
+          "release_date": "2025-03-05",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4LM6qzhU17Ljl4TBB3fLAp",
+          "uri": "spotify:album:4LM6qzhU17Ljl4TBB3fLAp"
+        },
+        {
+          "answer": "My Life",
+          "album_id": "3obgXX4aSK1cckluCjtmNH",
+          "rank": 20,
+          "album_type": "single",
+          "release_date": "2025-01-29",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Moe Shop"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3obgXX4aSK1cckluCjtmNH",
+          "uri": "spotify:album:3obgXX4aSK1cckluCjtmNH"
+        },
+        {
+          "answer": "一世風靡",
+          "album_id": "2F8TZUNB27uEObl5i0ONos",
+          "rank": 21,
+          "album_type": "single",
+          "release_date": "2024-11-27",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Hoshimachi Suisei"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/2F8TZUNB27uEObl5i0ONos",
+          "uri": "spotify:album:2F8TZUNB27uEObl5i0ONos"
+        },
+        {
+          "answer": "夢魔",
+          "album_id": "4jPg8yNsUkS83a5EnS1U7H",
+          "rank": 22,
+          "album_type": "single",
+          "release_date": "2024-11-20",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4jPg8yNsUkS83a5EnS1U7H",
+          "uri": "spotify:album:4jPg8yNsUkS83a5EnS1U7H"
+        },
+        {
+          "answer": "Answer (English Ver.)",
+          "album_id": "60gZ9dFf99vVBVoyZsRmEe",
+          "rank": 23,
+          "album_type": "single",
+          "release_date": "2024-10-23",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/60gZ9dFf99vVBVoyZsRmEe",
+          "uri": "spotify:album:60gZ9dFf99vVBVoyZsRmEe"
+        },
+        {
+          "answer": "チューイン・ディスコ",
+          "album_id": "5halVD4PFLhrdjnJuxTAgH",
+          "rank": 24,
+          "album_type": "single",
+          "release_date": "2024-08-21",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "ツミキ"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5halVD4PFLhrdjnJuxTAgH",
+          "uri": "spotify:album:5halVD4PFLhrdjnJuxTAgH"
+        },
+        {
+          "answer": "秘密の言葉（TVアニメ「時々ボソッとロシア語でデレる隣のアーリャさん」エンディングテーマ）",
+          "album_id": "6u5jDj3dAEqIaARBEZTyja",
+          "rank": 25,
+          "album_type": "single",
+          "release_date": "2024-08-08",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 184,
+          "artist_names": [
+            "アーリャ（CV：上坂すみれ）",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "アーリャ（CV：上坂すみれ）",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6u5jDj3dAEqIaARBEZTyja",
+          "uri": "spotify:album:6u5jDj3dAEqIaARBEZTyja"
+        },
+        {
+          "answer": "ゲシュタルト (崩壊Remix)",
+          "album_id": "5hdH3H4sjF4OoGsTyzPTLI",
+          "rank": 26,
+          "album_type": "single",
+          "release_date": "2024-07-10",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Otome"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5hdH3H4sjF4OoGsTyzPTLI",
+          "uri": "spotify:album:5hdH3H4sjF4OoGsTyzPTLI"
+        },
+        {
+          "answer": "抱きしめて",
+          "album_id": "7BngxP1i5MR3WrXevF5UPf",
+          "rank": 27,
+          "album_type": "single",
+          "release_date": "2024-06-12",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Soushi Sakiyama"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7BngxP1i5MR3WrXevF5UPf",
+          "uri": "spotify:album:7BngxP1i5MR3WrXevF5UPf"
+        },
+        {
+          "answer": "GSA",
+          "album_id": "4y9uzu1TPh8AdIHZnInEj6",
+          "rank": 28,
+          "album_type": "single",
+          "release_date": "2024-05-22",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 3,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4y9uzu1TPh8AdIHZnInEj6",
+          "uri": "spotify:album:4y9uzu1TPh8AdIHZnInEj6"
+        },
+        {
+          "answer": "ギミギミ逃避行 feat. #KTちゃん (Prod. Peko)",
+          "album_id": "1yVdN2mpL2zWx4F1PampMJ",
+          "rank": 29,
+          "album_type": "single",
+          "release_date": "2024-02-28",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "#KTちゃん"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1yVdN2mpL2zWx4F1PampMJ",
+          "uri": "spotify:album:1yVdN2mpL2zWx4F1PampMJ"
+        },
+        {
+          "answer": "BEKI",
+          "album_id": "5Oz5yBk00DZVAfF5179H5B",
+          "rank": 30,
+          "album_type": "single",
+          "release_date": "2024-02-28",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "#KTCHAN",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "#KTCHAN",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5Oz5yBk00DZVAfF5179H5B",
+          "uri": "spotify:album:5Oz5yBk00DZVAfF5179H5B"
+        },
+        {
+          "answer": "愛のまま",
+          "album_id": "6NTp57shRyEINts82DX28k",
+          "rank": 31,
+          "album_type": "single",
+          "release_date": "2024-01-03",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Shigeru Kishida"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6NTp57shRyEINts82DX28k",
+          "uri": "spotify:album:6NTp57shRyEINts82DX28k"
+        },
+        {
+          "answer": "わたしの声（0b4k3 Remix）",
+          "album_id": "3M7A1vKkSd3TBIRBkc7ZNx",
+          "rank": 32,
+          "album_type": "single",
+          "release_date": "2023-09-20",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "0b4k3"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3M7A1vKkSd3TBIRBkc7ZNx",
+          "uri": "spotify:album:3M7A1vKkSd3TBIRBkc7ZNx"
+        },
+        {
+          "answer": "わたしの声",
+          "album_id": "0N5iQNETsRZaKcd0K7wXVB",
+          "rank": 33,
+          "album_type": "single",
+          "release_date": "2023-09-06",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Mondo Grosso"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0N5iQNETsRZaKcd0K7wXVB",
+          "uri": "spotify:album:0N5iQNETsRZaKcd0K7wXVB"
+        },
+        {
+          "answer": "しゅげーハイ!!!",
+          "album_id": "4gasPa1Qj70n2i8TLUSSZ5",
+          "rank": 34,
+          "album_type": "single",
+          "release_date": "2023-07-05",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Hidefumi Kenmochi"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4gasPa1Qj70n2i8TLUSSZ5",
+          "uri": "spotify:album:4gasPa1Qj70n2i8TLUSSZ5"
+        },
+        {
+          "answer": "あるふぁYOU (prompt αU ver.)",
+          "album_id": "6PK9xfCH4dF0BxzFSbH2NQ",
+          "rank": 35,
+          "album_type": "single",
+          "release_date": "2023-04-19",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "EMA"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6PK9xfCH4dF0BxzFSbH2NQ",
+          "uri": "spotify:album:6PK9xfCH4dF0BxzFSbH2NQ"
+        },
+        {
+          "answer": "秘密の言葉",
+          "album_id": "36B8cQgCAwSE9ObdprQEGJ",
+          "rank": 36,
+          "album_type": "single",
+          "release_date": "2023-04-05",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "ズーカラデル"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/36B8cQgCAwSE9ObdprQEGJ",
+          "uri": "spotify:album:36B8cQgCAwSE9ObdprQEGJ"
+        },
+        {
+          "answer": "深淵",
+          "album_id": "3helCvsZgcngmAWc2dJLqf",
+          "rank": 37,
+          "album_type": "single",
+          "release_date": "2023-04-01",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "ヰ世界情緒",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "ヰ世界情緒",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3helCvsZgcngmAWc2dJLqf",
+          "uri": "spotify:album:3helCvsZgcngmAWc2dJLqf"
+        },
+        {
+          "answer": "暗闇",
+          "album_id": "1aunBC45nu9r3scqP9tLF8",
+          "rank": 38,
+          "album_type": "single",
+          "release_date": "2023-04-01",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "ヰ世界情緒"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1aunBC45nu9r3scqP9tLF8",
+          "uri": "spotify:album:1aunBC45nu9r3scqP9tLF8"
+        },
+        {
+          "answer": "メイドインあたし",
+          "album_id": "08ZxJ1dbwOwUqJIfcGeIQ1",
+          "rank": 39,
+          "album_type": "single",
+          "release_date": "2023-03-08",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "東京ゲゲゲイ"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/08ZxJ1dbwOwUqJIfcGeIQ1",
+          "uri": "spotify:album:08ZxJ1dbwOwUqJIfcGeIQ1"
+        },
+        {
+          "answer": "CAN-VERSE",
+          "album_id": "0nn01IQ3JoEuL7ISoHKOO5",
+          "rank": 40,
+          "album_type": "single",
+          "release_date": "2022-10-12",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "ORESAMA"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0nn01IQ3JoEuL7ISoHKOO5",
+          "uri": "spotify:album:0nn01IQ3JoEuL7ISoHKOO5"
+        },
+        {
+          "answer": "流線形メーデー",
+          "album_id": "5PmD6WgqCZMnN5Jn55VC6c",
+          "rank": 41,
+          "album_type": "single",
+          "release_date": "2022-07-13",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "可不"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5PmD6WgqCZMnN5Jn55VC6c",
+          "uri": "spotify:album:5PmD6WgqCZMnN5Jn55VC6c"
+        },
+        {
+          "answer": "Beyond META",
+          "album_id": "7vayGJU3nE6tTCOloYZZby",
+          "rank": 42,
+          "album_type": "single",
+          "release_date": "2022-05-11",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "MIYAVI"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7vayGJU3nE6tTCOloYZZby",
+          "uri": "spotify:album:7vayGJU3nE6tTCOloYZZby"
+        },
+        {
+          "answer": "蕾に雷",
+          "album_id": "5XFwj6131BsKFUPWhXaU83",
+          "rank": 43,
+          "album_type": "single",
+          "release_date": "2022-04-20",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Hakushi Hasegawa"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5XFwj6131BsKFUPWhXaU83",
+          "uri": "spotify:album:5XFwj6131BsKFUPWhXaU83"
+        },
+        {
+          "answer": "春陽",
+          "album_id": "66ueMD2Kwwes0MdD8PHAMf",
+          "rank": 44,
+          "album_type": "single",
+          "release_date": "2022-03-23",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/66ueMD2Kwwes0MdD8PHAMf",
+          "uri": "spotify:album:66ueMD2Kwwes0MdD8PHAMf"
+        },
+        {
+          "answer": "わたしの線香",
+          "album_id": "2DWBt4RDehLvB7zIrOCbrt",
+          "rank": 45,
+          "album_type": "single",
+          "release_date": "2022-02-23",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "羽生まゐご"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/2DWBt4RDehLvB7zIrOCbrt",
+          "uri": "spotify:album:2DWBt4RDehLvB7zIrOCbrt"
+        },
+        {
+          "answer": "飛翔するmeme",
+          "album_id": "2h8lvNAbaCxdvH5cjlv7v4",
+          "rank": 46,
+          "album_type": "single",
+          "release_date": "2022-01-19",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "たなか"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/2h8lvNAbaCxdvH5cjlv7v4",
+          "uri": "spotify:album:2h8lvNAbaCxdvH5cjlv7v4"
+        },
+        {
+          "answer": "あさひ",
+          "album_id": "5O5Cr76ozvnCtQ2nH3UihL",
+          "rank": 47,
+          "album_type": "single",
+          "release_date": "2021-12-08",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Ayane Sakura"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5O5Cr76ozvnCtQ2nH3UihL",
+          "uri": "spotify:album:5O5Cr76ozvnCtQ2nH3UihL"
+        },
+        {
+          "answer": "イマジナリーフレンド",
+          "album_id": "7DC9iM0kRBRrS4ajjVu6Te",
+          "rank": 48,
+          "album_type": "single",
+          "release_date": "2021-11-17",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7DC9iM0kRBRrS4ajjVu6Te",
+          "uri": "spotify:album:7DC9iM0kRBRrS4ajjVu6Te"
+        },
+        {
+          "answer": "鏡よ鏡",
+          "album_id": "3CObVQHSkULbopxRUtHO3V",
+          "rank": 49,
+          "album_type": "single",
+          "release_date": "2021-10-27",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3CObVQHSkULbopxRUtHO3V",
+          "uri": "spotify:album:3CObVQHSkULbopxRUtHO3V"
+        },
+        {
+          "answer": "海に化ける",
+          "album_id": "5A58WBGrCXNKqyRzhpRdzG",
+          "rank": 50,
+          "album_type": "single",
+          "release_date": "2021-06-30",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5A58WBGrCXNKqyRzhpRdzG",
+          "uri": "spotify:album:5A58WBGrCXNKqyRzhpRdzG"
+        },
+        {
+          "answer": "例えば",
+          "album_id": "71W8bkIXiH2oKhBZJbIbWa",
+          "rank": 51,
+          "album_type": "single",
+          "release_date": "2021-05-19",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/71W8bkIXiH2oKhBZJbIbWa",
+          "uri": "spotify:album:71W8bkIXiH2oKhBZJbIbWa"
+        },
+        {
+          "answer": "愛と花",
+          "album_id": "4TPXfw172WStlV7mX55UjZ",
+          "rank": 52,
+          "album_type": "single",
+          "release_date": "2020-10-07",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 4,
+          "available_markets_count": 185,
+          "artist_names": [
+            "Kizuna AI",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "Kizuna AI",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4TPXfw172WStlV7mX55UjZ",
+          "uri": "spotify:album:4TPXfw172WStlV7mX55UjZ"
+        },
+        {
+          "answer": "戸惑いテレパシー",
+          "album_id": "7pqVrSpYVf7CFtgkEpo74i",
+          "rank": 53,
+          "album_type": "single",
+          "release_date": "2020-08-12",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 5,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7pqVrSpYVf7CFtgkEpo74i",
+          "uri": "spotify:album:7pqVrSpYVf7CFtgkEpo74i"
+        },
+        {
+          "answer": "夜が降り止む前に",
+          "album_id": "1y5vttuGxs7HXmGGiMR2th",
+          "rank": 54,
+          "album_type": "single",
+          "release_date": "2020-08-12",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 4,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1y5vttuGxs7HXmGGiMR2th",
+          "uri": "spotify:album:1y5vttuGxs7HXmGGiMR2th"
+        },
+        {
+          "answer": "花と心臓",
+          "album_id": "6hQBr4KX69mbpH2TdfO9Jn",
+          "rank": 55,
+          "album_type": "single",
+          "release_date": "2020-04-02",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 3,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6hQBr4KX69mbpH2TdfO9Jn",
+          "uri": "spotify:album:6hQBr4KX69mbpH2TdfO9Jn"
+        }
+      ],
+      "answer_count": 55,
+      "timestamp": "2025-10-30T10:46:52.633835",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/artists/2c32JruIkUyfdycHmhIph4/albums",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated",
+          "include_groups": "album,single"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-artists-albums"
+      },
+      "test_id": "2c32JruIkUyfdycHmhIph4_all_albums",
+      "query_category": "basic_enumeration",
+      "artist_id": "2c32JruIkUyfdycHmhIph4",
+      "artist_name": "花譜 (KAF)"
+    },
+    {
+      "question": "列出Spotify艺术家 花譜 (KAF) 的所有合作专辑",
+      "answers": [
+        {
+          "answer": "キャンディーゲリラ",
+          "album_id": "3QFRqrFMAEDKOfqJ7eg4WR",
+          "rank": 1,
+          "album_type": "single",
+          "release_date": "2025-10-29",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3QFRqrFMAEDKOfqJ7eg4WR",
+          "uri": "spotify:album:3QFRqrFMAEDKOfqJ7eg4WR",
+          "original_rank": 12
+        },
+        {
+          "answer": "光",
+          "album_id": "5ssEvdycaj6hwndNCrYZtF",
+          "rank": 2,
+          "album_type": "single",
+          "release_date": "2025-09-03",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Mori Calliope"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5ssEvdycaj6hwndNCrYZtF",
+          "uri": "spotify:album:5ssEvdycaj6hwndNCrYZtF",
+          "original_rank": 14
+        },
+        {
+          "answer": "Kanojo wa Ima Meikyu no Naka",
+          "album_id": "451nYjcCpDxQSeZUz3aMZZ",
+          "rank": 3,
+          "album_type": "single",
+          "release_date": "2025-04-08",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 3,
+          "available_markets_count": 184,
+          "artist_names": [
+            "MARUMOCHI from HoneyWorks",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "MARUMOCHI from HoneyWorks",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/451nYjcCpDxQSeZUz3aMZZ",
+          "uri": "spotify:album:451nYjcCpDxQSeZUz3aMZZ",
+          "original_rank": 18
+        },
+        {
+          "answer": "My Life",
+          "album_id": "3obgXX4aSK1cckluCjtmNH",
+          "rank": 4,
+          "album_type": "single",
+          "release_date": "2025-01-29",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Moe Shop"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3obgXX4aSK1cckluCjtmNH",
+          "uri": "spotify:album:3obgXX4aSK1cckluCjtmNH",
+          "original_rank": 20
+        },
+        {
+          "answer": "一世風靡",
+          "album_id": "2F8TZUNB27uEObl5i0ONos",
+          "rank": 5,
+          "album_type": "single",
+          "release_date": "2024-11-27",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Hoshimachi Suisei"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/2F8TZUNB27uEObl5i0ONos",
+          "uri": "spotify:album:2F8TZUNB27uEObl5i0ONos",
+          "original_rank": 21
+        },
+        {
+          "answer": "チューイン・ディスコ",
+          "album_id": "5halVD4PFLhrdjnJuxTAgH",
+          "rank": 6,
+          "album_type": "single",
+          "release_date": "2024-08-21",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "ツミキ"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5halVD4PFLhrdjnJuxTAgH",
+          "uri": "spotify:album:5halVD4PFLhrdjnJuxTAgH",
+          "original_rank": 24
+        },
+        {
+          "answer": "秘密の言葉（TVアニメ「時々ボソッとロシア語でデレる隣のアーリャさん」エンディングテーマ）",
+          "album_id": "6u5jDj3dAEqIaARBEZTyja",
+          "rank": 7,
+          "album_type": "single",
+          "release_date": "2024-08-08",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 184,
+          "artist_names": [
+            "アーリャ（CV：上坂すみれ）",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "アーリャ（CV：上坂すみれ）",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6u5jDj3dAEqIaARBEZTyja",
+          "uri": "spotify:album:6u5jDj3dAEqIaARBEZTyja",
+          "original_rank": 25
+        },
+        {
+          "answer": "ゲシュタルト (崩壊Remix)",
+          "album_id": "5hdH3H4sjF4OoGsTyzPTLI",
+          "rank": 8,
+          "album_type": "single",
+          "release_date": "2024-07-10",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Otome"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5hdH3H4sjF4OoGsTyzPTLI",
+          "uri": "spotify:album:5hdH3H4sjF4OoGsTyzPTLI",
+          "original_rank": 26
+        },
+        {
+          "answer": "抱きしめて",
+          "album_id": "7BngxP1i5MR3WrXevF5UPf",
+          "rank": 9,
+          "album_type": "single",
+          "release_date": "2024-06-12",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Soushi Sakiyama"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7BngxP1i5MR3WrXevF5UPf",
+          "uri": "spotify:album:7BngxP1i5MR3WrXevF5UPf",
+          "original_rank": 27
+        },
+        {
+          "answer": "ギミギミ逃避行 feat. #KTちゃん (Prod. Peko)",
+          "album_id": "1yVdN2mpL2zWx4F1PampMJ",
+          "rank": 10,
+          "album_type": "single",
+          "release_date": "2024-02-28",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "#KTちゃん"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1yVdN2mpL2zWx4F1PampMJ",
+          "uri": "spotify:album:1yVdN2mpL2zWx4F1PampMJ",
+          "original_rank": 29
+        },
+        {
+          "answer": "BEKI",
+          "album_id": "5Oz5yBk00DZVAfF5179H5B",
+          "rank": 11,
+          "album_type": "single",
+          "release_date": "2024-02-28",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "#KTCHAN",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "#KTCHAN",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5Oz5yBk00DZVAfF5179H5B",
+          "uri": "spotify:album:5Oz5yBk00DZVAfF5179H5B",
+          "original_rank": 30
+        },
+        {
+          "answer": "愛のまま",
+          "album_id": "6NTp57shRyEINts82DX28k",
+          "rank": 12,
+          "album_type": "single",
+          "release_date": "2024-01-03",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Shigeru Kishida"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6NTp57shRyEINts82DX28k",
+          "uri": "spotify:album:6NTp57shRyEINts82DX28k",
+          "original_rank": 31
+        },
+        {
+          "answer": "わたしの声（0b4k3 Remix）",
+          "album_id": "3M7A1vKkSd3TBIRBkc7ZNx",
+          "rank": 13,
+          "album_type": "single",
+          "release_date": "2023-09-20",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "0b4k3"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3M7A1vKkSd3TBIRBkc7ZNx",
+          "uri": "spotify:album:3M7A1vKkSd3TBIRBkc7ZNx",
+          "original_rank": 32
+        },
+        {
+          "answer": "わたしの声",
+          "album_id": "0N5iQNETsRZaKcd0K7wXVB",
+          "rank": 14,
+          "album_type": "single",
+          "release_date": "2023-09-06",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Mondo Grosso"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0N5iQNETsRZaKcd0K7wXVB",
+          "uri": "spotify:album:0N5iQNETsRZaKcd0K7wXVB",
+          "original_rank": 33
+        },
+        {
+          "answer": "しゅげーハイ!!!",
+          "album_id": "4gasPa1Qj70n2i8TLUSSZ5",
+          "rank": 15,
+          "album_type": "single",
+          "release_date": "2023-07-05",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Hidefumi Kenmochi"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4gasPa1Qj70n2i8TLUSSZ5",
+          "uri": "spotify:album:4gasPa1Qj70n2i8TLUSSZ5",
+          "original_rank": 34
+        },
+        {
+          "answer": "あるふぁYOU (prompt αU ver.)",
+          "album_id": "6PK9xfCH4dF0BxzFSbH2NQ",
+          "rank": 16,
+          "album_type": "single",
+          "release_date": "2023-04-19",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "EMA"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6PK9xfCH4dF0BxzFSbH2NQ",
+          "uri": "spotify:album:6PK9xfCH4dF0BxzFSbH2NQ",
+          "original_rank": 35
+        },
+        {
+          "answer": "秘密の言葉",
+          "album_id": "36B8cQgCAwSE9ObdprQEGJ",
+          "rank": 17,
+          "album_type": "single",
+          "release_date": "2023-04-05",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "ズーカラデル"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/36B8cQgCAwSE9ObdprQEGJ",
+          "uri": "spotify:album:36B8cQgCAwSE9ObdprQEGJ",
+          "original_rank": 36
+        },
+        {
+          "answer": "深淵",
+          "album_id": "3helCvsZgcngmAWc2dJLqf",
+          "rank": 18,
+          "album_type": "single",
+          "release_date": "2023-04-01",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "ヰ世界情緒",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "ヰ世界情緒",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3helCvsZgcngmAWc2dJLqf",
+          "uri": "spotify:album:3helCvsZgcngmAWc2dJLqf",
+          "original_rank": 37
+        },
+        {
+          "answer": "暗闇",
+          "album_id": "1aunBC45nu9r3scqP9tLF8",
+          "rank": 19,
+          "album_type": "single",
+          "release_date": "2023-04-01",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "ヰ世界情緒"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1aunBC45nu9r3scqP9tLF8",
+          "uri": "spotify:album:1aunBC45nu9r3scqP9tLF8",
+          "original_rank": 38
+        },
+        {
+          "answer": "メイドインあたし",
+          "album_id": "08ZxJ1dbwOwUqJIfcGeIQ1",
+          "rank": 20,
+          "album_type": "single",
+          "release_date": "2023-03-08",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "東京ゲゲゲイ"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/08ZxJ1dbwOwUqJIfcGeIQ1",
+          "uri": "spotify:album:08ZxJ1dbwOwUqJIfcGeIQ1",
+          "original_rank": 39
+        },
+        {
+          "answer": "CAN-VERSE",
+          "album_id": "0nn01IQ3JoEuL7ISoHKOO5",
+          "rank": 21,
+          "album_type": "single",
+          "release_date": "2022-10-12",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "ORESAMA"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0nn01IQ3JoEuL7ISoHKOO5",
+          "uri": "spotify:album:0nn01IQ3JoEuL7ISoHKOO5",
+          "original_rank": 40
+        },
+        {
+          "answer": "流線形メーデー",
+          "album_id": "5PmD6WgqCZMnN5Jn55VC6c",
+          "rank": 22,
+          "album_type": "single",
+          "release_date": "2022-07-13",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "可不"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5PmD6WgqCZMnN5Jn55VC6c",
+          "uri": "spotify:album:5PmD6WgqCZMnN5Jn55VC6c",
+          "original_rank": 41
+        },
+        {
+          "answer": "Beyond META",
+          "album_id": "7vayGJU3nE6tTCOloYZZby",
+          "rank": 23,
+          "album_type": "single",
+          "release_date": "2022-05-11",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "MIYAVI"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7vayGJU3nE6tTCOloYZZby",
+          "uri": "spotify:album:7vayGJU3nE6tTCOloYZZby",
+          "original_rank": 42
+        },
+        {
+          "answer": "蕾に雷",
+          "album_id": "5XFwj6131BsKFUPWhXaU83",
+          "rank": 24,
+          "album_type": "single",
+          "release_date": "2022-04-20",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Hakushi Hasegawa"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5XFwj6131BsKFUPWhXaU83",
+          "uri": "spotify:album:5XFwj6131BsKFUPWhXaU83",
+          "original_rank": 43
+        },
+        {
+          "answer": "わたしの線香",
+          "album_id": "2DWBt4RDehLvB7zIrOCbrt",
+          "rank": 25,
+          "album_type": "single",
+          "release_date": "2022-02-23",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "羽生まゐご"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/2DWBt4RDehLvB7zIrOCbrt",
+          "uri": "spotify:album:2DWBt4RDehLvB7zIrOCbrt",
+          "original_rank": 45
+        },
+        {
+          "answer": "飛翔するmeme",
+          "album_id": "2h8lvNAbaCxdvH5cjlv7v4",
+          "rank": 26,
+          "album_type": "single",
+          "release_date": "2022-01-19",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "たなか"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/2h8lvNAbaCxdvH5cjlv7v4",
+          "uri": "spotify:album:2h8lvNAbaCxdvH5cjlv7v4",
+          "original_rank": 46
+        },
+        {
+          "answer": "あさひ",
+          "album_id": "5O5Cr76ozvnCtQ2nH3UihL",
+          "rank": 27,
+          "album_type": "single",
+          "release_date": "2021-12-08",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Ayane Sakura"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5O5Cr76ozvnCtQ2nH3UihL",
+          "uri": "spotify:album:5O5Cr76ozvnCtQ2nH3UihL",
+          "original_rank": 47
+        },
+        {
+          "answer": "愛と花",
+          "album_id": "4TPXfw172WStlV7mX55UjZ",
+          "rank": 28,
+          "album_type": "single",
+          "release_date": "2020-10-07",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 4,
+          "available_markets_count": 185,
+          "artist_names": [
+            "Kizuna AI",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "Kizuna AI",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4TPXfw172WStlV7mX55UjZ",
+          "uri": "spotify:album:4TPXfw172WStlV7mX55UjZ",
+          "original_rank": 52
+        }
+      ],
+      "answer_count": 28,
+      "timestamp": "2025-10-30T10:46:52.633940",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/artists/2c32JruIkUyfdycHmhIph4/albums",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated",
+          "include_groups": "album,single"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-artists-albums"
+      },
+      "filter": "artists>1",
+      "test_id": "2c32JruIkUyfdycHmhIph4_collaboration_albums",
+      "query_category": "advanced_filter",
+      "artist_id": "2c32JruIkUyfdycHmhIph4",
+      "artist_name": "花譜 (KAF)"
+    },
+    {
+      "question": "列出Spotify艺术家 花譜 (KAF) 在2020年及之后发行的完整专辑",
+      "answers": [
+        {
+          "answer": "寓話γ",
+          "album_id": "6MP2s7uj6MnvO5lfCbEZ2m",
+          "rank": 1,
+          "album_type": "album",
+          "release_date": "2025-07-16",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6MP2s7uj6MnvO5lfCbEZ2m",
+          "uri": "spotify:album:6MP2s7uj6MnvO5lfCbEZ2m",
+          "original_rank": 1
+        },
+        {
+          "answer": "寓話",
+          "album_id": "4dD0hnVXxV4nJ0aZO23Wrb",
+          "rank": 2,
+          "album_type": "album",
+          "release_date": "2024-12-25",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 15,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4dD0hnVXxV4nJ0aZO23Wrb",
+          "uri": "spotify:album:4dD0hnVXxV4nJ0aZO23Wrb",
+          "original_rank": 2
+        },
+        {
+          "answer": "I SCREAM LIVE3",
+          "album_id": "0xjfTvTWWZYPsXhJot2ERo",
+          "rank": 3,
+          "album_type": "album",
+          "release_date": "2024-10-30",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 21,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0xjfTvTWWZYPsXhJot2ERo",
+          "uri": "spotify:album:0xjfTvTWWZYPsXhJot2ERo",
+          "original_rank": 3
+        },
+        {
+          "answer": "狂想γ",
+          "album_id": "30ckre1FRXiRxTRUZzGVUo",
+          "rank": 4,
+          "album_type": "album",
+          "release_date": "2024-03-27",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/30ckre1FRXiRxTRUZzGVUo",
+          "uri": "spotify:album:30ckre1FRXiRxTRUZzGVUo",
+          "original_rank": 4
+        },
+        {
+          "answer": "I SCREAM LIVE2",
+          "album_id": "4wgGY5wg7aJDPuepWEGnHx",
+          "rank": 5,
+          "album_type": "album",
+          "release_date": "2023-09-27",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 31,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4wgGY5wg7aJDPuepWEGnHx",
+          "uri": "spotify:album:4wgGY5wg7aJDPuepWEGnHx",
+          "original_rank": 5
+        },
+        {
+          "answer": "狂想",
+          "album_id": "1GDzE0TWO5XvWYbI9fSsCz",
+          "rank": 6,
+          "album_type": "album",
+          "release_date": "2023-03-08",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 15,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1GDzE0TWO5XvWYbI9fSsCz",
+          "uri": "spotify:album:1GDzE0TWO5XvWYbI9fSsCz",
+          "original_rank": 6
+        },
+        {
+          "answer": "魔法γ",
+          "album_id": "6Bou3BnkK1s5I9CR1YZ6kJ",
+          "rank": 7,
+          "album_type": "album",
+          "release_date": "2021-12-22",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6Bou3BnkK1s5I9CR1YZ6kJ",
+          "uri": "spotify:album:6Bou3BnkK1s5I9CR1YZ6kJ",
+          "original_rank": 7
+        },
+        {
+          "answer": "魔法",
+          "album_id": "4QUfYAgz2I7uypWpeTAWov",
+          "rank": 8,
+          "album_type": "album",
+          "release_date": "2020-12-16",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 15,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4QUfYAgz2I7uypWpeTAWov",
+          "uri": "spotify:album:4QUfYAgz2I7uypWpeTAWov",
+          "original_rank": 8
+        },
+        {
+          "answer": "I SCREAM LIVE",
+          "album_id": "5vyFD36aBJV4QMvQNAUQwM",
+          "rank": 9,
+          "album_type": "album",
+          "release_date": "2020-08-19",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 43,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5vyFD36aBJV4QMvQNAUQwM",
+          "uri": "spotify:album:5vyFD36aBJV4QMvQNAUQwM",
+          "original_rank": 9
+        },
+        {
+          "answer": "観測γ",
+          "album_id": "6XsfDbHG5HlsCRd8Go0dOG",
+          "rank": 10,
+          "album_type": "album",
+          "release_date": "2020-08-12",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6XsfDbHG5HlsCRd8Go0dOG",
+          "uri": "spotify:album:6XsfDbHG5HlsCRd8Go0dOG",
+          "original_rank": 10
+        },
+        {
+          "answer": "観測",
+          "album_id": "0V1BmWezVWcFC3hO3yFEPy",
+          "rank": 11,
+          "album_type": "album",
+          "release_date": "2020-08-12",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 15,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0V1BmWezVWcFC3hO3yFEPy",
+          "uri": "spotify:album:0V1BmWezVWcFC3hO3yFEPy",
+          "original_rank": 11
+        }
+      ],
+      "answer_count": 11,
+      "timestamp": "2025-10-30T10:46:52.634008",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/artists/2c32JruIkUyfdycHmhIph4/albums",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated",
+          "include_groups": "album,single"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-artists-albums"
+      },
+      "filter": "album_type=album, release_year>=2020",
+      "test_id": "2c32JruIkUyfdycHmhIph4_albums_since_2020",
+      "query_category": "advanced_filter",
+      "artist_id": "2c32JruIkUyfdycHmhIph4",
+      "artist_name": "花譜 (KAF)"
+    },
+    {
+      "question": "列出Spotify艺术家 花譜 (KAF) 的所有完整专辑（不含单曲）",
+      "answers": [
+        {
+          "answer": "寓話γ",
+          "album_id": "6MP2s7uj6MnvO5lfCbEZ2m",
+          "rank": 1,
+          "album_type": "album",
+          "release_date": "2025-07-16",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6MP2s7uj6MnvO5lfCbEZ2m",
+          "uri": "spotify:album:6MP2s7uj6MnvO5lfCbEZ2m",
+          "original_rank": 1
+        },
+        {
+          "answer": "寓話",
+          "album_id": "4dD0hnVXxV4nJ0aZO23Wrb",
+          "rank": 2,
+          "album_type": "album",
+          "release_date": "2024-12-25",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 15,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4dD0hnVXxV4nJ0aZO23Wrb",
+          "uri": "spotify:album:4dD0hnVXxV4nJ0aZO23Wrb",
+          "original_rank": 2
+        },
+        {
+          "answer": "I SCREAM LIVE3",
+          "album_id": "0xjfTvTWWZYPsXhJot2ERo",
+          "rank": 3,
+          "album_type": "album",
+          "release_date": "2024-10-30",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 21,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0xjfTvTWWZYPsXhJot2ERo",
+          "uri": "spotify:album:0xjfTvTWWZYPsXhJot2ERo",
+          "original_rank": 3
+        },
+        {
+          "answer": "狂想γ",
+          "album_id": "30ckre1FRXiRxTRUZzGVUo",
+          "rank": 4,
+          "album_type": "album",
+          "release_date": "2024-03-27",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/30ckre1FRXiRxTRUZzGVUo",
+          "uri": "spotify:album:30ckre1FRXiRxTRUZzGVUo",
+          "original_rank": 4
+        },
+        {
+          "answer": "I SCREAM LIVE2",
+          "album_id": "4wgGY5wg7aJDPuepWEGnHx",
+          "rank": 5,
+          "album_type": "album",
+          "release_date": "2023-09-27",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 31,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4wgGY5wg7aJDPuepWEGnHx",
+          "uri": "spotify:album:4wgGY5wg7aJDPuepWEGnHx",
+          "original_rank": 5
+        },
+        {
+          "answer": "狂想",
+          "album_id": "1GDzE0TWO5XvWYbI9fSsCz",
+          "rank": 6,
+          "album_type": "album",
+          "release_date": "2023-03-08",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 15,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1GDzE0TWO5XvWYbI9fSsCz",
+          "uri": "spotify:album:1GDzE0TWO5XvWYbI9fSsCz",
+          "original_rank": 6
+        },
+        {
+          "answer": "魔法γ",
+          "album_id": "6Bou3BnkK1s5I9CR1YZ6kJ",
+          "rank": 7,
+          "album_type": "album",
+          "release_date": "2021-12-22",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6Bou3BnkK1s5I9CR1YZ6kJ",
+          "uri": "spotify:album:6Bou3BnkK1s5I9CR1YZ6kJ",
+          "original_rank": 7
+        },
+        {
+          "answer": "魔法",
+          "album_id": "4QUfYAgz2I7uypWpeTAWov",
+          "rank": 8,
+          "album_type": "album",
+          "release_date": "2020-12-16",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 15,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4QUfYAgz2I7uypWpeTAWov",
+          "uri": "spotify:album:4QUfYAgz2I7uypWpeTAWov",
+          "original_rank": 8
+        },
+        {
+          "answer": "I SCREAM LIVE",
+          "album_id": "5vyFD36aBJV4QMvQNAUQwM",
+          "rank": 9,
+          "album_type": "album",
+          "release_date": "2020-08-19",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 43,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5vyFD36aBJV4QMvQNAUQwM",
+          "uri": "spotify:album:5vyFD36aBJV4QMvQNAUQwM",
+          "original_rank": 9
+        },
+        {
+          "answer": "観測γ",
+          "album_id": "6XsfDbHG5HlsCRd8Go0dOG",
+          "rank": 10,
+          "album_type": "album",
+          "release_date": "2020-08-12",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6XsfDbHG5HlsCRd8Go0dOG",
+          "uri": "spotify:album:6XsfDbHG5HlsCRd8Go0dOG",
+          "original_rank": 10
+        },
+        {
+          "answer": "観測",
+          "album_id": "0V1BmWezVWcFC3hO3yFEPy",
+          "rank": 11,
+          "album_type": "album",
+          "release_date": "2020-08-12",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 15,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0V1BmWezVWcFC3hO3yFEPy",
+          "uri": "spotify:album:0V1BmWezVWcFC3hO3yFEPy",
+          "original_rank": 11
+        }
+      ],
+      "answer_count": 11,
+      "timestamp": "2025-10-30T10:46:52.634069",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/artists/2c32JruIkUyfdycHmhIph4/albums",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated",
+          "include_groups": "album,single"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-artists-albums"
+      },
+      "filter": "album_type=album",
+      "test_id": "2c32JruIkUyfdycHmhIph4_studio_albums",
+      "query_category": "advanced_filter",
+      "artist_id": "2c32JruIkUyfdycHmhIph4",
+      "artist_name": "花譜 (KAF)"
+    },
+    {
+      "question": "列出Spotify艺术家 花譜 (KAF) 的所有单曲",
+      "answers": [
+        {
+          "answer": "キャンディーゲリラ",
+          "album_id": "3QFRqrFMAEDKOfqJ7eg4WR",
+          "rank": 1,
+          "album_type": "single",
+          "release_date": "2025-10-29",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3QFRqrFMAEDKOfqJ7eg4WR",
+          "uri": "spotify:album:3QFRqrFMAEDKOfqJ7eg4WR",
+          "original_rank": 12
+        },
+        {
+          "answer": "ありふれてたい",
+          "album_id": "1yb4TwVfrN82eRc2cDburT",
+          "rank": 2,
+          "album_type": "single",
+          "release_date": "2025-10-15",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1yb4TwVfrN82eRc2cDburT",
+          "uri": "spotify:album:1yb4TwVfrN82eRc2cDburT",
+          "original_rank": 13
+        },
+        {
+          "answer": "光",
+          "album_id": "5ssEvdycaj6hwndNCrYZtF",
+          "rank": 3,
+          "album_type": "single",
+          "release_date": "2025-09-03",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Mori Calliope"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5ssEvdycaj6hwndNCrYZtF",
+          "uri": "spotify:album:5ssEvdycaj6hwndNCrYZtF",
+          "original_rank": 14
+        },
+        {
+          "answer": "ひとえに壊れて",
+          "album_id": "0S8w6MVn1fdFCuowqBUrar",
+          "rank": 4,
+          "album_type": "single",
+          "release_date": "2025-08-20",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0S8w6MVn1fdFCuowqBUrar",
+          "uri": "spotify:album:0S8w6MVn1fdFCuowqBUrar",
+          "original_rank": 15
+        },
+        {
+          "answer": "撃って",
+          "album_id": "4ElSGlQyBm3gs9NP2TRPnG",
+          "rank": 5,
+          "album_type": "single",
+          "release_date": "2025-06-25",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4ElSGlQyBm3gs9NP2TRPnG",
+          "uri": "spotify:album:4ElSGlQyBm3gs9NP2TRPnG",
+          "original_rank": 16
+        },
+        {
+          "answer": "EAT THE PAST (English Ver.)",
+          "album_id": "0KgHMAHdQyquQ61s5Zlj1w",
+          "rank": 6,
+          "album_type": "single",
+          "release_date": "2025-06-11",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0KgHMAHdQyquQ61s5Zlj1w",
+          "uri": "spotify:album:0KgHMAHdQyquQ61s5Zlj1w",
+          "original_rank": 17
+        },
+        {
+          "answer": "Kanojo wa Ima Meikyu no Naka",
+          "album_id": "451nYjcCpDxQSeZUz3aMZZ",
+          "rank": 7,
+          "album_type": "single",
+          "release_date": "2025-04-08",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 3,
+          "available_markets_count": 184,
+          "artist_names": [
+            "MARUMOCHI from HoneyWorks",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "MARUMOCHI from HoneyWorks",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/451nYjcCpDxQSeZUz3aMZZ",
+          "uri": "spotify:album:451nYjcCpDxQSeZUz3aMZZ",
+          "original_rank": 18
+        },
+        {
+          "answer": "代替嬉々",
+          "album_id": "4LM6qzhU17Ljl4TBB3fLAp",
+          "rank": 8,
+          "album_type": "single",
+          "release_date": "2025-03-05",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4LM6qzhU17Ljl4TBB3fLAp",
+          "uri": "spotify:album:4LM6qzhU17Ljl4TBB3fLAp",
+          "original_rank": 19
+        },
+        {
+          "answer": "My Life",
+          "album_id": "3obgXX4aSK1cckluCjtmNH",
+          "rank": 9,
+          "album_type": "single",
+          "release_date": "2025-01-29",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Moe Shop"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3obgXX4aSK1cckluCjtmNH",
+          "uri": "spotify:album:3obgXX4aSK1cckluCjtmNH",
+          "original_rank": 20
+        },
+        {
+          "answer": "一世風靡",
+          "album_id": "2F8TZUNB27uEObl5i0ONos",
+          "rank": 10,
+          "album_type": "single",
+          "release_date": "2024-11-27",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Hoshimachi Suisei"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/2F8TZUNB27uEObl5i0ONos",
+          "uri": "spotify:album:2F8TZUNB27uEObl5i0ONos",
+          "original_rank": 21
+        },
+        {
+          "answer": "夢魔",
+          "album_id": "4jPg8yNsUkS83a5EnS1U7H",
+          "rank": 11,
+          "album_type": "single",
+          "release_date": "2024-11-20",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4jPg8yNsUkS83a5EnS1U7H",
+          "uri": "spotify:album:4jPg8yNsUkS83a5EnS1U7H",
+          "original_rank": 22
+        },
+        {
+          "answer": "Answer (English Ver.)",
+          "album_id": "60gZ9dFf99vVBVoyZsRmEe",
+          "rank": 12,
+          "album_type": "single",
+          "release_date": "2024-10-23",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/60gZ9dFf99vVBVoyZsRmEe",
+          "uri": "spotify:album:60gZ9dFf99vVBVoyZsRmEe",
+          "original_rank": 23
+        },
+        {
+          "answer": "チューイン・ディスコ",
+          "album_id": "5halVD4PFLhrdjnJuxTAgH",
+          "rank": 13,
+          "album_type": "single",
+          "release_date": "2024-08-21",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "ツミキ"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5halVD4PFLhrdjnJuxTAgH",
+          "uri": "spotify:album:5halVD4PFLhrdjnJuxTAgH",
+          "original_rank": 24
+        },
+        {
+          "answer": "秘密の言葉（TVアニメ「時々ボソッとロシア語でデレる隣のアーリャさん」エンディングテーマ）",
+          "album_id": "6u5jDj3dAEqIaARBEZTyja",
+          "rank": 14,
+          "album_type": "single",
+          "release_date": "2024-08-08",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 184,
+          "artist_names": [
+            "アーリャ（CV：上坂すみれ）",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "アーリャ（CV：上坂すみれ）",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6u5jDj3dAEqIaARBEZTyja",
+          "uri": "spotify:album:6u5jDj3dAEqIaARBEZTyja",
+          "original_rank": 25
+        },
+        {
+          "answer": "ゲシュタルト (崩壊Remix)",
+          "album_id": "5hdH3H4sjF4OoGsTyzPTLI",
+          "rank": 15,
+          "album_type": "single",
+          "release_date": "2024-07-10",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Otome"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5hdH3H4sjF4OoGsTyzPTLI",
+          "uri": "spotify:album:5hdH3H4sjF4OoGsTyzPTLI",
+          "original_rank": 26
+        },
+        {
+          "answer": "抱きしめて",
+          "album_id": "7BngxP1i5MR3WrXevF5UPf",
+          "rank": 16,
+          "album_type": "single",
+          "release_date": "2024-06-12",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Soushi Sakiyama"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7BngxP1i5MR3WrXevF5UPf",
+          "uri": "spotify:album:7BngxP1i5MR3WrXevF5UPf",
+          "original_rank": 27
+        },
+        {
+          "answer": "GSA",
+          "album_id": "4y9uzu1TPh8AdIHZnInEj6",
+          "rank": 17,
+          "album_type": "single",
+          "release_date": "2024-05-22",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 3,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4y9uzu1TPh8AdIHZnInEj6",
+          "uri": "spotify:album:4y9uzu1TPh8AdIHZnInEj6",
+          "original_rank": 28
+        },
+        {
+          "answer": "ギミギミ逃避行 feat. #KTちゃん (Prod. Peko)",
+          "album_id": "1yVdN2mpL2zWx4F1PampMJ",
+          "rank": 18,
+          "album_type": "single",
+          "release_date": "2024-02-28",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "#KTちゃん"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1yVdN2mpL2zWx4F1PampMJ",
+          "uri": "spotify:album:1yVdN2mpL2zWx4F1PampMJ",
+          "original_rank": 29
+        },
+        {
+          "answer": "BEKI",
+          "album_id": "5Oz5yBk00DZVAfF5179H5B",
+          "rank": 19,
+          "album_type": "single",
+          "release_date": "2024-02-28",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "#KTCHAN",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "#KTCHAN",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5Oz5yBk00DZVAfF5179H5B",
+          "uri": "spotify:album:5Oz5yBk00DZVAfF5179H5B",
+          "original_rank": 30
+        },
+        {
+          "answer": "愛のまま",
+          "album_id": "6NTp57shRyEINts82DX28k",
+          "rank": 20,
+          "album_type": "single",
+          "release_date": "2024-01-03",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Shigeru Kishida"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6NTp57shRyEINts82DX28k",
+          "uri": "spotify:album:6NTp57shRyEINts82DX28k",
+          "original_rank": 31
+        },
+        {
+          "answer": "わたしの声（0b4k3 Remix）",
+          "album_id": "3M7A1vKkSd3TBIRBkc7ZNx",
+          "rank": 21,
+          "album_type": "single",
+          "release_date": "2023-09-20",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "0b4k3"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3M7A1vKkSd3TBIRBkc7ZNx",
+          "uri": "spotify:album:3M7A1vKkSd3TBIRBkc7ZNx",
+          "original_rank": 32
+        },
+        {
+          "answer": "わたしの声",
+          "album_id": "0N5iQNETsRZaKcd0K7wXVB",
+          "rank": 22,
+          "album_type": "single",
+          "release_date": "2023-09-06",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Mondo Grosso"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0N5iQNETsRZaKcd0K7wXVB",
+          "uri": "spotify:album:0N5iQNETsRZaKcd0K7wXVB",
+          "original_rank": 33
+        },
+        {
+          "answer": "しゅげーハイ!!!",
+          "album_id": "4gasPa1Qj70n2i8TLUSSZ5",
+          "rank": 23,
+          "album_type": "single",
+          "release_date": "2023-07-05",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Hidefumi Kenmochi"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4gasPa1Qj70n2i8TLUSSZ5",
+          "uri": "spotify:album:4gasPa1Qj70n2i8TLUSSZ5",
+          "original_rank": 34
+        },
+        {
+          "answer": "あるふぁYOU (prompt αU ver.)",
+          "album_id": "6PK9xfCH4dF0BxzFSbH2NQ",
+          "rank": 24,
+          "album_type": "single",
+          "release_date": "2023-04-19",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "EMA"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6PK9xfCH4dF0BxzFSbH2NQ",
+          "uri": "spotify:album:6PK9xfCH4dF0BxzFSbH2NQ",
+          "original_rank": 35
+        },
+        {
+          "answer": "秘密の言葉",
+          "album_id": "36B8cQgCAwSE9ObdprQEGJ",
+          "rank": 25,
+          "album_type": "single",
+          "release_date": "2023-04-05",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "ズーカラデル"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/36B8cQgCAwSE9ObdprQEGJ",
+          "uri": "spotify:album:36B8cQgCAwSE9ObdprQEGJ",
+          "original_rank": 36
+        },
+        {
+          "answer": "深淵",
+          "album_id": "3helCvsZgcngmAWc2dJLqf",
+          "rank": 26,
+          "album_type": "single",
+          "release_date": "2023-04-01",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "ヰ世界情緒",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "ヰ世界情緒",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3helCvsZgcngmAWc2dJLqf",
+          "uri": "spotify:album:3helCvsZgcngmAWc2dJLqf",
+          "original_rank": 37
+        },
+        {
+          "answer": "暗闇",
+          "album_id": "1aunBC45nu9r3scqP9tLF8",
+          "rank": 27,
+          "album_type": "single",
+          "release_date": "2023-04-01",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "ヰ世界情緒"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1aunBC45nu9r3scqP9tLF8",
+          "uri": "spotify:album:1aunBC45nu9r3scqP9tLF8",
+          "original_rank": 38
+        },
+        {
+          "answer": "メイドインあたし",
+          "album_id": "08ZxJ1dbwOwUqJIfcGeIQ1",
+          "rank": 28,
+          "album_type": "single",
+          "release_date": "2023-03-08",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "東京ゲゲゲイ"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/08ZxJ1dbwOwUqJIfcGeIQ1",
+          "uri": "spotify:album:08ZxJ1dbwOwUqJIfcGeIQ1",
+          "original_rank": 39
+        },
+        {
+          "answer": "CAN-VERSE",
+          "album_id": "0nn01IQ3JoEuL7ISoHKOO5",
+          "rank": 29,
+          "album_type": "single",
+          "release_date": "2022-10-12",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "ORESAMA"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0nn01IQ3JoEuL7ISoHKOO5",
+          "uri": "spotify:album:0nn01IQ3JoEuL7ISoHKOO5",
+          "original_rank": 40
+        },
+        {
+          "answer": "流線形メーデー",
+          "album_id": "5PmD6WgqCZMnN5Jn55VC6c",
+          "rank": 30,
+          "album_type": "single",
+          "release_date": "2022-07-13",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "可不"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5PmD6WgqCZMnN5Jn55VC6c",
+          "uri": "spotify:album:5PmD6WgqCZMnN5Jn55VC6c",
+          "original_rank": 41
+        },
+        {
+          "answer": "Beyond META",
+          "album_id": "7vayGJU3nE6tTCOloYZZby",
+          "rank": 31,
+          "album_type": "single",
+          "release_date": "2022-05-11",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "MIYAVI"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7vayGJU3nE6tTCOloYZZby",
+          "uri": "spotify:album:7vayGJU3nE6tTCOloYZZby",
+          "original_rank": 42
+        },
+        {
+          "answer": "蕾に雷",
+          "album_id": "5XFwj6131BsKFUPWhXaU83",
+          "rank": 32,
+          "album_type": "single",
+          "release_date": "2022-04-20",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Hakushi Hasegawa"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5XFwj6131BsKFUPWhXaU83",
+          "uri": "spotify:album:5XFwj6131BsKFUPWhXaU83",
+          "original_rank": 43
+        },
+        {
+          "answer": "春陽",
+          "album_id": "66ueMD2Kwwes0MdD8PHAMf",
+          "rank": 33,
+          "album_type": "single",
+          "release_date": "2022-03-23",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/66ueMD2Kwwes0MdD8PHAMf",
+          "uri": "spotify:album:66ueMD2Kwwes0MdD8PHAMf",
+          "original_rank": 44
+        },
+        {
+          "answer": "わたしの線香",
+          "album_id": "2DWBt4RDehLvB7zIrOCbrt",
+          "rank": 34,
+          "album_type": "single",
+          "release_date": "2022-02-23",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "羽生まゐご"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/2DWBt4RDehLvB7zIrOCbrt",
+          "uri": "spotify:album:2DWBt4RDehLvB7zIrOCbrt",
+          "original_rank": 45
+        },
+        {
+          "answer": "飛翔するmeme",
+          "album_id": "2h8lvNAbaCxdvH5cjlv7v4",
+          "rank": 35,
+          "album_type": "single",
+          "release_date": "2022-01-19",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "たなか"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/2h8lvNAbaCxdvH5cjlv7v4",
+          "uri": "spotify:album:2h8lvNAbaCxdvH5cjlv7v4",
+          "original_rank": 46
+        },
+        {
+          "answer": "あさひ",
+          "album_id": "5O5Cr76ozvnCtQ2nH3UihL",
+          "rank": 36,
+          "album_type": "single",
+          "release_date": "2021-12-08",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜",
+            "Ayane Sakura"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5O5Cr76ozvnCtQ2nH3UihL",
+          "uri": "spotify:album:5O5Cr76ozvnCtQ2nH3UihL",
+          "original_rank": 47
+        },
+        {
+          "answer": "イマジナリーフレンド",
+          "album_id": "7DC9iM0kRBRrS4ajjVu6Te",
+          "rank": 37,
+          "album_type": "single",
+          "release_date": "2021-11-17",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7DC9iM0kRBRrS4ajjVu6Te",
+          "uri": "spotify:album:7DC9iM0kRBRrS4ajjVu6Te",
+          "original_rank": 48
+        },
+        {
+          "answer": "鏡よ鏡",
+          "album_id": "3CObVQHSkULbopxRUtHO3V",
+          "rank": 38,
+          "album_type": "single",
+          "release_date": "2021-10-27",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3CObVQHSkULbopxRUtHO3V",
+          "uri": "spotify:album:3CObVQHSkULbopxRUtHO3V",
+          "original_rank": 49
+        },
+        {
+          "answer": "海に化ける",
+          "album_id": "5A58WBGrCXNKqyRzhpRdzG",
+          "rank": 39,
+          "album_type": "single",
+          "release_date": "2021-06-30",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5A58WBGrCXNKqyRzhpRdzG",
+          "uri": "spotify:album:5A58WBGrCXNKqyRzhpRdzG",
+          "original_rank": 50
+        },
+        {
+          "answer": "例えば",
+          "album_id": "71W8bkIXiH2oKhBZJbIbWa",
+          "rank": 40,
+          "album_type": "single",
+          "release_date": "2021-05-19",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/71W8bkIXiH2oKhBZJbIbWa",
+          "uri": "spotify:album:71W8bkIXiH2oKhBZJbIbWa",
+          "original_rank": 51
+        },
+        {
+          "answer": "愛と花",
+          "album_id": "4TPXfw172WStlV7mX55UjZ",
+          "rank": 41,
+          "album_type": "single",
+          "release_date": "2020-10-07",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 4,
+          "available_markets_count": 185,
+          "artist_names": [
+            "Kizuna AI",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "Kizuna AI",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4TPXfw172WStlV7mX55UjZ",
+          "uri": "spotify:album:4TPXfw172WStlV7mX55UjZ",
+          "original_rank": 52
+        },
+        {
+          "answer": "戸惑いテレパシー",
+          "album_id": "7pqVrSpYVf7CFtgkEpo74i",
+          "rank": 42,
+          "album_type": "single",
+          "release_date": "2020-08-12",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 5,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7pqVrSpYVf7CFtgkEpo74i",
+          "uri": "spotify:album:7pqVrSpYVf7CFtgkEpo74i",
+          "original_rank": 53
+        },
+        {
+          "answer": "夜が降り止む前に",
+          "album_id": "1y5vttuGxs7HXmGGiMR2th",
+          "rank": 43,
+          "album_type": "single",
+          "release_date": "2020-08-12",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 4,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1y5vttuGxs7HXmGGiMR2th",
+          "uri": "spotify:album:1y5vttuGxs7HXmGGiMR2th",
+          "original_rank": 54
+        },
+        {
+          "answer": "花と心臓",
+          "album_id": "6hQBr4KX69mbpH2TdfO9Jn",
+          "rank": 44,
+          "album_type": "single",
+          "release_date": "2020-04-02",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 3,
+          "available_markets_count": 185,
+          "artist_names": [
+            "花譜"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "花譜",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6hQBr4KX69mbpH2TdfO9Jn",
+          "uri": "spotify:album:6hQBr4KX69mbpH2TdfO9Jn",
+          "original_rank": 55
+        }
+      ],
+      "answer_count": 44,
+      "timestamp": "2025-10-30T10:46:52.634172",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/artists/2c32JruIkUyfdycHmhIph4/albums",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated",
+          "include_groups": "album,single"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-artists-albums"
+      },
+      "filter": "album_type=single",
+      "test_id": "2c32JruIkUyfdycHmhIph4_singles",
+      "query_category": "advanced_filter",
+      "artist_id": "2c32JruIkUyfdycHmhIph4",
+      "artist_name": "花譜 (KAF)"
+    },
+    {
+      "question": "列出Spotify专辑ID 6MP2s7uj6MnvO5lfCbEZ2m 的所有曲目",
+      "answers": [
+        {
+          "answer": "アポカリプスより - 瀬名航 Remix",
+          "track_id": "5aqHy1ChNV9G8gWcdqggyD",
+          "rank": 1,
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 195966,
+          "duration_minutes": 3.27,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "瀬名航"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/5aqHy1ChNV9G8gWcdqggyD"
+        },
+        {
+          "answer": "何者 - 威戸れもね。 Remix",
+          "track_id": "1qcKocVMbWICZfKEOmRLvw",
+          "rank": 2,
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 208500,
+          "duration_minutes": 3.48,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "威戸れもね。"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/1qcKocVMbWICZfKEOmRLvw"
+        },
+        {
+          "answer": "俯瞰する事象 - あばらや Remix",
+          "track_id": "40b2dUwP55V9hFvhmAE52o",
+          "rank": 3,
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 173533,
+          "duration_minutes": 2.89,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "あばらや"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/40b2dUwP55V9hFvhmAE52o"
+        },
+        {
+          "answer": "この世界は美しい - tokiwa Remix",
+          "track_id": "1C3sU2881wsUkPd1VeIhQx",
+          "rank": 4,
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 231166,
+          "duration_minutes": 3.85,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "tokiwa"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/1C3sU2881wsUkPd1VeIhQx"
+        },
+        {
+          "answer": "スイマー - takachi(muque)Remix",
+          "track_id": "2LWLeR4CkzXNobcaHf0lQE",
+          "rank": 5,
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 174033,
+          "duration_minutes": 2.9,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "takachi"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/2LWLeR4CkzXNobcaHf0lQE"
+        },
+        {
+          "answer": "ホワイトブーケ - Saku Remix",
+          "track_id": "3paSZhB2ogHmibnGfXq8GA",
+          "rank": 6,
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 238033,
+          "duration_minutes": 3.97,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "Saku"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/3paSZhB2ogHmibnGfXq8GA"
+        },
+        {
+          "answer": "黄金の木 - パソコン音楽クラブ Remix",
+          "track_id": "3JwZlCNuhQhHemUAemfGHa",
+          "rank": 7,
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 294466,
+          "duration_minutes": 4.91,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "パソコン音楽クラブ"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/3JwZlCNuhQhHemUAemfGHa"
+        },
+        {
+          "answer": "ダンダラボッチ - 3R2 Remix",
+          "track_id": "7u3KJFvoHJU3xfXACb0AzR",
+          "rank": 8,
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 208833,
+          "duration_minutes": 3.48,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "3R2"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/7u3KJFvoHJU3xfXACb0AzR"
+        },
+        {
+          "answer": "ゲシュタルト - おとめ Remix",
+          "track_id": "0RBJmzQZvq1hsiBu8rwgOz",
+          "rank": 9,
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 233766,
+          "duration_minutes": 3.9,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "Otome"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/0RBJmzQZvq1hsiBu8rwgOz"
+        },
+        {
+          "answer": "カルぺ・ディエム - 駱駝法師 Remix",
+          "track_id": "1rikik358RKnTqdn5F17Fm",
+          "rank": 10,
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 255200,
+          "duration_minutes": 4.25,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "駱駝法師"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/1rikik358RKnTqdn5F17Fm"
+        },
+        {
+          "answer": "スワン - cosMo@暴走P Remix",
+          "track_id": "0LN3FYO8QewbPaArg1DXJC",
+          "rank": 11,
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 203800,
+          "duration_minutes": 3.4,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "cosMo@Bousou-P"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/0LN3FYO8QewbPaArg1DXJC"
+        },
+        {
+          "answer": "代替嬉々 - TORIENA Remix",
+          "track_id": "0rdYVA8E0QDbrin11mvERs",
+          "rank": 12,
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 293900,
+          "duration_minutes": 4.9,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "TORIENA"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/0rdYVA8E0QDbrin11mvERs"
+        },
+        {
+          "answer": "Replaceable Goodbye - KAIRUI Remix",
+          "track_id": "6oExBET52cskBzBHCs4Yy4",
+          "rank": 13,
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 373233,
+          "duration_minutes": 6.22,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "KAIRUI"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/6oExBET52cskBzBHCs4Yy4"
+        }
+      ],
+      "answer_count": 13,
+      "timestamp": "2025-10-30T10:46:53.297839",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/albums/6MP2s7uj6MnvO5lfCbEZ2m/tracks",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-albums-tracks"
+      },
+      "album_id": "6MP2s7uj6MnvO5lfCbEZ2m",
+      "album_name": "寓話γ",
+      "test_id": "6MP2s7uj6MnvO5lfCbEZ2m_all_tracks",
+      "query_category": "basic_enumeration",
+      "artist_id": "2c32JruIkUyfdycHmhIph4",
+      "artist_name": "花譜 (KAF)"
+    },
+    {
+      "question": "列出专辑《寓話γ》中时长超过5分钟的曲目",
+      "answers": [
+        {
+          "answer": "Replaceable Goodbye - KAIRUI Remix",
+          "track_id": "6oExBET52cskBzBHCs4Yy4",
+          "rank": 1,
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 373233,
+          "duration_minutes": 6.22,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "花譜",
+            "KAIRUI"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/6oExBET52cskBzBHCs4Yy4",
+          "original_rank": 13
+        }
+      ],
+      "answer_count": 1,
+      "timestamp": "2025-10-30T10:46:53.297901",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/albums/6MP2s7uj6MnvO5lfCbEZ2m/tracks",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-albums-tracks"
+      },
+      "filter": "duration_ms>=300000",
+      "album_id": "6MP2s7uj6MnvO5lfCbEZ2m",
+      "album_name": "寓話γ",
+      "test_id": "6MP2s7uj6MnvO5lfCbEZ2m_tracks_over_5_min",
+      "query_category": "advanced_filter",
+      "artist_id": "2c32JruIkUyfdycHmhIph4",
+      "artist_name": "花譜 (KAF)"
+    },
+    {
+      "question": "列出Spotify艺术家ID 1rFELoNfdLOYWPwtrBN6zS 的所有专辑和单曲",
+      "answers": [
+        {
+          "answer": "CHOCOLATE LIVE3",
+          "album_id": "6u2qGCefe2wQx3HLPwAtuz",
+          "rank": 1,
+          "album_type": "album",
+          "release_date": "2025-04-23",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 22,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6u2qGCefe2wQx3HLPwAtuz",
+          "uri": "spotify:album:6u2qGCefe2wQx3HLPwAtuz"
+        },
+        {
+          "answer": "CHOCOLATE LIVE2",
+          "album_id": "79jhAj0hJ3HkegWcTk1gmo",
+          "rank": 2,
+          "album_type": "album",
+          "release_date": "2024-02-28",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 20,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/79jhAj0hJ3HkegWcTk1gmo",
+          "uri": "spotify:album:79jhAj0hJ3HkegWcTk1gmo"
+        },
+        {
+          "answer": "NEW ROMANCER2",
+          "album_id": "2aig4lobvtGAVzneCVSwyt",
+          "rank": 3,
+          "album_type": "album",
+          "release_date": "2023-12-06",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/2aig4lobvtGAVzneCVSwyt",
+          "uri": "spotify:album:2aig4lobvtGAVzneCVSwyt"
+        },
+        {
+          "answer": "imagine",
+          "album_id": "636nTcKn0IvH5OMYfJ4SZx",
+          "rank": 4,
+          "album_type": "album",
+          "release_date": "2023-09-20",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 8,
+          "available_markets_count": 185,
+          "artist_names": [
+            "Guiano",
+            "理芽"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "Guiano",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/636nTcKn0IvH5OMYfJ4SZx",
+          "uri": "spotify:album:636nTcKn0IvH5OMYfJ4SZx"
+        },
+        {
+          "answer": "Singularity Live",
+          "album_id": "6iTl6xdrmN1xSp1Sucn7ed",
+          "rank": 5,
+          "album_type": "album",
+          "release_date": "2022-11-23",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 25,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "ヰ世界情緒"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6iTl6xdrmN1xSp1Sucn7ed",
+          "uri": "spotify:album:6iTl6xdrmN1xSp1Sucn7ed"
+        },
+        {
+          "answer": "NEW ROMANCER",
+          "album_id": "4oXJbsrzcBWP3Jf07jkOGO",
+          "rank": 6,
+          "album_type": "album",
+          "release_date": "2021-07-21",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 14,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4oXJbsrzcBWP3Jf07jkOGO",
+          "uri": "spotify:album:4oXJbsrzcBWP3Jf07jkOGO"
+        },
+        {
+          "answer": "キャンディーゲリラ",
+          "album_id": "3QFRqrFMAEDKOfqJ7eg4WR",
+          "rank": 7,
+          "album_type": "single",
+          "release_date": "2025-10-29",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3QFRqrFMAEDKOfqJ7eg4WR",
+          "uri": "spotify:album:3QFRqrFMAEDKOfqJ7eg4WR"
+        },
+        {
+          "answer": "ノマネ",
+          "album_id": "3Cm86CpuGhn1d7zGI3LFvk",
+          "rank": 8,
+          "album_type": "single",
+          "release_date": "2025-10-15",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3Cm86CpuGhn1d7zGI3LFvk",
+          "uri": "spotify:album:3Cm86CpuGhn1d7zGI3LFvk"
+        },
+        {
+          "answer": "閃光だった (Rearranged Ver.)",
+          "album_id": "6x5p2gzVqyho72pLG38CrS",
+          "rank": 9,
+          "album_type": "single",
+          "release_date": "2025-08-27",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "幸祜",
+            "V.W.P"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6x5p2gzVqyho72pLG38CrS",
+          "uri": "spotify:album:6x5p2gzVqyho72pLG38CrS"
+        },
+        {
+          "answer": "閃光だった",
+          "album_id": "4dprYZj5FPWsseiwTi7cOw",
+          "rank": 10,
+          "album_type": "single",
+          "release_date": "2025-07-30",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4dprYZj5FPWsseiwTi7cOw",
+          "uri": "spotify:album:4dprYZj5FPWsseiwTi7cOw"
+        },
+        {
+          "answer": "本懐",
+          "album_id": "6K4swddQG993CjTu8QdQRu",
+          "rank": 11,
+          "album_type": "single",
+          "release_date": "2024-12-11",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "春猿火",
+            "理芽"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "春猿火",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6K4swddQG993CjTu8QdQRu",
+          "uri": "spotify:album:6K4swddQG993CjTu8QdQRu"
+        },
+        {
+          "answer": "アイノ最適解",
+          "album_id": "4Bhq6Qw7ijYrCzC33gz0Tf",
+          "rank": 12,
+          "album_type": "single",
+          "release_date": "2024-11-27",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "明透"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4Bhq6Qw7ijYrCzC33gz0Tf",
+          "uri": "spotify:album:4Bhq6Qw7ijYrCzC33gz0Tf"
+        },
+        {
+          "answer": "きみが大人になったんだ",
+          "album_id": "79GcwGvxG8gB0UngBt23N3",
+          "rank": 13,
+          "album_type": "single",
+          "release_date": "2024-09-16",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "笹川真生"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/79GcwGvxG8gB0UngBt23N3",
+          "uri": "spotify:album:79GcwGvxG8gB0UngBt23N3"
+        },
+        {
+          "answer": "私的",
+          "album_id": "0YEXSnsuivV6ygUzw1Odse",
+          "rank": 14,
+          "album_type": "single",
+          "release_date": "2024-05-01",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0YEXSnsuivV6ygUzw1Odse",
+          "uri": "spotify:album:0YEXSnsuivV6ygUzw1Odse"
+        },
+        {
+          "answer": "素的",
+          "album_id": "23X1FWXcw6J8UBhcjhgJAz",
+          "rank": 15,
+          "album_type": "single",
+          "release_date": "2024-02-21",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/23X1FWXcw6J8UBhcjhgJAz",
+          "uri": "spotify:album:23X1FWXcw6J8UBhcjhgJAz"
+        },
+        {
+          "answer": "ルフラン (feat. 笹川真生)",
+          "album_id": "7Bao05pJLfzlZwq04hagaG",
+          "rank": 16,
+          "album_type": "single",
+          "release_date": "2023-11-01",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7Bao05pJLfzlZwq04hagaG",
+          "uri": "spotify:album:7Bao05pJLfzlZwq04hagaG"
+        },
+        {
+          "answer": "えろいむ",
+          "album_id": "776NpelTEO9ywuCQNn6Jvr",
+          "rank": 17,
+          "album_type": "single",
+          "release_date": "2023-08-23",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/776NpelTEO9ywuCQNn6Jvr",
+          "uri": "spotify:album:776NpelTEO9ywuCQNn6Jvr"
+        },
+        {
+          "answer": "不的",
+          "album_id": "1ABNMFLsIHW9XB3qeS25Jw",
+          "rank": 18,
+          "album_type": "single",
+          "release_date": "2023-07-26",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1ABNMFLsIHW9XB3qeS25Jw",
+          "uri": "spotify:album:1ABNMFLsIHW9XB3qeS25Jw"
+        },
+        {
+          "answer": "泡沫",
+          "album_id": "0fZO2fy8PNAp40gzPoy6gU",
+          "rank": 19,
+          "album_type": "single",
+          "release_date": "2023-04-01",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "ヰ世界情緒",
+            "理芽"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "ヰ世界情緒",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0fZO2fy8PNAp40gzPoy6gU",
+          "uri": "spotify:album:0fZO2fy8PNAp40gzPoy6gU"
+        },
+        {
+          "answer": "狂えない",
+          "album_id": "6a1flFxbn6fd1FARgcBV4r",
+          "rank": 20,
+          "album_type": "single",
+          "release_date": "2023-01-18",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6a1flFxbn6fd1FARgcBV4r",
+          "uri": "spotify:album:6a1flFxbn6fd1FARgcBV4r"
+        },
+        {
+          "answer": "インナアチャイルド",
+          "album_id": "62EfA5beimUuWAijkPLY4H",
+          "rank": 21,
+          "album_type": "single",
+          "release_date": "2022-10-05",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/62EfA5beimUuWAijkPLY4H",
+          "uri": "spotify:album:62EfA5beimUuWAijkPLY4H"
+        },
+        {
+          "answer": "チクタクボーイ",
+          "album_id": "0QCn4g40daKFkR8BpWw9WW",
+          "rank": 22,
+          "album_type": "single",
+          "release_date": "2022-08-17",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0QCn4g40daKFkR8BpWw9WW",
+          "uri": "spotify:album:0QCn4g40daKFkR8BpWw9WW"
+        },
+        {
+          "answer": "ピルグリム",
+          "album_id": "6Ahb5zBPAvcwILtyrNQCjU",
+          "rank": 23,
+          "album_type": "single",
+          "release_date": "2022-04-27",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6Ahb5zBPAvcwILtyrNQCjU",
+          "uri": "spotify:album:6Ahb5zBPAvcwILtyrNQCjU"
+        },
+        {
+          "answer": "舞 (feat. 理芽)",
+          "album_id": "1knzO85IKeXVLSt8xLgcqc",
+          "rank": 24,
+          "album_type": "single",
+          "release_date": "2022-03-09",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "Guiano",
+            "理芽"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "Guiano",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1knzO85IKeXVLSt8xLgcqc",
+          "uri": "spotify:album:1knzO85IKeXVLSt8xLgcqc"
+        },
+        {
+          "answer": "十九月",
+          "album_id": "04pesOMy4YfL6LTLgqGGmp",
+          "rank": 25,
+          "album_type": "single",
+          "release_date": "2021-06-09",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/04pesOMy4YfL6LTLgqGGmp",
+          "uri": "spotify:album:04pesOMy4YfL6LTLgqGGmp"
+        },
+        {
+          "answer": "胎児に月はキスをしない",
+          "album_id": "1d4r1u9xxhtvsWh1hQHDnC",
+          "rank": 26,
+          "album_type": "single",
+          "release_date": "2021-04-28",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1d4r1u9xxhtvsWh1hQHDnC",
+          "uri": "spotify:album:1d4r1u9xxhtvsWh1hQHDnC"
+        },
+        {
+          "answer": "法螺話",
+          "album_id": "01za03FALE9HYd1mg7ZidE",
+          "rank": 27,
+          "album_type": "single",
+          "release_date": "2021-01-20",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/01za03FALE9HYd1mg7ZidE",
+          "uri": "spotify:album:01za03FALE9HYd1mg7ZidE"
+        },
+        {
+          "answer": "甘美な無法",
+          "album_id": "5zecuaOirgYVZrO7SNlRF1",
+          "rank": 28,
+          "album_type": "single",
+          "release_date": "2020-10-28",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5zecuaOirgYVZrO7SNlRF1",
+          "uri": "spotify:album:5zecuaOirgYVZrO7SNlRF1"
+        },
+        {
+          "answer": "Flowering",
+          "album_id": "55p1H8ml4ek8HxRcfGldOj",
+          "rank": 29,
+          "album_type": "single",
+          "release_date": "2020-09-30",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/55p1H8ml4ek8HxRcfGldOj",
+          "uri": "spotify:album:55p1H8ml4ek8HxRcfGldOj"
+        },
+        {
+          "answer": "ピロウトーク",
+          "album_id": "5xD1zAIDWwj98z7Qtmf0cI",
+          "rank": 30,
+          "album_type": "single",
+          "release_date": "2020-09-02",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5xD1zAIDWwj98z7Qtmf0cI",
+          "uri": "spotify:album:5xD1zAIDWwj98z7Qtmf0cI"
+        },
+        {
+          "answer": "ユーエンミー",
+          "album_id": "3glxYnbytLxtorbZltaKPL",
+          "rank": 31,
+          "album_type": "single",
+          "release_date": "2020-07-22",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3glxYnbytLxtorbZltaKPL",
+          "uri": "spotify:album:3glxYnbytLxtorbZltaKPL"
+        },
+        {
+          "answer": "クライベイビー",
+          "album_id": "7BHccnWCvxXAnY1kH652Nw",
+          "rank": 32,
+          "album_type": "single",
+          "release_date": "2020-07-01",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7BHccnWCvxXAnY1kH652Nw",
+          "uri": "spotify:album:7BHccnWCvxXAnY1kH652Nw"
+        }
+      ],
+      "answer_count": 32,
+      "timestamp": "2025-10-30T10:46:54.232272",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/artists/1rFELoNfdLOYWPwtrBN6zS/albums",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated",
+          "include_groups": "album,single"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-artists-albums"
+      },
+      "test_id": "1rFELoNfdLOYWPwtrBN6zS_all_albums",
+      "query_category": "basic_enumeration",
+      "artist_id": "1rFELoNfdLOYWPwtrBN6zS",
+      "artist_name": "理芽 (RIM)"
+    },
+    {
+      "question": "列出Spotify艺术家 理芽 (RIM) 的所有合作专辑",
+      "answers": [
+        {
+          "answer": "imagine",
+          "album_id": "636nTcKn0IvH5OMYfJ4SZx",
+          "rank": 1,
+          "album_type": "album",
+          "release_date": "2023-09-20",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 8,
+          "available_markets_count": 185,
+          "artist_names": [
+            "Guiano",
+            "理芽"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "Guiano",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/636nTcKn0IvH5OMYfJ4SZx",
+          "uri": "spotify:album:636nTcKn0IvH5OMYfJ4SZx",
+          "original_rank": 4
+        },
+        {
+          "answer": "Singularity Live",
+          "album_id": "6iTl6xdrmN1xSp1Sucn7ed",
+          "rank": 2,
+          "album_type": "album",
+          "release_date": "2022-11-23",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 25,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "ヰ世界情緒"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6iTl6xdrmN1xSp1Sucn7ed",
+          "uri": "spotify:album:6iTl6xdrmN1xSp1Sucn7ed",
+          "original_rank": 5
+        },
+        {
+          "answer": "キャンディーゲリラ",
+          "album_id": "3QFRqrFMAEDKOfqJ7eg4WR",
+          "rank": 3,
+          "album_type": "single",
+          "release_date": "2025-10-29",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3QFRqrFMAEDKOfqJ7eg4WR",
+          "uri": "spotify:album:3QFRqrFMAEDKOfqJ7eg4WR",
+          "original_rank": 7
+        },
+        {
+          "answer": "閃光だった (Rearranged Ver.)",
+          "album_id": "6x5p2gzVqyho72pLG38CrS",
+          "rank": 4,
+          "album_type": "single",
+          "release_date": "2025-08-27",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "幸祜",
+            "V.W.P"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6x5p2gzVqyho72pLG38CrS",
+          "uri": "spotify:album:6x5p2gzVqyho72pLG38CrS",
+          "original_rank": 9
+        },
+        {
+          "answer": "本懐",
+          "album_id": "6K4swddQG993CjTu8QdQRu",
+          "rank": 5,
+          "album_type": "single",
+          "release_date": "2024-12-11",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "春猿火",
+            "理芽"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "春猿火",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6K4swddQG993CjTu8QdQRu",
+          "uri": "spotify:album:6K4swddQG993CjTu8QdQRu",
+          "original_rank": 11
+        },
+        {
+          "answer": "アイノ最適解",
+          "album_id": "4Bhq6Qw7ijYrCzC33gz0Tf",
+          "rank": 6,
+          "album_type": "single",
+          "release_date": "2024-11-27",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "明透"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4Bhq6Qw7ijYrCzC33gz0Tf",
+          "uri": "spotify:album:4Bhq6Qw7ijYrCzC33gz0Tf",
+          "original_rank": 12
+        },
+        {
+          "answer": "きみが大人になったんだ",
+          "album_id": "79GcwGvxG8gB0UngBt23N3",
+          "rank": 7,
+          "album_type": "single",
+          "release_date": "2024-09-16",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "笹川真生"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/79GcwGvxG8gB0UngBt23N3",
+          "uri": "spotify:album:79GcwGvxG8gB0UngBt23N3",
+          "original_rank": 13
+        },
+        {
+          "answer": "泡沫",
+          "album_id": "0fZO2fy8PNAp40gzPoy6gU",
+          "rank": 8,
+          "album_type": "single",
+          "release_date": "2023-04-01",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "ヰ世界情緒",
+            "理芽"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "ヰ世界情緒",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0fZO2fy8PNAp40gzPoy6gU",
+          "uri": "spotify:album:0fZO2fy8PNAp40gzPoy6gU",
+          "original_rank": 19
+        },
+        {
+          "answer": "舞 (feat. 理芽)",
+          "album_id": "1knzO85IKeXVLSt8xLgcqc",
+          "rank": 9,
+          "album_type": "single",
+          "release_date": "2022-03-09",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "Guiano",
+            "理芽"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "Guiano",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1knzO85IKeXVLSt8xLgcqc",
+          "uri": "spotify:album:1knzO85IKeXVLSt8xLgcqc",
+          "original_rank": 24
+        }
+      ],
+      "answer_count": 9,
+      "timestamp": "2025-10-30T10:46:54.232313",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/artists/1rFELoNfdLOYWPwtrBN6zS/albums",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated",
+          "include_groups": "album,single"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-artists-albums"
+      },
+      "filter": "artists>1",
+      "test_id": "1rFELoNfdLOYWPwtrBN6zS_collaboration_albums",
+      "query_category": "advanced_filter",
+      "artist_id": "1rFELoNfdLOYWPwtrBN6zS",
+      "artist_name": "理芽 (RIM)"
+    },
+    {
+      "question": "列出Spotify艺术家 理芽 (RIM) 在2020年及之后发行的完整专辑",
+      "answers": [
+        {
+          "answer": "CHOCOLATE LIVE3",
+          "album_id": "6u2qGCefe2wQx3HLPwAtuz",
+          "rank": 1,
+          "album_type": "album",
+          "release_date": "2025-04-23",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 22,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6u2qGCefe2wQx3HLPwAtuz",
+          "uri": "spotify:album:6u2qGCefe2wQx3HLPwAtuz",
+          "original_rank": 1
+        },
+        {
+          "answer": "CHOCOLATE LIVE2",
+          "album_id": "79jhAj0hJ3HkegWcTk1gmo",
+          "rank": 2,
+          "album_type": "album",
+          "release_date": "2024-02-28",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 20,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/79jhAj0hJ3HkegWcTk1gmo",
+          "uri": "spotify:album:79jhAj0hJ3HkegWcTk1gmo",
+          "original_rank": 2
+        },
+        {
+          "answer": "NEW ROMANCER2",
+          "album_id": "2aig4lobvtGAVzneCVSwyt",
+          "rank": 3,
+          "album_type": "album",
+          "release_date": "2023-12-06",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/2aig4lobvtGAVzneCVSwyt",
+          "uri": "spotify:album:2aig4lobvtGAVzneCVSwyt",
+          "original_rank": 3
+        },
+        {
+          "answer": "imagine",
+          "album_id": "636nTcKn0IvH5OMYfJ4SZx",
+          "rank": 4,
+          "album_type": "album",
+          "release_date": "2023-09-20",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 8,
+          "available_markets_count": 185,
+          "artist_names": [
+            "Guiano",
+            "理芽"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "Guiano",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/636nTcKn0IvH5OMYfJ4SZx",
+          "uri": "spotify:album:636nTcKn0IvH5OMYfJ4SZx",
+          "original_rank": 4
+        },
+        {
+          "answer": "Singularity Live",
+          "album_id": "6iTl6xdrmN1xSp1Sucn7ed",
+          "rank": 5,
+          "album_type": "album",
+          "release_date": "2022-11-23",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 25,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "ヰ世界情緒"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6iTl6xdrmN1xSp1Sucn7ed",
+          "uri": "spotify:album:6iTl6xdrmN1xSp1Sucn7ed",
+          "original_rank": 5
+        },
+        {
+          "answer": "NEW ROMANCER",
+          "album_id": "4oXJbsrzcBWP3Jf07jkOGO",
+          "rank": 6,
+          "album_type": "album",
+          "release_date": "2021-07-21",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 14,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4oXJbsrzcBWP3Jf07jkOGO",
+          "uri": "spotify:album:4oXJbsrzcBWP3Jf07jkOGO",
+          "original_rank": 6
+        }
+      ],
+      "answer_count": 6,
+      "timestamp": "2025-10-30T10:46:54.232453",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/artists/1rFELoNfdLOYWPwtrBN6zS/albums",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated",
+          "include_groups": "album,single"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-artists-albums"
+      },
+      "filter": "album_type=album, release_year>=2020",
+      "test_id": "1rFELoNfdLOYWPwtrBN6zS_albums_since_2020",
+      "query_category": "advanced_filter",
+      "artist_id": "1rFELoNfdLOYWPwtrBN6zS",
+      "artist_name": "理芽 (RIM)"
+    },
+    {
+      "question": "列出Spotify艺术家 理芽 (RIM) 的所有完整专辑（不含单曲）",
+      "answers": [
+        {
+          "answer": "CHOCOLATE LIVE3",
+          "album_id": "6u2qGCefe2wQx3HLPwAtuz",
+          "rank": 1,
+          "album_type": "album",
+          "release_date": "2025-04-23",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 22,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6u2qGCefe2wQx3HLPwAtuz",
+          "uri": "spotify:album:6u2qGCefe2wQx3HLPwAtuz",
+          "original_rank": 1
+        },
+        {
+          "answer": "CHOCOLATE LIVE2",
+          "album_id": "79jhAj0hJ3HkegWcTk1gmo",
+          "rank": 2,
+          "album_type": "album",
+          "release_date": "2024-02-28",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 20,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/79jhAj0hJ3HkegWcTk1gmo",
+          "uri": "spotify:album:79jhAj0hJ3HkegWcTk1gmo",
+          "original_rank": 2
+        },
+        {
+          "answer": "NEW ROMANCER2",
+          "album_id": "2aig4lobvtGAVzneCVSwyt",
+          "rank": 3,
+          "album_type": "album",
+          "release_date": "2023-12-06",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/2aig4lobvtGAVzneCVSwyt",
+          "uri": "spotify:album:2aig4lobvtGAVzneCVSwyt",
+          "original_rank": 3
+        },
+        {
+          "answer": "imagine",
+          "album_id": "636nTcKn0IvH5OMYfJ4SZx",
+          "rank": 4,
+          "album_type": "album",
+          "release_date": "2023-09-20",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 8,
+          "available_markets_count": 185,
+          "artist_names": [
+            "Guiano",
+            "理芽"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "Guiano",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/636nTcKn0IvH5OMYfJ4SZx",
+          "uri": "spotify:album:636nTcKn0IvH5OMYfJ4SZx",
+          "original_rank": 4
+        },
+        {
+          "answer": "Singularity Live",
+          "album_id": "6iTl6xdrmN1xSp1Sucn7ed",
+          "rank": 5,
+          "album_type": "album",
+          "release_date": "2022-11-23",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 25,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "ヰ世界情緒"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6iTl6xdrmN1xSp1Sucn7ed",
+          "uri": "spotify:album:6iTl6xdrmN1xSp1Sucn7ed",
+          "original_rank": 5
+        },
+        {
+          "answer": "NEW ROMANCER",
+          "album_id": "4oXJbsrzcBWP3Jf07jkOGO",
+          "rank": 6,
+          "album_type": "album",
+          "release_date": "2021-07-21",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 14,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4oXJbsrzcBWP3Jf07jkOGO",
+          "uri": "spotify:album:4oXJbsrzcBWP3Jf07jkOGO",
+          "original_rank": 6
+        }
+      ],
+      "answer_count": 6,
+      "timestamp": "2025-10-30T10:46:54.232482",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/artists/1rFELoNfdLOYWPwtrBN6zS/albums",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated",
+          "include_groups": "album,single"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-artists-albums"
+      },
+      "filter": "album_type=album",
+      "test_id": "1rFELoNfdLOYWPwtrBN6zS_studio_albums",
+      "query_category": "advanced_filter",
+      "artist_id": "1rFELoNfdLOYWPwtrBN6zS",
+      "artist_name": "理芽 (RIM)"
+    },
+    {
+      "question": "列出Spotify艺术家 理芽 (RIM) 的所有单曲",
+      "answers": [
+        {
+          "answer": "キャンディーゲリラ",
+          "album_id": "3QFRqrFMAEDKOfqJ7eg4WR",
+          "rank": 1,
+          "album_type": "single",
+          "release_date": "2025-10-29",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "花譜"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3QFRqrFMAEDKOfqJ7eg4WR",
+          "uri": "spotify:album:3QFRqrFMAEDKOfqJ7eg4WR",
+          "original_rank": 7
+        },
+        {
+          "answer": "ノマネ",
+          "album_id": "3Cm86CpuGhn1d7zGI3LFvk",
+          "rank": 2,
+          "album_type": "single",
+          "release_date": "2025-10-15",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3Cm86CpuGhn1d7zGI3LFvk",
+          "uri": "spotify:album:3Cm86CpuGhn1d7zGI3LFvk",
+          "original_rank": 8
+        },
+        {
+          "answer": "閃光だった (Rearranged Ver.)",
+          "album_id": "6x5p2gzVqyho72pLG38CrS",
+          "rank": 3,
+          "album_type": "single",
+          "release_date": "2025-08-27",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "幸祜",
+            "V.W.P"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6x5p2gzVqyho72pLG38CrS",
+          "uri": "spotify:album:6x5p2gzVqyho72pLG38CrS",
+          "original_rank": 9
+        },
+        {
+          "answer": "閃光だった",
+          "album_id": "4dprYZj5FPWsseiwTi7cOw",
+          "rank": 4,
+          "album_type": "single",
+          "release_date": "2025-07-30",
+          "release_year": 2025,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4dprYZj5FPWsseiwTi7cOw",
+          "uri": "spotify:album:4dprYZj5FPWsseiwTi7cOw",
+          "original_rank": 10
+        },
+        {
+          "answer": "本懐",
+          "album_id": "6K4swddQG993CjTu8QdQRu",
+          "rank": 5,
+          "album_type": "single",
+          "release_date": "2024-12-11",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "春猿火",
+            "理芽"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "春猿火",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6K4swddQG993CjTu8QdQRu",
+          "uri": "spotify:album:6K4swddQG993CjTu8QdQRu",
+          "original_rank": 11
+        },
+        {
+          "answer": "アイノ最適解",
+          "album_id": "4Bhq6Qw7ijYrCzC33gz0Tf",
+          "rank": 6,
+          "album_type": "single",
+          "release_date": "2024-11-27",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "明透"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/4Bhq6Qw7ijYrCzC33gz0Tf",
+          "uri": "spotify:album:4Bhq6Qw7ijYrCzC33gz0Tf",
+          "original_rank": 12
+        },
+        {
+          "answer": "きみが大人になったんだ",
+          "album_id": "79GcwGvxG8gB0UngBt23N3",
+          "rank": 7,
+          "album_type": "single",
+          "release_date": "2024-09-16",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽",
+            "笹川真生"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/79GcwGvxG8gB0UngBt23N3",
+          "uri": "spotify:album:79GcwGvxG8gB0UngBt23N3",
+          "original_rank": 13
+        },
+        {
+          "answer": "私的",
+          "album_id": "0YEXSnsuivV6ygUzw1Odse",
+          "rank": 8,
+          "album_type": "single",
+          "release_date": "2024-05-01",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0YEXSnsuivV6ygUzw1Odse",
+          "uri": "spotify:album:0YEXSnsuivV6ygUzw1Odse",
+          "original_rank": 14
+        },
+        {
+          "answer": "素的",
+          "album_id": "23X1FWXcw6J8UBhcjhgJAz",
+          "rank": 9,
+          "album_type": "single",
+          "release_date": "2024-02-21",
+          "release_year": 2024,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/23X1FWXcw6J8UBhcjhgJAz",
+          "uri": "spotify:album:23X1FWXcw6J8UBhcjhgJAz",
+          "original_rank": 15
+        },
+        {
+          "answer": "ルフラン (feat. 笹川真生)",
+          "album_id": "7Bao05pJLfzlZwq04hagaG",
+          "rank": 10,
+          "album_type": "single",
+          "release_date": "2023-11-01",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7Bao05pJLfzlZwq04hagaG",
+          "uri": "spotify:album:7Bao05pJLfzlZwq04hagaG",
+          "original_rank": 16
+        },
+        {
+          "answer": "えろいむ",
+          "album_id": "776NpelTEO9ywuCQNn6Jvr",
+          "rank": 11,
+          "album_type": "single",
+          "release_date": "2023-08-23",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/776NpelTEO9ywuCQNn6Jvr",
+          "uri": "spotify:album:776NpelTEO9ywuCQNn6Jvr",
+          "original_rank": 17
+        },
+        {
+          "answer": "不的",
+          "album_id": "1ABNMFLsIHW9XB3qeS25Jw",
+          "rank": 12,
+          "album_type": "single",
+          "release_date": "2023-07-26",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1ABNMFLsIHW9XB3qeS25Jw",
+          "uri": "spotify:album:1ABNMFLsIHW9XB3qeS25Jw",
+          "original_rank": 18
+        },
+        {
+          "answer": "泡沫",
+          "album_id": "0fZO2fy8PNAp40gzPoy6gU",
+          "rank": 13,
+          "album_type": "single",
+          "release_date": "2023-04-01",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "ヰ世界情緒",
+            "理芽"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "ヰ世界情緒",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0fZO2fy8PNAp40gzPoy6gU",
+          "uri": "spotify:album:0fZO2fy8PNAp40gzPoy6gU",
+          "original_rank": 19
+        },
+        {
+          "answer": "狂えない",
+          "album_id": "6a1flFxbn6fd1FARgcBV4r",
+          "rank": 14,
+          "album_type": "single",
+          "release_date": "2023-01-18",
+          "release_year": 2023,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6a1flFxbn6fd1FARgcBV4r",
+          "uri": "spotify:album:6a1flFxbn6fd1FARgcBV4r",
+          "original_rank": 20
+        },
+        {
+          "answer": "インナアチャイルド",
+          "album_id": "62EfA5beimUuWAijkPLY4H",
+          "rank": 15,
+          "album_type": "single",
+          "release_date": "2022-10-05",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/62EfA5beimUuWAijkPLY4H",
+          "uri": "spotify:album:62EfA5beimUuWAijkPLY4H",
+          "original_rank": 21
+        },
+        {
+          "answer": "チクタクボーイ",
+          "album_id": "0QCn4g40daKFkR8BpWw9WW",
+          "rank": 16,
+          "album_type": "single",
+          "release_date": "2022-08-17",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/0QCn4g40daKFkR8BpWw9WW",
+          "uri": "spotify:album:0QCn4g40daKFkR8BpWw9WW",
+          "original_rank": 22
+        },
+        {
+          "answer": "ピルグリム",
+          "album_id": "6Ahb5zBPAvcwILtyrNQCjU",
+          "rank": 17,
+          "album_type": "single",
+          "release_date": "2022-04-27",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/6Ahb5zBPAvcwILtyrNQCjU",
+          "uri": "spotify:album:6Ahb5zBPAvcwILtyrNQCjU",
+          "original_rank": 23
+        },
+        {
+          "answer": "舞 (feat. 理芽)",
+          "album_id": "1knzO85IKeXVLSt8xLgcqc",
+          "rank": 18,
+          "album_type": "single",
+          "release_date": "2022-03-09",
+          "release_year": 2022,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "Guiano",
+            "理芽"
+          ],
+          "is_collaboration": true,
+          "primary_artist": "Guiano",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1knzO85IKeXVLSt8xLgcqc",
+          "uri": "spotify:album:1knzO85IKeXVLSt8xLgcqc",
+          "original_rank": 24
+        },
+        {
+          "answer": "十九月",
+          "album_id": "04pesOMy4YfL6LTLgqGGmp",
+          "rank": 19,
+          "album_type": "single",
+          "release_date": "2021-06-09",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/04pesOMy4YfL6LTLgqGGmp",
+          "uri": "spotify:album:04pesOMy4YfL6LTLgqGGmp",
+          "original_rank": 25
+        },
+        {
+          "answer": "胎児に月はキスをしない",
+          "album_id": "1d4r1u9xxhtvsWh1hQHDnC",
+          "rank": 20,
+          "album_type": "single",
+          "release_date": "2021-04-28",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/1d4r1u9xxhtvsWh1hQHDnC",
+          "uri": "spotify:album:1d4r1u9xxhtvsWh1hQHDnC",
+          "original_rank": 26
+        },
+        {
+          "answer": "法螺話",
+          "album_id": "01za03FALE9HYd1mg7ZidE",
+          "rank": 21,
+          "album_type": "single",
+          "release_date": "2021-01-20",
+          "release_year": 2021,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/01za03FALE9HYd1mg7ZidE",
+          "uri": "spotify:album:01za03FALE9HYd1mg7ZidE",
+          "original_rank": 27
+        },
+        {
+          "answer": "甘美な無法",
+          "album_id": "5zecuaOirgYVZrO7SNlRF1",
+          "rank": 22,
+          "album_type": "single",
+          "release_date": "2020-10-28",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5zecuaOirgYVZrO7SNlRF1",
+          "uri": "spotify:album:5zecuaOirgYVZrO7SNlRF1",
+          "original_rank": 28
+        },
+        {
+          "answer": "Flowering",
+          "album_id": "55p1H8ml4ek8HxRcfGldOj",
+          "rank": 23,
+          "album_type": "single",
+          "release_date": "2020-09-30",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/55p1H8ml4ek8HxRcfGldOj",
+          "uri": "spotify:album:55p1H8ml4ek8HxRcfGldOj",
+          "original_rank": 29
+        },
+        {
+          "answer": "ピロウトーク",
+          "album_id": "5xD1zAIDWwj98z7Qtmf0cI",
+          "rank": 24,
+          "album_type": "single",
+          "release_date": "2020-09-02",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/5xD1zAIDWwj98z7Qtmf0cI",
+          "uri": "spotify:album:5xD1zAIDWwj98z7Qtmf0cI",
+          "original_rank": 30
+        },
+        {
+          "answer": "ユーエンミー",
+          "album_id": "3glxYnbytLxtorbZltaKPL",
+          "rank": 25,
+          "album_type": "single",
+          "release_date": "2020-07-22",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/3glxYnbytLxtorbZltaKPL",
+          "uri": "spotify:album:3glxYnbytLxtorbZltaKPL",
+          "original_rank": 31
+        },
+        {
+          "answer": "クライベイビー",
+          "album_id": "7BHccnWCvxXAnY1kH652Nw",
+          "rank": 26,
+          "album_type": "single",
+          "release_date": "2020-07-01",
+          "release_year": 2020,
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "available_markets_count": 185,
+          "artist_names": [
+            "理芽"
+          ],
+          "is_collaboration": false,
+          "primary_artist": "理芽",
+          "label": null,
+          "external_url": "https://open.spotify.com/album/7BHccnWCvxXAnY1kH652Nw",
+          "uri": "spotify:album:7BHccnWCvxXAnY1kH652Nw",
+          "original_rank": 32
+        }
+      ],
+      "answer_count": 26,
+      "timestamp": "2025-10-30T10:46:54.232537",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/artists/1rFELoNfdLOYWPwtrBN6zS/albums",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated",
+          "include_groups": "album,single"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-artists-albums"
+      },
+      "filter": "album_type=single",
+      "test_id": "1rFELoNfdLOYWPwtrBN6zS_singles",
+      "query_category": "advanced_filter",
+      "artist_id": "1rFELoNfdLOYWPwtrBN6zS",
+      "artist_name": "理芽 (RIM)"
+    },
+    {
+      "question": "列出Spotify专辑ID 6u2qGCefe2wQx3HLPwAtuz 的所有曲目",
+      "answers": [
+        {
+          "answer": "らしさ",
+          "track_id": "1MmL4kL9ZRyiFesBRnulqc",
+          "rank": 1,
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 264333,
+          "duration_minutes": 4.41,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/1MmL4kL9ZRyiFesBRnulqc"
+        },
+        {
+          "answer": "私以外私じゃないの",
+          "track_id": "7IM4Kwoj3sit1W2d3ysfRL",
+          "rank": 2,
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 225733,
+          "duration_minutes": 3.76,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/7IM4Kwoj3sit1W2d3ysfRL"
+        },
+        {
+          "answer": "ノックブーツ",
+          "track_id": "2FMBbu35LaZ05dj9omRR45",
+          "rank": 3,
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 193133,
+          "duration_minutes": 3.22,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/2FMBbu35LaZ05dj9omRR45"
+        },
+        {
+          "answer": "全方向美少女",
+          "track_id": "2nBzvdYhs1p0GYjaResPgu",
+          "rank": 4,
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 142433,
+          "duration_minutes": 2.37,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/2nBzvdYhs1p0GYjaResPgu"
+        },
+        {
+          "answer": "好 -じょし-",
+          "track_id": "1F9z6PmSchpubK4TuJnHyg",
+          "rank": 5,
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 259000,
+          "duration_minutes": 4.32,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/1F9z6PmSchpubK4TuJnHyg"
+        },
+        {
+          "answer": "No.5",
+          "track_id": "37mJucdoNB71EUzIjbJ1Sb",
+          "rank": 6,
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 190233,
+          "duration_minutes": 3.17,
+          "explicit": true,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/37mJucdoNB71EUzIjbJ1Sb"
+        },
+        {
+          "answer": "Maybe",
+          "track_id": "5cf1gLL1vqDbNjcQ5mJvKl",
+          "rank": 7,
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 172166,
+          "duration_minutes": 2.87,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/5cf1gLL1vqDbNjcQ5mJvKl"
+        },
+        {
+          "answer": "Heart Shakes",
+          "track_id": "37Ya05rpJYsUUMRs8n5Bck",
+          "rank": 8,
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 210433,
+          "duration_minutes": 3.51,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/37Ya05rpJYsUUMRs8n5Bck"
+        },
+        {
+          "answer": "SAPPORO TOKYO",
+          "track_id": "43CEnELpKn2nICYp3yKHIG",
+          "rank": 9,
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 213933,
+          "duration_minutes": 3.57,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/43CEnELpKn2nICYp3yKHIG"
+        },
+        {
+          "answer": "Namidairo",
+          "track_id": "0iWP2BWnnCnPosw8IzHiDd",
+          "rank": 10,
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 209400,
+          "duration_minutes": 3.49,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/0iWP2BWnnCnPosw8IzHiDd"
+        },
+        {
+          "answer": "藍",
+          "track_id": "0ARG5qeulXLaxisvP35VUV",
+          "rank": 11,
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 235166,
+          "duration_minutes": 3.92,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/0ARG5qeulXLaxisvP35VUV"
+        },
+        {
+          "answer": "マスカラまつげ",
+          "track_id": "0aukgJjSZN0F7b7vHsAMl7",
+          "rank": 12,
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 313966,
+          "duration_minutes": 5.23,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/0aukgJjSZN0F7b7vHsAMl7"
+        },
+        {
+          "answer": "NAO",
+          "track_id": "509ee5uUKTtoF33KsGdcxX",
+          "rank": 13,
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 361466,
+          "duration_minutes": 6.02,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/509ee5uUKTtoF33KsGdcxX"
+        },
+        {
+          "answer": "缶ビール",
+          "track_id": "2IxxD4KKrqu3HUrRvSG3zW",
+          "rank": 14,
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 163966,
+          "duration_minutes": 2.73,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/2IxxD4KKrqu3HUrRvSG3zW"
+        },
+        {
+          "answer": "惑星",
+          "track_id": "2BmWfK9leIRenpkq8Ki9Sw",
+          "rank": 15,
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 221133,
+          "duration_minutes": 3.69,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/2BmWfK9leIRenpkq8Ki9Sw"
+        },
+        {
+          "answer": "真白",
+          "track_id": "6a4jfe2JNT5oY3iY78tEj7",
+          "rank": 16,
+          "track_number": 16,
+          "disc_number": 1,
+          "duration_ms": 245666,
+          "duration_minutes": 4.09,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/6a4jfe2JNT5oY3iY78tEj7"
+        },
+        {
+          "answer": "センチメンタル・キス",
+          "track_id": "2EkBOjC63utfVekijAqwa3",
+          "rank": 17,
+          "track_number": 17,
+          "disc_number": 1,
+          "duration_ms": 336700,
+          "duration_minutes": 5.61,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/2EkBOjC63utfVekijAqwa3"
+        },
+        {
+          "answer": "Chronicle A",
+          "track_id": "46zHByhdri5XDqpjbnwKbf",
+          "rank": 18,
+          "track_number": 18,
+          "disc_number": 1,
+          "duration_ms": 216566,
+          "duration_minutes": 3.61,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/46zHByhdri5XDqpjbnwKbf"
+        },
+        {
+          "answer": "スーパーヒーロー",
+          "track_id": "0edfgpa7ZtYz13lKPQqtvI",
+          "rank": 19,
+          "track_number": 19,
+          "disc_number": 1,
+          "duration_ms": 161233,
+          "duration_minutes": 2.69,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/0edfgpa7ZtYz13lKPQqtvI"
+        },
+        {
+          "answer": "かいか",
+          "track_id": "3CSyiX35BNhrs49A7mVrtQ",
+          "rank": 20,
+          "track_number": 20,
+          "disc_number": 1,
+          "duration_ms": 291533,
+          "duration_minutes": 4.86,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/3CSyiX35BNhrs49A7mVrtQ"
+        },
+        {
+          "answer": "大迷惑星。",
+          "track_id": "2kpcRQKtmq2Oom1AniNQeG",
+          "rank": 21,
+          "track_number": 21,
+          "disc_number": 1,
+          "duration_ms": 299433,
+          "duration_minutes": 4.99,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/2kpcRQKtmq2Oom1AniNQeG"
+        },
+        {
+          "answer": "ナイトオンザプラネット",
+          "track_id": "5hXA9M6HlvK1ftNO8OhFyY",
+          "rank": 22,
+          "track_number": 22,
+          "disc_number": 1,
+          "duration_ms": 276333,
+          "duration_minutes": 4.61,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/5hXA9M6HlvK1ftNO8OhFyY"
+        }
+      ],
+      "answer_count": 22,
+      "timestamp": "2025-10-30T10:46:54.919695",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/albums/6u2qGCefe2wQx3HLPwAtuz/tracks",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-albums-tracks"
+      },
+      "album_id": "6u2qGCefe2wQx3HLPwAtuz",
+      "album_name": "CHOCOLATE LIVE3",
+      "test_id": "6u2qGCefe2wQx3HLPwAtuz_all_tracks",
+      "query_category": "basic_enumeration",
+      "artist_id": "1rFELoNfdLOYWPwtrBN6zS",
+      "artist_name": "理芽 (RIM)"
+    },
+    {
+      "question": "列出专辑《CHOCOLATE LIVE3》中时长超过5分钟的曲目",
+      "answers": [
+        {
+          "answer": "マスカラまつげ",
+          "track_id": "0aukgJjSZN0F7b7vHsAMl7",
+          "rank": 1,
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 313966,
+          "duration_minutes": 5.23,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/0aukgJjSZN0F7b7vHsAMl7",
+          "original_rank": 12
+        },
+        {
+          "answer": "NAO",
+          "track_id": "509ee5uUKTtoF33KsGdcxX",
+          "rank": 2,
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 361466,
+          "duration_minutes": 6.02,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/509ee5uUKTtoF33KsGdcxX",
+          "original_rank": 13
+        },
+        {
+          "answer": "センチメンタル・キス",
+          "track_id": "2EkBOjC63utfVekijAqwa3",
+          "rank": 3,
+          "track_number": 17,
+          "disc_number": 1,
+          "duration_ms": 336700,
+          "duration_minutes": 5.61,
+          "explicit": false,
+          "is_playable": true,
+          "preview_url": null,
+          "artists": [
+            "理芽"
+          ],
+          "available_markets_count": 185,
+          "external_url": "https://open.spotify.com/track/2EkBOjC63utfVekijAqwa3",
+          "original_rank": 17
+        }
+      ],
+      "answer_count": 3,
+      "timestamp": "2025-10-30T10:46:54.919749",
+      "api_info": {
+        "api_endpoint": "https://api.spotify.com/v1/albums/6u2qGCefe2wQx3HLPwAtuz/tracks",
+        "method": "GET",
+        "parameters": {
+          "limit": 50,
+          "offset": "paginated"
+        },
+        "authentication": "Required (OAuth 2.0)",
+        "documentation": "https://developer.spotify.com/documentation/web-api/reference/get-an-albums-tracks"
+      },
+      "filter": "duration_ms>=300000",
+      "album_id": "6u2qGCefe2wQx3HLPwAtuz",
+      "album_name": "CHOCOLATE LIVE3",
+      "test_id": "6u2qGCefe2wQx3HLPwAtuz_tracks_over_5_min",
+      "query_category": "advanced_filter",
+      "artist_id": "1rFELoNfdLOYWPwtrBN6zS",
+      "artist_name": "理芽 (RIM)"
+    }
+  ]
+}

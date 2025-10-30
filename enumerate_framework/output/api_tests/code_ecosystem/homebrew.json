@@ -1,0 +1,129 @@
+{
+  "api_name": "Homebrew Formulae",
+  "requires_auth": false,
+  "config": {
+    "formulae": [
+      "python",
+      "node",
+      "git",
+      "go"
+    ]
+  },
+  "tests": [
+    {
+      "question": "",
+      "answers": [],
+      "answer_count": 0,
+      "timestamp": "2025-10-30T11:21:47.055551",
+      "api_info": {
+        "api_endpoint": "https://formulae.brew.sh/api/formula/python.json",
+        "method": "GET",
+        "parameters": {},
+        "authentication": "None",
+        "rate_limit": "No official limit",
+        "documentation": "https://formulae.brew.sh/docs/api/"
+      },
+      "formula": "python",
+      "ecosystem": "Homebrew"
+    },
+    {
+      "question": "列出Homebrew上node的当前版本和变体",
+      "answers": [
+        {
+          "answer": "24.10.0",
+          "variant_type": "stable"
+        },
+        {
+          "answer": "node@22",
+          "variant_type": "versioned_formula"
+        },
+        {
+          "answer": "node@20",
+          "variant_type": "versioned_formula"
+        },
+        {
+          "answer": "node@18",
+          "variant_type": "versioned_formula"
+        },
+        {
+          "answer": "node@16",
+          "variant_type": "versioned_formula"
+        }
+      ],
+      "answer_count": 5,
+      "timestamp": "2025-10-30T11:21:47.604867",
+      "api_info": {
+        "api_endpoint": "https://formulae.brew.sh/api/formula/node.json",
+        "method": "GET",
+        "parameters": {},
+        "authentication": "None",
+        "rate_limit": "No official limit",
+        "documentation": "https://formulae.brew.sh/docs/api/"
+      },
+      "formula": "node",
+      "ecosystem": "Homebrew"
+    },
+    {
+      "question": "列出Homebrew上git的当前版本和变体",
+      "answers": [
+        {
+          "answer": "2.51.2",
+          "variant_type": "stable"
+        }
+      ],
+      "answer_count": 1,
+      "timestamp": "2025-10-30T11:21:48.161800",
+      "api_info": {
+        "api_endpoint": "https://formulae.brew.sh/api/formula/git.json",
+        "method": "GET",
+        "parameters": {},
+        "authentication": "None",
+        "rate_limit": "No official limit",
+        "documentation": "https://formulae.brew.sh/docs/api/"
+      },
+      "formula": "git",
+      "ecosystem": "Homebrew"
+    },
+    {
+      "question": "列出Homebrew上go的当前版本和变体",
+      "answers": [
+        {
+          "answer": "1.25.3",
+          "variant_type": "stable"
+        },
+        {
+          "answer": "go@1.24",
+          "variant_type": "versioned_formula"
+        },
+        {
+          "answer": "go@1.23",
+          "variant_type": "versioned_formula"
+        },
+        {
+          "answer": "go@1.22",
+          "variant_type": "versioned_formula"
+        },
+        {
+          "answer": "go@1.21",
+          "variant_type": "versioned_formula"
+        },
+        {
+          "answer": "go@1.20",
+          "variant_type": "versioned_formula"
+        }
+      ],
+      "answer_count": 6,
+      "timestamp": "2025-10-30T11:21:48.711480",
+      "api_info": {
+        "api_endpoint": "https://formulae.brew.sh/api/formula/go.json",
+        "method": "GET",
+        "parameters": {},
+        "authentication": "None",
+        "rate_limit": "No official limit",
+        "documentation": "https://formulae.brew.sh/docs/api/"
+      },
+      "formula": "go",
+      "ecosystem": "Homebrew"
+    }
+  ]
+}

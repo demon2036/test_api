@@ -1,0 +1,3371 @@
+{
+  "api_name": "Go Proxy",
+  "description": "测试AI的深度枚举能力：识别预发布和稳定版本",
+  "requires_auth": false,
+  "difficulty_level": "Advanced (Level 2)",
+  "config": {
+    "packages": [
+      "github.com/gin-gonic/gin",
+      "google.golang.org/grpc"
+    ]
+  },
+  "tests": [
+    {
+      "module": "github.com/gin-gonic/gin",
+      "tests": [
+        {
+          "question": "列出Go module github.com/gin-gonic/gin的所有版本",
+          "answers": [
+            {
+              "answer": "v1.9.0",
+              "time": "2023-02-21",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.3.0",
+              "time": "2018-08-14",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.0",
+              "time": "2021-04-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.8.0",
+              "time": "2022-05-28",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.6.0",
+              "time": "2020-03-22",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.8.2",
+              "time": "2022-12-22",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.1.1",
+              "time": "2016-12-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.5.0",
+              "time": "2019-11-24",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.2",
+              "time": "2021-05-21",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.1",
+              "time": "2021-04-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.1.3",
+              "time": "2016-12-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.1.2",
+              "time": "2016-12-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.9.1",
+              "time": "2023-06-01",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.6.3",
+              "time": "2020-05-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.10.0",
+              "time": "2024-05-07",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.3",
+              "time": "2021-08-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.5",
+              "time": "2021-11-20",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.11.0",
+              "time": "2025-09-20",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.4.0",
+              "time": "2019-05-07",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.1.4",
+              "time": "2016-12-04",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.6.1",
+              "time": "2020-03-23",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.7",
+              "time": "2021-11-24",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.10.1",
+              "time": "2025-05-20",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.8.1",
+              "time": "2022-06-06",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.6.2",
+              "time": "2020-03-27",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.4",
+              "time": "2021-08-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.6",
+              "time": "2021-08-03",
+              "module_path": null,
+              "checksum": null
+            }
+          ],
+          "answer_count": 27,
+          "timestamp": "2025-10-30T11:19:30.416335",
+          "package": "github.com/gin-gonic/gin",
+          "ecosystem": "Go Proxy",
+          "query_category": "base_enumeration"
+        },
+        {
+          "question": "列出Go Proxy上github.com/gin-gonic/gin模块的所有预发布版本",
+          "answers": [],
+          "answer_count": 0,
+          "timestamp": "2025-10-30T11:19:30.416388",
+          "package": "github.com/gin-gonic/gin",
+          "ecosystem": "Go Proxy",
+          "filter": "include_prerelease=True",
+          "match_percentage": "0.0%"
+        },
+        {
+          "question": "列出Go Proxy上github.com/gin-gonic/gin模块的所有稳定版本",
+          "answers": [
+            {
+              "answer": "v1.9.0",
+              "time": "2023-02-21",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.3.0",
+              "time": "2018-08-14",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.0",
+              "time": "2021-04-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.8.0",
+              "time": "2022-05-28",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.6.0",
+              "time": "2020-03-22",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.8.2",
+              "time": "2022-12-22",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.1.1",
+              "time": "2016-12-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.5.0",
+              "time": "2019-11-24",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.2",
+              "time": "2021-05-21",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.1",
+              "time": "2021-04-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.1.3",
+              "time": "2016-12-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.1.2",
+              "time": "2016-12-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.9.1",
+              "time": "2023-06-01",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.6.3",
+              "time": "2020-05-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.10.0",
+              "time": "2024-05-07",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.3",
+              "time": "2021-08-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.5",
+              "time": "2021-11-20",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.11.0",
+              "time": "2025-09-20",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.4.0",
+              "time": "2019-05-07",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.1.4",
+              "time": "2016-12-04",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.6.1",
+              "time": "2020-03-23",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.7",
+              "time": "2021-11-24",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.10.1",
+              "time": "2025-05-20",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.8.1",
+              "time": "2022-06-06",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.6.2",
+              "time": "2020-03-27",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.4",
+              "time": "2021-08-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.6",
+              "time": "2021-08-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            }
+          ],
+          "answer_count": 27,
+          "timestamp": "2025-10-30T11:19:30.416460",
+          "package": "github.com/gin-gonic/gin",
+          "ecosystem": "Go Proxy",
+          "filter": "exclude_prerelease=True",
+          "match_percentage": "100.0%"
+        }
+      ],
+      "api_info": {
+        "api_endpoint": "https://proxy.golang.org/github.com/gin-gonic/gin/@v/list",
+        "method": "GET",
+        "parameters": {},
+        "authentication": "None",
+        "rate_limit": "No official limit",
+        "documentation": "https://go.dev/ref/mod#goproxy-protocol",
+        "metadata_fields": [
+          "version",
+          "time"
+        ]
+      },
+      "summary": {
+        "total_versions": 27,
+        "prerelease_versions": 0,
+        "stable_versions": 27
+      }
+    },
+    {
+      "module": "google.golang.org/grpc",
+      "tests": [
+        {
+          "question": "列出Go module google.golang.org/grpc的所有版本",
+          "answers": [
+            {
+              "answer": "v1.9.0",
+              "time": "2018-01-02",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.3.0",
+              "time": null,
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.66.0",
+              "time": "2024-08-28",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.68.1",
+              "time": "2024-12-04",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.52.1",
+              "time": "2023-01-24",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.0.2",
+              "time": "2016-10-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.36.1",
+              "time": "2021-03-25",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.0",
+              "time": "2017-10-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.56.0-dev",
+              "time": "2023-04-18",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.19.0",
+              "time": "2019-02-26",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.43.0-dev",
+              "time": "2021-10-29",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.18.1",
+              "time": "2019-03-20",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.65.0-dev",
+              "time": "2024-05-09",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.17.0",
+              "time": "2018-12-04",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.28.1",
+              "time": "2020-04-06",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.75.0",
+              "time": "2025-08-19",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.67.0",
+              "time": "2024-09-20",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.33.2",
+              "time": "2020-11-06",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.45.0",
+              "time": "2022-03-09",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.37.1",
+              "time": "2021-05-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.31.0-dev",
+              "time": "2020-06-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.30.0-dev.1",
+              "time": "2020-04-21",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.73.0",
+              "time": "2025-06-05",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.74.0-dev",
+              "time": "2025-05-15",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.74.2",
+              "time": "2025-07-22",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.5.1",
+              "time": "2017-07-27",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.8.0",
+              "time": "2017-11-21",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.19.1",
+              "time": "2019-03-20",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.56.1",
+              "time": "2023-06-21",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.72.0-dev",
+              "time": "2025-02-19",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.50.0-dev",
+              "time": "2022-08-15",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.64.1",
+              "time": "2024-07-02",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.39.0",
+              "time": "2021-06-29",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.20.0",
+              "time": "2019-04-09",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.6.0",
+              "time": "2017-08-30",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.41.1",
+              "time": "2021-12-01",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.0.5",
+              "time": "2016-12-02",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.75.1",
+              "time": "2025-09-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.4.2",
+              "time": "2017-06-22",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.25.1",
+              "time": "2019-11-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.30.0",
+              "time": "2020-06-22",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.11.2",
+              "time": "2018-04-04",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.68.0-dev",
+              "time": "2024-09-09",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.20.1",
+              "time": "2019-04-18",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.61.0",
+              "time": "2024-01-23",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.38.1",
+              "time": "2021-06-29",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.0.0",
+              "time": "2016-07-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.14.0",
+              "time": "2018-07-31",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.76.0-dev",
+              "time": "2025-08-05",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.33.3",
+              "time": "2021-01-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.47.0-dev",
+              "time": "2022-04-06",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.67.2",
+              "time": "2024-12-04",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.51.0-dev",
+              "time": "2022-10-04",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.34.0",
+              "time": "2020-12-02",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.18.0",
+              "time": "2019-01-15",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.70.0-dev",
+              "time": "2024-12-05",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.28.0",
+              "time": "2020-03-10",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.12.0",
+              "time": "2018-05-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.58.0-dev",
+              "time": "2023-07-14",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.33.0",
+              "time": "2020-10-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.27.0",
+              "time": "2020-01-28",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.41.0-dev",
+              "time": "2021-07-27",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.56.2",
+              "time": "2023-07-06",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.42.0",
+              "time": "2021-11-02",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.74.0",
+              "time": "2025-07-16",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.69.2",
+              "time": "2024-12-18",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.52.0",
+              "time": "2023-01-10",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.46.0",
+              "time": "2022-04-22",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.62.1",
+              "time": "2024-03-05",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.52.0-dev",
+              "time": "2022-11-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.46.1",
+              "time": "2022-04-22",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.62.2",
+              "time": "2024-04-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.69.0-dev",
+              "time": "2024-10-16",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.8.2",
+              "time": "2017-12-13",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.29.1",
+              "time": "2020-04-23",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.34.0-dev",
+              "time": "2020-10-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.75.0-dev",
+              "time": "2025-06-25",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.76.0",
+              "time": "2025-10-06",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.12.1",
+              "time": "2018-06-06",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.33.1",
+              "time": "2020-10-20",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.27.1",
+              "time": "2020-02-05",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.63.0",
+              "time": "2024-04-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.37.0",
+              "time": "2021-04-07",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.21.2",
+              "time": "2019-07-25",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.5.0",
+              "time": "2017-07-19",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.22.2",
+              "time": "2019-08-13",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.46.0-dev",
+              "time": "2022-02-22",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.31.1",
+              "time": "2020-08-25",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.2",
+              "time": "2017-11-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.65.0",
+              "time": "2024-07-02",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.36.0",
+              "time": "2021-02-24",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.35.0",
+              "time": "2021-01-13",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.56.0",
+              "time": "2023-06-15",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.1",
+              "time": "2017-10-25",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.4.1",
+              "time": "2017-06-14",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.69.4",
+              "time": "2025-01-13",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.72.1",
+              "time": "2025-05-14",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.69.0",
+              "time": "2024-12-05",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.65.1",
+              "time": "2024-10-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.43.0",
+              "time": "2021-12-14",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.50.1",
+              "time": "2022-10-14",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.60.0-dev",
+              "time": "2023-10-05",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.0.3",
+              "time": "2016-10-17",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.55.0",
+              "time": "2023-05-04",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.21.0",
+              "time": "2019-05-22",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.39.1",
+              "time": "2021-08-05",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.59.0",
+              "time": "2023-10-17",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.62.0",
+              "time": "2024-02-21",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.9.1",
+              "time": "2018-01-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.55.0-dev",
+              "time": "2023-03-17",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.40.0",
+              "time": "2021-08-12",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.32.0",
+              "time": "2020-09-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.33.0-dev",
+              "time": "2020-08-25",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.10.0",
+              "time": "2018-02-14",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.3",
+              "time": "2017-11-14",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.68.0",
+              "time": "2024-11-07",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.24.0",
+              "time": "2019-09-25",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.32.0-dev",
+              "time": "2020-07-23",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.63.2",
+              "time": "2024-04-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.42.0-dev",
+              "time": "2021-09-21",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.73.0-dev",
+              "time": "2025-04-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.57.1",
+              "time": "2023-10-10",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.73.1",
+              "time": "2025-09-10",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.22.0",
+              "time": "2019-07-02",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.45.0-dev",
+              "time": "2022-01-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.35.1",
+              "time": "2021-03-12",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.57.2",
+              "time": "2023-10-18",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.64.0",
+              "time": "2024-05-14",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.22.1",
+              "time": "2019-07-25",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.27.0-pre",
+              "time": "2019-12-17",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.39.0-dev",
+              "time": "2021-05-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.21.1",
+              "time": "2019-06-04",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.35.0-dev",
+              "time": "2020-11-17",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.5",
+              "time": "2017-12-18",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.31.0",
+              "time": "2020-07-30",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.11.0",
+              "time": "2018-03-27",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.25.0",
+              "time": "2019-11-05",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.40.1",
+              "time": "2021-12-01",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.74.1",
+              "time": "2025-07-17",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.51.0",
+              "time": "2022-11-18",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.0.1-GA",
+              "time": null,
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.61.0-dev",
+              "time": "2023-11-14",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.50.0",
+              "time": "2022-10-06",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.5.2",
+              "time": "2017-08-14",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.44.0",
+              "time": "2022-01-25",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.63.3",
+              "time": "2024-07-02",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.60.1",
+              "time": "2023-12-18",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.2.1",
+              "time": "2017-04-07",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.59.0-dev",
+              "time": "2023-08-24",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.38.0",
+              "time": "2021-05-19",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.66.2",
+              "time": "2024-09-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.0.4",
+              "time": "2016-11-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.48.0",
+              "time": "2022-07-12",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.53.0",
+              "time": "2023-02-07",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.47.0",
+              "time": "2022-05-31",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.72.2",
+              "time": "2025-05-26",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.66.0-dev",
+              "time": "2024-06-06",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.38.0-dev",
+              "time": "2021-03-31",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.63.1",
+              "time": "2024-04-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.46.2",
+              "time": "2022-05-13",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.58.2",
+              "time": "2023-09-21",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.4.0",
+              "time": "2017-06-07",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.61.1",
+              "time": "2024-02-13",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.2.0",
+              "time": "2017-03-14",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.30.1",
+              "time": "2020-08-25",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.71.0",
+              "time": "2025-03-04",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.74.3",
+              "time": "2025-09-09",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.23.1",
+              "time": "2019-09-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.48.0-dev",
+              "time": "2022-05-23",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.12.2",
+              "time": "2018-06-07",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.58.0",
+              "time": "2023-09-06",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.22.3",
+              "time": "2019-09-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.30.0-dev",
+              "time": "2020-04-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.10.1",
+              "time": "2018-03-28",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.21.4",
+              "time": "2019-09-17",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.72.0",
+              "time": "2025-04-21",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.11.3",
+              "time": "2018-04-09",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.61.2",
+              "time": "2024-04-03",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.55.1",
+              "time": "2023-07-06",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.41.0",
+              "time": "2021-09-23",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.37.0-dev",
+              "time": "2021-02-10",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.71.2",
+              "time": "2025-05-14",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.34.1",
+              "time": "2021-01-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.9.2",
+              "time": "2018-01-19",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.57.0-dev",
+              "time": "2023-06-02",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.58.1",
+              "time": "2023-09-13",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.29.0",
+              "time": "2020-04-21",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.66.1",
+              "time": "2024-09-09",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.68.2",
+              "time": "2024-12-18",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.53.0-dev",
+              "time": "2022-12-16",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.13.0",
+              "time": "2018-06-19",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.58.3",
+              "time": "2023-10-10",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.23.0",
+              "time": "2019-08-13",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.36.0-dev",
+              "time": "2021-01-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.7.4",
+              "time": "2017-12-04",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.16.0",
+              "time": "2018-10-23",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.15.0",
+              "time": "2018-09-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.71.0-dev",
+              "time": "2025-01-08",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.26.0",
+              "time": "2019-12-17",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.49.0-dev",
+              "time": "2022-07-01",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.34.2",
+              "time": "2021-03-12",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.57.0",
+              "time": "2023-07-26",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.21.3",
+              "time": "2019-08-13",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.71.3",
+              "time": "2025-05-26",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.11.1",
+              "time": "2018-03-29",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.40.0-dev",
+              "time": "2021-06-15",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.67.1",
+              "time": "2024-09-30",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.49.0",
+              "time": "2022-08-23",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.67.3",
+              "time": "2024-12-17",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.60.0",
+              "time": "2023-12-11",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.54.0",
+              "time": "2023-03-21",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.66.3",
+              "time": "2024-09-30",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.70.0",
+              "time": "2025-01-23",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.77.0-dev",
+              "time": "2025-09-17",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.71.1",
+              "time": "2025-03-28",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.52.3",
+              "time": "2023-01-25",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.54.1",
+              "time": "2023-05-05",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.28.0-pre",
+              "time": "2020-01-28",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.67.0-dev",
+              "time": "2024-08-16",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.29.0-dev",
+              "time": "2020-03-05",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.56.3",
+              "time": "2023-10-10",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.44.0-dev",
+              "time": "2021-12-06",
+              "module_path": null,
+              "checksum": null
+            },
+            {
+              "answer": "v1.72.3",
+              "time": "2025-09-10",
+              "module_path": null,
+              "checksum": null
+            }
+          ],
+          "answer_count": 223,
+          "timestamp": "2025-10-30T11:21:44.104913",
+          "package": "google.golang.org/grpc",
+          "ecosystem": "Go Proxy",
+          "query_category": "base_enumeration"
+        },
+        {
+          "question": "列出Go Proxy上google.golang.org/grpc模块的所有预发布版本",
+          "answers": [
+            {
+              "answer": "v1.56.0-dev",
+              "time": "2023-04-18",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.43.0-dev",
+              "time": "2021-10-29",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.65.0-dev",
+              "time": "2024-05-09",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.31.0-dev",
+              "time": "2020-06-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.30.0-dev.1",
+              "time": "2020-04-21",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.74.0-dev",
+              "time": "2025-05-15",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.72.0-dev",
+              "time": "2025-02-19",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.50.0-dev",
+              "time": "2022-08-15",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.68.0-dev",
+              "time": "2024-09-09",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.76.0-dev",
+              "time": "2025-08-05",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.47.0-dev",
+              "time": "2022-04-06",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.51.0-dev",
+              "time": "2022-10-04",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.70.0-dev",
+              "time": "2024-12-05",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.58.0-dev",
+              "time": "2023-07-14",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.41.0-dev",
+              "time": "2021-07-27",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.52.0-dev",
+              "time": "2022-11-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.69.0-dev",
+              "time": "2024-10-16",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.34.0-dev",
+              "time": "2020-10-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.75.0-dev",
+              "time": "2025-06-25",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.46.0-dev",
+              "time": "2022-02-22",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.60.0-dev",
+              "time": "2023-10-05",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.55.0-dev",
+              "time": "2023-03-17",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.33.0-dev",
+              "time": "2020-08-25",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.32.0-dev",
+              "time": "2020-07-23",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.42.0-dev",
+              "time": "2021-09-21",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.73.0-dev",
+              "time": "2025-04-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.45.0-dev",
+              "time": "2022-01-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.27.0-pre",
+              "time": "2019-12-17",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.39.0-dev",
+              "time": "2021-05-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.35.0-dev",
+              "time": "2020-11-17",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.61.0-dev",
+              "time": "2023-11-14",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.59.0-dev",
+              "time": "2023-08-24",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.66.0-dev",
+              "time": "2024-06-06",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.38.0-dev",
+              "time": "2021-03-31",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.48.0-dev",
+              "time": "2022-05-23",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.30.0-dev",
+              "time": "2020-04-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.37.0-dev",
+              "time": "2021-02-10",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.57.0-dev",
+              "time": "2023-06-02",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.53.0-dev",
+              "time": "2022-12-16",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.36.0-dev",
+              "time": "2021-01-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.71.0-dev",
+              "time": "2025-01-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.49.0-dev",
+              "time": "2022-07-01",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.40.0-dev",
+              "time": "2021-06-15",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.77.0-dev",
+              "time": "2025-09-17",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.28.0-pre",
+              "time": "2020-01-28",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.67.0-dev",
+              "time": "2024-08-16",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.29.0-dev",
+              "time": "2020-03-05",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            },
+            {
+              "answer": "v1.44.0-dev",
+              "time": "2021-12-06",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": true
+            }
+          ],
+          "answer_count": 48,
+          "timestamp": "2025-10-30T11:21:44.105205",
+          "package": "google.golang.org/grpc",
+          "ecosystem": "Go Proxy",
+          "filter": "include_prerelease=True",
+          "match_percentage": "21.5%"
+        },
+        {
+          "question": "列出Go Proxy上google.golang.org/grpc模块的所有稳定版本",
+          "answers": [
+            {
+              "answer": "v1.9.0",
+              "time": "2018-01-02",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.3.0",
+              "time": null,
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.66.0",
+              "time": "2024-08-28",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.68.1",
+              "time": "2024-12-04",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.52.1",
+              "time": "2023-01-24",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.0.2",
+              "time": "2016-10-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.36.1",
+              "time": "2021-03-25",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.0",
+              "time": "2017-10-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.19.0",
+              "time": "2019-02-26",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.18.1",
+              "time": "2019-03-20",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.17.0",
+              "time": "2018-12-04",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.28.1",
+              "time": "2020-04-06",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.75.0",
+              "time": "2025-08-19",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.67.0",
+              "time": "2024-09-20",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.33.2",
+              "time": "2020-11-06",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.45.0",
+              "time": "2022-03-09",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.37.1",
+              "time": "2021-05-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.73.0",
+              "time": "2025-06-05",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.74.2",
+              "time": "2025-07-22",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.5.1",
+              "time": "2017-07-27",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.8.0",
+              "time": "2017-11-21",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.19.1",
+              "time": "2019-03-20",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.56.1",
+              "time": "2023-06-21",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.64.1",
+              "time": "2024-07-02",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.39.0",
+              "time": "2021-06-29",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.20.0",
+              "time": "2019-04-09",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.6.0",
+              "time": "2017-08-30",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.41.1",
+              "time": "2021-12-01",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.0.5",
+              "time": "2016-12-02",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.75.1",
+              "time": "2025-09-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.4.2",
+              "time": "2017-06-22",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.25.1",
+              "time": "2019-11-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.30.0",
+              "time": "2020-06-22",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.11.2",
+              "time": "2018-04-04",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.20.1",
+              "time": "2019-04-18",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.61.0",
+              "time": "2024-01-23",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.38.1",
+              "time": "2021-06-29",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.0.0",
+              "time": "2016-07-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.14.0",
+              "time": "2018-07-31",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.33.3",
+              "time": "2021-01-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.67.2",
+              "time": "2024-12-04",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.34.0",
+              "time": "2020-12-02",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.18.0",
+              "time": "2019-01-15",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.28.0",
+              "time": "2020-03-10",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.12.0",
+              "time": "2018-05-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.33.0",
+              "time": "2020-10-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.27.0",
+              "time": "2020-01-28",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.56.2",
+              "time": "2023-07-06",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.42.0",
+              "time": "2021-11-02",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.74.0",
+              "time": "2025-07-16",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.69.2",
+              "time": "2024-12-18",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.52.0",
+              "time": "2023-01-10",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.46.0",
+              "time": "2022-04-22",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.62.1",
+              "time": "2024-03-05",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.46.1",
+              "time": "2022-04-22",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.62.2",
+              "time": "2024-04-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.8.2",
+              "time": "2017-12-13",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.29.1",
+              "time": "2020-04-23",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.76.0",
+              "time": "2025-10-06",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.12.1",
+              "time": "2018-06-06",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.33.1",
+              "time": "2020-10-20",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.27.1",
+              "time": "2020-02-05",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.63.0",
+              "time": "2024-04-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.37.0",
+              "time": "2021-04-07",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.21.2",
+              "time": "2019-07-25",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.5.0",
+              "time": "2017-07-19",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.22.2",
+              "time": "2019-08-13",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.31.1",
+              "time": "2020-08-25",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.2",
+              "time": "2017-11-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.65.0",
+              "time": "2024-07-02",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.36.0",
+              "time": "2021-02-24",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.35.0",
+              "time": "2021-01-13",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.56.0",
+              "time": "2023-06-15",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.1",
+              "time": "2017-10-25",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.4.1",
+              "time": "2017-06-14",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.69.4",
+              "time": "2025-01-13",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.72.1",
+              "time": "2025-05-14",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.69.0",
+              "time": "2024-12-05",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.65.1",
+              "time": "2024-10-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.43.0",
+              "time": "2021-12-14",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.50.1",
+              "time": "2022-10-14",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.0.3",
+              "time": "2016-10-17",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.55.0",
+              "time": "2023-05-04",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.21.0",
+              "time": "2019-05-22",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.39.1",
+              "time": "2021-08-05",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.59.0",
+              "time": "2023-10-17",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.62.0",
+              "time": "2024-02-21",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.9.1",
+              "time": "2018-01-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.40.0",
+              "time": "2021-08-12",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.32.0",
+              "time": "2020-09-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.10.0",
+              "time": "2018-02-14",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.3",
+              "time": "2017-11-14",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.68.0",
+              "time": "2024-11-07",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.24.0",
+              "time": "2019-09-25",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.63.2",
+              "time": "2024-04-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.57.1",
+              "time": "2023-10-10",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.73.1",
+              "time": "2025-09-10",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.22.0",
+              "time": "2019-07-02",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.35.1",
+              "time": "2021-03-12",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.57.2",
+              "time": "2023-10-18",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.64.0",
+              "time": "2024-05-14",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.22.1",
+              "time": "2019-07-25",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.21.1",
+              "time": "2019-06-04",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.5",
+              "time": "2017-12-18",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.31.0",
+              "time": "2020-07-30",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.11.0",
+              "time": "2018-03-27",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.25.0",
+              "time": "2019-11-05",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.40.1",
+              "time": "2021-12-01",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.74.1",
+              "time": "2025-07-17",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.51.0",
+              "time": "2022-11-18",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.0.1-GA",
+              "time": null,
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.50.0",
+              "time": "2022-10-06",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.5.2",
+              "time": "2017-08-14",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.44.0",
+              "time": "2022-01-25",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.63.3",
+              "time": "2024-07-02",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.60.1",
+              "time": "2023-12-18",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.2.1",
+              "time": "2017-04-07",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.38.0",
+              "time": "2021-05-19",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.66.2",
+              "time": "2024-09-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.0.4",
+              "time": "2016-11-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.48.0",
+              "time": "2022-07-12",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.53.0",
+              "time": "2023-02-07",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.47.0",
+              "time": "2022-05-31",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.72.2",
+              "time": "2025-05-26",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.63.1",
+              "time": "2024-04-08",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.46.2",
+              "time": "2022-05-13",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.58.2",
+              "time": "2023-09-21",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.4.0",
+              "time": "2017-06-07",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.61.1",
+              "time": "2024-02-13",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.2.0",
+              "time": "2017-03-14",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.30.1",
+              "time": "2020-08-25",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.71.0",
+              "time": "2025-03-04",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.74.3",
+              "time": "2025-09-09",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.23.1",
+              "time": "2019-09-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.12.2",
+              "time": "2018-06-07",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.58.0",
+              "time": "2023-09-06",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.22.3",
+              "time": "2019-09-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.10.1",
+              "time": "2018-03-28",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.21.4",
+              "time": "2019-09-17",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.72.0",
+              "time": "2025-04-21",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.11.3",
+              "time": "2018-04-09",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.61.2",
+              "time": "2024-04-03",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.55.1",
+              "time": "2023-07-06",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.41.0",
+              "time": "2021-09-23",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.71.2",
+              "time": "2025-05-14",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.34.1",
+              "time": "2021-01-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.9.2",
+              "time": "2018-01-19",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.58.1",
+              "time": "2023-09-13",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.29.0",
+              "time": "2020-04-21",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.66.1",
+              "time": "2024-09-09",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.68.2",
+              "time": "2024-12-18",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.13.0",
+              "time": "2018-06-19",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.58.3",
+              "time": "2023-10-10",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.23.0",
+              "time": "2019-08-13",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.7.4",
+              "time": "2017-12-04",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.16.0",
+              "time": "2018-10-23",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.15.0",
+              "time": "2018-09-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.26.0",
+              "time": "2019-12-17",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.34.2",
+              "time": "2021-03-12",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.57.0",
+              "time": "2023-07-26",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.21.3",
+              "time": "2019-08-13",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.71.3",
+              "time": "2025-05-26",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.11.1",
+              "time": "2018-03-29",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.67.1",
+              "time": "2024-09-30",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.49.0",
+              "time": "2022-08-23",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.67.3",
+              "time": "2024-12-17",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.60.0",
+              "time": "2023-12-11",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.54.0",
+              "time": "2023-03-21",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.66.3",
+              "time": "2024-09-30",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.70.0",
+              "time": "2025-01-23",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.71.1",
+              "time": "2025-03-28",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.52.3",
+              "time": "2023-01-25",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.54.1",
+              "time": "2023-05-05",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.56.3",
+              "time": "2023-10-10",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            },
+            {
+              "answer": "v1.72.3",
+              "time": "2025-09-10",
+              "module_path": null,
+              "checksum": null,
+              "is_prerelease": false
+            }
+          ],
+          "answer_count": 175,
+          "timestamp": "2025-10-30T11:21:44.105487",
+          "package": "google.golang.org/grpc",
+          "ecosystem": "Go Proxy",
+          "filter": "exclude_prerelease=True",
+          "match_percentage": "78.5%"
+        }
+      ],
+      "api_info": {
+        "api_endpoint": "https://proxy.golang.org/google.golang.org/grpc/@v/list",
+        "method": "GET",
+        "parameters": {},
+        "authentication": "None",
+        "rate_limit": "No official limit",
+        "documentation": "https://go.dev/ref/mod#goproxy-protocol",
+        "metadata_fields": [
+          "version",
+          "time"
+        ]
+      },
+      "summary": {
+        "total_versions": 223,
+        "prerelease_versions": 48,
+        "stable_versions": 175
+      }
+    }
+  ]
+}

@@ -1,0 +1,1985 @@
+{
+  "api_name": "NuGet",
+  "description": "测试AI的深度枚举能力：识别预发布和稳定版本",
+  "requires_auth": false,
+  "difficulty_level": "Advanced (Level 2)",
+  "config": {
+    "packages": [
+      "Newtonsoft.Json",
+      "NUnit"
+    ]
+  },
+  "tests": [
+    {
+      "package": "Newtonsoft.Json",
+      "tests": [
+        {
+          "question": "列出NuGet上Newtonsoft.Json的所有版本",
+          "answers": [
+            {
+              "answer": "3.5.8",
+              "published": "2011-01-08",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.0.1",
+              "published": "2011-04-22",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.0.2",
+              "published": "2011-04-23",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.0.3",
+              "published": "2011-10-02",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.0.4",
+              "published": "2011-11-19",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.0.5",
+              "published": "2011-12-10",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.0.6",
+              "published": "2012-01-23",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.0.7",
+              "published": "2012-01-24",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.0.8",
+              "published": "2012-02-12",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.5.1",
+              "published": "2012-03-20",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.5.2",
+              "published": "2012-04-11",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.5.3",
+              "published": "2012-04-13",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.5.4",
+              "published": "2012-04-24",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.5.5",
+              "published": "2012-05-08",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.5.6",
+              "published": "2012-05-30",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.5.7",
+              "published": "2012-06-09",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.5.8",
+              "published": "2012-08-04",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.5.9",
+              "published": "2012-09-08",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.5.10",
+              "published": "2012-10-07",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "4.5.11",
+              "published": "2012-11-20",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "5.0.1",
+              "published": "2013-04-07",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "5.0.2",
+              "published": "2013-04-08",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "5.0.3",
+              "published": "2013-04-14",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "5.0.4",
+              "published": "2013-04-25",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "5.0.5",
+              "published": "2013-05-08",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "5.0.6",
+              "published": "2013-06-06",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "5.0.7",
+              "published": "2013-10-14",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "5.0.8",
+              "published": "2013-10-17",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "6.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "6.0.1",
+              "published": "2014-02-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "6.0.2",
+              "published": "2014-03-30",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "6.0.3",
+              "published": "2014-04-27",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "6.0.4",
+              "published": "2014-08-03",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "6.0.5",
+              "published": "2014-09-06",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "6.0.6",
+              "published": "2014-10-24",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "6.0.7",
+              "published": "2014-12-23",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "6.0.8",
+              "published": "2015-01-11",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "7.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "7.0.1-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "7.0.1-beta3",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "7.0.1",
+              "published": "2015-06-22",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "8.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "8.0.1-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "8.0.1-beta3",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "8.0.1-beta4",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "8.0.1",
+              "published": "2015-12-29",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "8.0.2",
+              "published": "2016-01-09",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "8.0.3",
+              "published": "2016-03-14",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "8.0.4-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "9.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "9.0.1",
+              "published": "2016-06-22",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "9.0.2-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "9.0.2-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "10.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "10.0.1",
+              "published": "2017-03-20",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "10.0.2",
+              "published": "2017-04-02",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "10.0.3",
+              "published": "2017-06-18",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "11.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "11.0.1-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "11.0.1-beta3",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "11.0.1",
+              "published": "2018-02-17",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "11.0.2",
+              "published": "2018-03-24",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "12.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "12.0.1-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "12.0.1",
+              "published": "2018-11-27",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "12.0.2-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "12.0.2-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "12.0.2-beta3",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "12.0.2",
+              "published": "2019-04-22",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "12.0.3-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "12.0.3-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "12.0.3",
+              "published": "2019-11-09",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "13.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "13.0.1-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "13.0.1",
+              "published": "2021-03-22",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "13.0.2-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "13.0.2-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "13.0.2-beta3",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "13.0.2",
+              "published": "2022-11-24",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "13.0.3-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "13.0.3",
+              "published": "2023-03-08",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "13.0.4-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true
+            },
+            {
+              "answer": "13.0.4",
+              "published": "2025-09-16",
+              "authors": "James Newton-King",
+              "is_listed": true
+            }
+          ],
+          "answer_count": 83,
+          "timestamp": "2025-10-30T11:21:58.319355",
+          "package": "Newtonsoft.Json",
+          "ecosystem": "NuGet",
+          "query_category": "base_enumeration"
+        },
+        {
+          "question": "列出NuGet上Newtonsoft.Json包的所有预发布版本",
+          "answers": [
+            {
+              "answer": "6.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "7.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "7.0.1-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "7.0.1-beta3",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "8.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "8.0.1-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "8.0.1-beta3",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "8.0.1-beta4",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "8.0.4-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "9.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "9.0.2-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "9.0.2-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "10.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "11.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "11.0.1-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "11.0.1-beta3",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "12.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "12.0.1-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "12.0.2-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "12.0.2-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "12.0.2-beta3",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "12.0.3-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "12.0.3-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "13.0.1-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "13.0.1-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "13.0.2-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "13.0.2-beta2",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "13.0.2-beta3",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "13.0.3-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "13.0.4-beta1",
+              "published": "1900-01-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": true
+            }
+          ],
+          "answer_count": 30,
+          "timestamp": "2025-10-30T11:21:58.319452",
+          "package": "Newtonsoft.Json",
+          "ecosystem": "NuGet",
+          "filter": "include_prerelease=True",
+          "match_percentage": "36.1%"
+        },
+        {
+          "question": "列出NuGet上Newtonsoft.Json包的所有稳定版本",
+          "answers": [
+            {
+              "answer": "3.5.8",
+              "published": "2011-01-08",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.0.1",
+              "published": "2011-04-22",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.0.2",
+              "published": "2011-04-23",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.0.3",
+              "published": "2011-10-02",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.0.4",
+              "published": "2011-11-19",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.0.5",
+              "published": "2011-12-10",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.0.6",
+              "published": "2012-01-23",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.0.7",
+              "published": "2012-01-24",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.0.8",
+              "published": "2012-02-12",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.5.1",
+              "published": "2012-03-20",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.5.2",
+              "published": "2012-04-11",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.5.3",
+              "published": "2012-04-13",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.5.4",
+              "published": "2012-04-24",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.5.5",
+              "published": "2012-05-08",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.5.6",
+              "published": "2012-05-30",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.5.7",
+              "published": "2012-06-09",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.5.8",
+              "published": "2012-08-04",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.5.9",
+              "published": "2012-09-08",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.5.10",
+              "published": "2012-10-07",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.5.11",
+              "published": "2012-11-20",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "5.0.1",
+              "published": "2013-04-07",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "5.0.2",
+              "published": "2013-04-08",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "5.0.3",
+              "published": "2013-04-14",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "5.0.4",
+              "published": "2013-04-25",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "5.0.5",
+              "published": "2013-05-08",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "5.0.6",
+              "published": "2013-06-06",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "5.0.7",
+              "published": "2013-10-14",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "5.0.8",
+              "published": "2013-10-17",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "6.0.1",
+              "published": "2014-02-01",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "6.0.2",
+              "published": "2014-03-30",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "6.0.3",
+              "published": "2014-04-27",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "6.0.4",
+              "published": "2014-08-03",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "6.0.5",
+              "published": "2014-09-06",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "6.0.6",
+              "published": "2014-10-24",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "6.0.7",
+              "published": "2014-12-23",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "6.0.8",
+              "published": "2015-01-11",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "7.0.1",
+              "published": "2015-06-22",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "8.0.1",
+              "published": "2015-12-29",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "8.0.2",
+              "published": "2016-01-09",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "8.0.3",
+              "published": "2016-03-14",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "9.0.1",
+              "published": "2016-06-22",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "10.0.1",
+              "published": "2017-03-20",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "10.0.2",
+              "published": "2017-04-02",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "10.0.3",
+              "published": "2017-06-18",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "11.0.1",
+              "published": "2018-02-17",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "11.0.2",
+              "published": "2018-03-24",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "12.0.1",
+              "published": "2018-11-27",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "12.0.2",
+              "published": "2019-04-22",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "12.0.3",
+              "published": "2019-11-09",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "13.0.1",
+              "published": "2021-03-22",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "13.0.2",
+              "published": "2022-11-24",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "13.0.3",
+              "published": "2023-03-08",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "13.0.4",
+              "published": "2025-09-16",
+              "authors": "James Newton-King",
+              "is_listed": true,
+              "is_prerelease": false
+            }
+          ],
+          "answer_count": 53,
+          "timestamp": "2025-10-30T11:21:58.319523",
+          "package": "Newtonsoft.Json",
+          "ecosystem": "NuGet",
+          "filter": "exclude_prerelease=True",
+          "match_percentage": "63.9%"
+        }
+      ],
+      "api_info": {
+        "api_endpoint": "https://api.nuget.org/v3/registration5-semver1/newtonsoft.json/index.json",
+        "method": "GET",
+        "parameters": {},
+        "authentication": "None",
+        "rate_limit": "No official limit",
+        "documentation": "https://docs.microsoft.com/en-us/nuget/api/overview",
+        "metadata_fields": [
+          "version",
+          "published",
+          "authors",
+          "description"
+        ]
+      },
+      "summary": {
+        "total_versions": 83,
+        "prerelease_versions": 30,
+        "stable_versions": 53
+      }
+    },
+    {
+      "package": "NUnit",
+      "tests": [
+        {
+          "question": "列出NuGet上NUnit的所有版本",
+          "answers": [
+            {
+              "answer": "2.5.7.10213",
+              "published": "2011-01-07",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "2.5.9.10348",
+              "published": "2011-02-09",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "2.5.10.11092",
+              "published": "2011-04-25",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "2.6.0.12051",
+              "published": "1900-01-01",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "2.6.0.12054",
+              "published": "2012-02-24",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "2.6.1",
+              "published": "2012-08-05",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "2.6.2",
+              "published": "2012-10-23",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "2.6.3",
+              "published": "2013-10-11",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "2.6.4",
+              "published": "2014-12-17",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "2.6.5",
+              "published": "2018-04-20",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "2.6.6",
+              "published": "2018-06-07",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "2.6.7",
+              "published": "2018-07-07",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "2.7.0",
+              "published": "2018-08-10",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "2.7.1",
+              "published": "2019-08-21",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0-alpha",
+              "published": "2014-09-23",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0-alpha-2",
+              "published": "2014-11-03",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0-alpha-3",
+              "published": "2014-11-29",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0-alpha-4",
+              "published": "2014-12-31",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0-alpha-5",
+              "published": "2015-01-31",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0-beta-1",
+              "published": "2015-03-26",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0-beta-2",
+              "published": "2015-05-13",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0-beta-3",
+              "published": "2015-07-15",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0-beta-4",
+              "published": "2015-08-25",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0-beta-5",
+              "published": "2015-10-17",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0-rc",
+              "published": "2015-11-01",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0-rc-2",
+              "published": "2015-11-08",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0-rc-3",
+              "published": "2015-11-14",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.0",
+              "published": "2015-11-16",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.0.1",
+              "published": "2015-12-02",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.2.0",
+              "published": "2016-03-05",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.2.1",
+              "published": "2016-04-19",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.4.0",
+              "published": "2016-06-25",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.4.1",
+              "published": "2016-06-30",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.5.0",
+              "published": "2016-10-04",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.6.0",
+              "published": "2017-01-10",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.6.1",
+              "published": "2017-02-26",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.7.0",
+              "published": "2017-05-30",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.7.1",
+              "published": "2017-06-06",
+              "authors": "Charlie Poole",
+              "is_listed": true
+            },
+            {
+              "answer": "3.8.0",
+              "published": "2017-08-28",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "3.8.1",
+              "published": "2017-08-29",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "3.9.0",
+              "published": "2017-11-10",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "3.10.0",
+              "published": "2018-03-13",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "3.10.1",
+              "published": "2018-03-13",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "3.11.0",
+              "published": "2018-10-07",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "3.12.0",
+              "published": "2019-05-15",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "3.13.0",
+              "published": "2021-01-07",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "3.13.1",
+              "published": "2021-02-01",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "3.13.2",
+              "published": "2021-04-27",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "3.13.3",
+              "published": "2022-03-20",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "3.14.0",
+              "published": "2023-11-03",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "4.0.0",
+              "published": "1900-01-01",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "4.0.1",
+              "published": "2023-12-02",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "4.1.0",
+              "published": "2024-02-25",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "4.2.0",
+              "published": "1900-01-01",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "4.2.1",
+              "published": "2024-08-23",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "4.2.2",
+              "published": "2024-08-31",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "4.3.0",
+              "published": "2024-12-14",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "4.3.1",
+              "published": "2024-12-21",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "4.3.2",
+              "published": "2024-12-28",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            },
+            {
+              "answer": "4.4.0",
+              "published": "2025-08-10",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true
+            }
+          ],
+          "answer_count": 60,
+          "timestamp": "2025-10-30T11:21:59.226116",
+          "package": "NUnit",
+          "ecosystem": "NuGet",
+          "query_category": "base_enumeration"
+        },
+        {
+          "question": "列出NuGet上NUnit包的所有预发布版本",
+          "answers": [
+            {
+              "answer": "3.0.0-alpha",
+              "published": "2014-09-23",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "3.0.0-alpha-2",
+              "published": "2014-11-03",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "3.0.0-alpha-3",
+              "published": "2014-11-29",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "3.0.0-alpha-4",
+              "published": "2014-12-31",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "3.0.0-alpha-5",
+              "published": "2015-01-31",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "3.0.0-beta-1",
+              "published": "2015-03-26",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "3.0.0-beta-2",
+              "published": "2015-05-13",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "3.0.0-beta-3",
+              "published": "2015-07-15",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "3.0.0-beta-4",
+              "published": "2015-08-25",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "3.0.0-beta-5",
+              "published": "2015-10-17",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "3.0.0-rc",
+              "published": "2015-11-01",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "3.0.0-rc-2",
+              "published": "2015-11-08",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": true
+            },
+            {
+              "answer": "3.0.0-rc-3",
+              "published": "2015-11-14",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": true
+            }
+          ],
+          "answer_count": 13,
+          "timestamp": "2025-10-30T11:21:59.226240",
+          "package": "NUnit",
+          "ecosystem": "NuGet",
+          "filter": "include_prerelease=True",
+          "match_percentage": "21.7%"
+        },
+        {
+          "question": "列出NuGet上NUnit包的所有稳定版本",
+          "answers": [
+            {
+              "answer": "2.5.7.10213",
+              "published": "2011-01-07",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.5.9.10348",
+              "published": "2011-02-09",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.5.10.11092",
+              "published": "2011-04-25",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.6.0.12051",
+              "published": "1900-01-01",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.6.0.12054",
+              "published": "2012-02-24",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.6.1",
+              "published": "2012-08-05",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.6.2",
+              "published": "2012-10-23",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.6.3",
+              "published": "2013-10-11",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.6.4",
+              "published": "2014-12-17",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.6.5",
+              "published": "2018-04-20",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.6.6",
+              "published": "2018-06-07",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.6.7",
+              "published": "2018-07-07",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.7.0",
+              "published": "2018-08-10",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.7.1",
+              "published": "2019-08-21",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.0.0",
+              "published": "2015-11-16",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.0.1",
+              "published": "2015-12-02",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.2.0",
+              "published": "2016-03-05",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.2.1",
+              "published": "2016-04-19",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.4.0",
+              "published": "2016-06-25",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.4.1",
+              "published": "2016-06-30",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.5.0",
+              "published": "2016-10-04",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.6.0",
+              "published": "2017-01-10",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.6.1",
+              "published": "2017-02-26",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.7.0",
+              "published": "2017-05-30",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.7.1",
+              "published": "2017-06-06",
+              "authors": "Charlie Poole",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.8.0",
+              "published": "2017-08-28",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.8.1",
+              "published": "2017-08-29",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.9.0",
+              "published": "2017-11-10",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.10.0",
+              "published": "2018-03-13",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.10.1",
+              "published": "2018-03-13",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.11.0",
+              "published": "2018-10-07",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.12.0",
+              "published": "2019-05-15",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.13.0",
+              "published": "2021-01-07",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.13.1",
+              "published": "2021-02-01",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.13.2",
+              "published": "2021-04-27",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.13.3",
+              "published": "2022-03-20",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "3.14.0",
+              "published": "2023-11-03",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.0.0",
+              "published": "1900-01-01",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.0.1",
+              "published": "2023-12-02",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.1.0",
+              "published": "2024-02-25",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.2.0",
+              "published": "1900-01-01",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.2.1",
+              "published": "2024-08-23",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.2.2",
+              "published": "2024-08-31",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.3.0",
+              "published": "2024-12-14",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.3.1",
+              "published": "2024-12-21",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.3.2",
+              "published": "2024-12-28",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            },
+            {
+              "answer": "4.4.0",
+              "published": "2025-08-10",
+              "authors": "Charlie Poole, Rob Prouse",
+              "is_listed": true,
+              "is_prerelease": false
+            }
+          ],
+          "answer_count": 47,
+          "timestamp": "2025-10-30T11:21:59.226334",
+          "package": "NUnit",
+          "ecosystem": "NuGet",
+          "filter": "exclude_prerelease=True",
+          "match_percentage": "78.3%"
+        }
+      ],
+      "api_info": {
+        "api_endpoint": "https://api.nuget.org/v3/registration5-semver1/nunit/index.json",
+        "method": "GET",
+        "parameters": {},
+        "authentication": "None",
+        "rate_limit": "No official limit",
+        "documentation": "https://docs.microsoft.com/en-us/nuget/api/overview",
+        "metadata_fields": [
+          "version",
+          "published",
+          "authors",
+          "description"
+        ]
+      },
+      "summary": {
+        "total_versions": 60,
+        "prerelease_versions": 13,
+        "stable_versions": 47
+      }
+    }
+  ]
+}

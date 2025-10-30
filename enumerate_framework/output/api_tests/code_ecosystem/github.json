@@ -1,0 +1,586 @@
+{
+  "api_name": "GitHub",
+  "description": "完整的GitHub API测试：基础枚举 + 元数据过滤 + 高级功能",
+  "test_sections": [
+    "基础枚举 + 元数据过滤 (4个测试)",
+    "高级功能测试 (4个测试)"
+  ],
+  "requires_auth": false,
+  "difficulty_level": "Advanced (Level 2)",
+  "config": {
+    "users": [
+      {
+        "username": "torvalds",
+        "name": "Linus Torvalds"
+      },
+      {
+        "username": "gvanrossum",
+        "name": "Guido van Rossum"
+      },
+      {
+        "username": "tj",
+        "name": "TJ Holowaychuk"
+      },
+      {
+        "username": "sindresorhus",
+        "name": "Sindre Sorhus"
+      }
+    ],
+    "release_repos": [
+      {
+        "repo": "nodejs/node",
+        "name": "Node.js"
+      },
+      {
+        "repo": "python/cpython",
+        "name": "Python"
+      },
+      {
+        "repo": "rust-lang/rust",
+        "name": "Rust"
+      }
+    ],
+    "branch_repos": [
+      {
+        "repo": "rails/rails",
+        "name": "Ruby on Rails"
+      },
+      {
+        "repo": "django/django",
+        "name": "Django"
+      },
+      {
+        "repo": "laravel/framework",
+        "name": "Laravel"
+      }
+    ],
+    "max_items": 100
+  },
+  "summary": {
+    "test_user": "torvalds",
+    "total_repos": 9,
+    "popular_repos": 3,
+    "c_repos": 6,
+    "recent_repos": 9,
+    "highly_forked_repos": 3,
+    "total_releases": 100,
+    "prereleases": 0,
+    "total_branches": 20,
+    "stale_branches": 20,
+    "most_starred": "torvalds/linux"
+  },
+  "tests": [
+    {
+      "question": "列出GitHub用户torvalds的所有公开仓库及元数据",
+      "answers": [
+        {
+          "answer": "torvalds/linux",
+          "stars": 205951,
+          "forks": 58092,
+          "language": "C",
+          "created_at": "2011-09-04",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/GuitarPedal",
+          "stars": 1136,
+          "forks": 38,
+          "language": "OpenSCAD",
+          "created_at": "2025-09-17",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/uemacs",
+          "stars": 1623,
+          "forks": 275,
+          "language": "C",
+          "created_at": "2018-01-17",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/pesconvert",
+          "stars": 454,
+          "forks": 68,
+          "language": "C",
+          "created_at": "2017-12-04",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/libgit2",
+          "stars": 229,
+          "forks": 22,
+          "language": "C",
+          "created_at": "2022-07-30",
+          "is_fork": true
+        },
+        {
+          "answer": "torvalds/test-tlb",
+          "stars": 830,
+          "forks": 214,
+          "language": "C",
+          "created_at": "2017-03-24",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/subsurface-for-dirk",
+          "stars": 345,
+          "forks": 68,
+          "language": "C++",
+          "created_at": "2017-01-11",
+          "is_fork": true
+        },
+        {
+          "answer": "torvalds/libdc-for-dirk",
+          "stars": 282,
+          "forks": 53,
+          "language": "C",
+          "created_at": "2017-01-17",
+          "is_fork": true
+        },
+        {
+          "answer": "torvalds/1590A",
+          "stars": 435,
+          "forks": 18,
+          "language": "OpenSCAD",
+          "created_at": "2025-03-01",
+          "is_fork": false
+        }
+      ],
+      "answer_count": 9,
+      "timestamp": "2025-10-30T11:18:43.933379",
+      "api_info": {
+        "api_endpoint": "https://api.github.com/users/torvalds/repos",
+        "method": "GET",
+        "parameters": {
+          "per_page": 100,
+          "sort": "updated"
+        },
+        "documentation": "https://docs.github.com/en/rest/repos/repos#list-repositories-for-a-user"
+      },
+      "test_id": "1.1",
+      "category": "基础枚举",
+      "username": "torvalds",
+      "query_category": "base_enumeration"
+    },
+    {
+      "question": "列出GitHub用户torvalds的所有仓库，其中star数超过1000的",
+      "answers": [
+        {
+          "answer": "torvalds/linux",
+          "stars": 205951,
+          "forks": 58092,
+          "language": "C",
+          "created_at": "2011-09-04",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/GuitarPedal",
+          "stars": 1136,
+          "forks": 38,
+          "language": "OpenSCAD",
+          "created_at": "2025-09-17",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/uemacs",
+          "stars": 1623,
+          "forks": 275,
+          "language": "C",
+          "created_at": "2018-01-17",
+          "is_fork": false
+        }
+      ],
+      "answer_count": 3,
+      "timestamp": "2025-10-30T11:18:43.933449",
+      "test_id": "1.2",
+      "category": "元数据过滤",
+      "filter": {
+        "stars": {
+          "min": 1000
+        }
+      },
+      "match_percentage": "33.3%",
+      "username": "torvalds"
+    },
+    {
+      "question": "列出GitHub用户torvalds的所有仓库，其中主语言是C的",
+      "answers": [
+        {
+          "answer": "torvalds/linux",
+          "stars": 205951,
+          "forks": 58092,
+          "language": "C",
+          "created_at": "2011-09-04",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/uemacs",
+          "stars": 1623,
+          "forks": 275,
+          "language": "C",
+          "created_at": "2018-01-17",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/pesconvert",
+          "stars": 454,
+          "forks": 68,
+          "language": "C",
+          "created_at": "2017-12-04",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/libgit2",
+          "stars": 229,
+          "forks": 22,
+          "language": "C",
+          "created_at": "2022-07-30",
+          "is_fork": true
+        },
+        {
+          "answer": "torvalds/test-tlb",
+          "stars": 830,
+          "forks": 214,
+          "language": "C",
+          "created_at": "2017-03-24",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/libdc-for-dirk",
+          "stars": 282,
+          "forks": 53,
+          "language": "C",
+          "created_at": "2017-01-17",
+          "is_fork": true
+        }
+      ],
+      "answer_count": 6,
+      "timestamp": "2025-10-30T11:18:43.933492",
+      "test_id": "1.3",
+      "category": "元数据过滤",
+      "filter": {
+        "language": "C"
+      },
+      "match_percentage": "66.7%",
+      "username": "torvalds"
+    },
+    {
+      "question": "列出GitHub用户torvalds的所有仓库，其中在2010年后创建的",
+      "answers": [
+        {
+          "answer": "torvalds/linux",
+          "stars": 205951,
+          "forks": 58092,
+          "language": "C",
+          "created_at": "2011-09-04",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/GuitarPedal",
+          "stars": 1136,
+          "forks": 38,
+          "language": "OpenSCAD",
+          "created_at": "2025-09-17",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/uemacs",
+          "stars": 1623,
+          "forks": 275,
+          "language": "C",
+          "created_at": "2018-01-17",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/pesconvert",
+          "stars": 454,
+          "forks": 68,
+          "language": "C",
+          "created_at": "2017-12-04",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/libgit2",
+          "stars": 229,
+          "forks": 22,
+          "language": "C",
+          "created_at": "2022-07-30",
+          "is_fork": true
+        },
+        {
+          "answer": "torvalds/test-tlb",
+          "stars": 830,
+          "forks": 214,
+          "language": "C",
+          "created_at": "2017-03-24",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/subsurface-for-dirk",
+          "stars": 345,
+          "forks": 68,
+          "language": "C++",
+          "created_at": "2017-01-11",
+          "is_fork": true
+        },
+        {
+          "answer": "torvalds/libdc-for-dirk",
+          "stars": 282,
+          "forks": 53,
+          "language": "C",
+          "created_at": "2017-01-17",
+          "is_fork": true
+        },
+        {
+          "answer": "torvalds/1590A",
+          "stars": 435,
+          "forks": 18,
+          "language": "OpenSCAD",
+          "created_at": "2025-03-01",
+          "is_fork": false
+        }
+      ],
+      "answer_count": 9,
+      "timestamp": "2025-10-30T11:18:43.933551",
+      "test_id": "1.4",
+      "category": "元数据过滤",
+      "filter": {
+        "created_after": 2010
+      },
+      "match_percentage": "100.0%",
+      "year_distribution": {
+        "2011": 1,
+        "2025": 2,
+        "2018": 1,
+        "2017": 4,
+        "2022": 1
+      },
+      "username": "torvalds"
+    },
+    {
+      "question": "列出torvalds用户所有仓库中，被fork数超过100的",
+      "answers": [
+        {
+          "answer": "torvalds/linux",
+          "stars": 205951,
+          "forks": 58092,
+          "language": "C",
+          "created_at": "2011-09-04",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/uemacs",
+          "stars": 1623,
+          "forks": 275,
+          "language": "C",
+          "created_at": "2018-01-17",
+          "is_fork": false
+        },
+        {
+          "answer": "torvalds/test-tlb",
+          "stars": 830,
+          "forks": 214,
+          "language": "C",
+          "created_at": "2017-03-24",
+          "is_fork": false
+        }
+      ],
+      "answer_count": 3,
+      "timestamp": "2025-10-30T11:18:43.933593",
+      "test_id": "2.1",
+      "category": "高级功能",
+      "filter": {
+        "forks": {
+          "min": 100
+        }
+      },
+      "match_percentage": "33.3%",
+      "username": "torvalds"
+    },
+    {
+      "question": "列出nodejs/node仓库中所有pre-release版本",
+      "answers": [],
+      "answer_count": 0,
+      "timestamp": "2025-10-30T11:18:45.725382",
+      "api_info": {
+        "api_endpoint": "https://api.github.com/repos/nodejs/node/releases",
+        "method": "GET",
+        "parameters": {
+          "per_page": 100
+        },
+        "documentation": "https://docs.github.com/en/rest/releases/releases#list-releases"
+      },
+      "test_id": "2.2",
+      "category": "高级功能",
+      "repository": "nodejs/node",
+      "filter": "prerelease=True",
+      "match_percentage": "0.0%",
+      "total_releases": 100
+    },
+    {
+      "question": "列出rails/rails仓库中超过1年未更新的分支",
+      "answers": [
+        {
+          "answer": "0-5-stable",
+          "last_commit_date": "2024-07-26"
+        },
+        {
+          "answer": "0-6-stable",
+          "last_commit_date": "2024-07-26"
+        },
+        {
+          "answer": "0-7-stable",
+          "last_commit_date": "2024-07-26"
+        },
+        {
+          "answer": "0-8-stable",
+          "last_commit_date": "2024-07-26"
+        },
+        {
+          "answer": "1-2-stable",
+          "last_commit_date": "2008-02-19"
+        },
+        {
+          "answer": "2-0-stable",
+          "last_commit_date": "2009-09-11"
+        },
+        {
+          "answer": "2-1-stable",
+          "last_commit_date": "2011-01-17"
+        },
+        {
+          "answer": "2-2-stable",
+          "last_commit_date": "2011-01-17"
+        },
+        {
+          "answer": "2-3-stable",
+          "last_commit_date": "2013-04-22"
+        },
+        {
+          "answer": "3-0-stable",
+          "last_commit_date": "2014-02-18"
+        },
+        {
+          "answer": "3-1-stable",
+          "last_commit_date": "2014-11-16"
+        },
+        {
+          "answer": "3-2-stable",
+          "last_commit_date": "2017-01-17"
+        },
+        {
+          "answer": "4-0-stable",
+          "last_commit_date": "2015-04-20"
+        },
+        {
+          "answer": "4-1-stable",
+          "last_commit_date": "2016-07-13"
+        },
+        {
+          "answer": "4-2-stable",
+          "last_commit_date": "2020-07-09"
+        },
+        {
+          "answer": "5-0-stable",
+          "last_commit_date": "2019-04-08"
+        },
+        {
+          "answer": "5-1-stable",
+          "last_commit_date": "2019-07-10"
+        },
+        {
+          "answer": "5-2-stable",
+          "last_commit_date": "2022-09-15"
+        },
+        {
+          "answer": "6-0-stable",
+          "last_commit_date": "2023-05-24"
+        },
+        {
+          "answer": "6-1-sec",
+          "last_commit_date": "2024-10-23"
+        }
+      ],
+      "answer_count": 20,
+      "timestamp": "2025-10-30T11:19:11.236112",
+      "api_info": {
+        "api_endpoint": "https://api.github.com/repos/rails/rails/branches",
+        "method": "GET",
+        "parameters": {
+          "per_page": 100
+        },
+        "documentation": "https://docs.github.com/en/rest/branches/branches#list-branches"
+      },
+      "test_id": "2.3",
+      "category": "高级功能",
+      "repository": "rails/rails",
+      "filter": "last_update>12_months",
+      "match_percentage": "100.0%",
+      "total_branches": 20
+    },
+    {
+      "question": "找出torvalds用户star最多的仓库",
+      "answers": [
+        {
+          "answer": "torvalds/linux",
+          "stars": 205951,
+          "forks": 58092,
+          "language": "C",
+          "created_at": "2011-09-04",
+          "is_fork": false,
+          "rank": 1
+        },
+        {
+          "answer": "torvalds/uemacs",
+          "stars": 1623,
+          "forks": 275,
+          "language": "C",
+          "created_at": "2018-01-17",
+          "is_fork": false,
+          "rank": 2
+        },
+        {
+          "answer": "torvalds/GuitarPedal",
+          "stars": 1136,
+          "forks": 38,
+          "language": "OpenSCAD",
+          "created_at": "2025-09-17",
+          "is_fork": false,
+          "rank": 3
+        },
+        {
+          "answer": "torvalds/test-tlb",
+          "stars": 830,
+          "forks": 214,
+          "language": "C",
+          "created_at": "2017-03-24",
+          "is_fork": false,
+          "rank": 4
+        },
+        {
+          "answer": "torvalds/pesconvert",
+          "stars": 454,
+          "forks": 68,
+          "language": "C",
+          "created_at": "2017-12-04",
+          "is_fork": false,
+          "rank": 5
+        }
+      ],
+      "answer_count": 5,
+      "timestamp": "2025-10-30T11:19:11.236255",
+      "test_id": "2.4",
+      "category": "高级功能",
+      "username": "torvalds",
+      "highlight_answer": {
+        "answer": "torvalds/linux",
+        "stars": 205951,
+        "forks": 58092,
+        "language": "C",
+        "created_at": "2011-09-04",
+        "is_fork": false,
+        "rank": 1
+      }
+    }
+  ]
+}

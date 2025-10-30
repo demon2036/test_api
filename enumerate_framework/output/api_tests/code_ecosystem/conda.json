@@ -1,0 +1,4548 @@
+{
+  "api_name": "Conda",
+  "description": "测试AI的深度枚举能力：识别预发布和稳定版本",
+  "requires_auth": false,
+  "difficulty_level": "Advanced (Level 2)",
+  "config": {
+    "packages": [
+      "numpy",
+      "pandas"
+    ],
+    "channel": "conda-forge"
+  },
+  "tests": [
+    {
+      "package": "numpy",
+      "channel": "conda-forge",
+      "tests": [
+        {
+          "question": "列出Conda conda-forge频道上numpy的所有版本",
+          "answers": [
+            {
+              "answer": "1.10.4",
+              "upload_time": "2016-05-21",
+              "total_downloads": 253809,
+              "file_count": 38,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.11.0",
+              "upload_time": "2016-05-20",
+              "total_downloads": 139232,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.11.1",
+              "upload_time": "2016-07-08",
+              "total_downloads": 131354,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.11.2",
+              "upload_time": "2016-10-04",
+              "total_downloads": 139893,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.11.3",
+              "upload_time": "2016-12-19",
+              "total_downloads": 797485,
+              "file_count": 78,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.12.0",
+              "upload_time": "2017-01-16",
+              "total_downloads": 89636,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.12.1",
+              "upload_time": "2017-03-18",
+              "total_downloads": 511437,
+              "file_count": 27,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.13.0",
+              "upload_time": "2017-06-08",
+              "total_downloads": 74650,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.13.1",
+              "upload_time": "2017-07-07",
+              "total_downloads": 302831,
+              "file_count": 16,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.13.2",
+              "upload_time": "2017-09-28",
+              "total_downloads": 29083,
+              "file_count": 6,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.13.3",
+              "upload_time": "2017-09-30",
+              "total_downloads": 576286,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.14.0",
+              "upload_time": "2018-01-07",
+              "total_downloads": 164510,
+              "file_count": 10,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.14.0rc1",
+              "upload_time": "2017-12-15",
+              "total_downloads": 4231,
+              "file_count": 6,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.14.1",
+              "upload_time": "2018-02-21",
+              "total_downloads": 106782,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.14.2",
+              "upload_time": "2018-03-13",
+              "total_downloads": 203455,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.14.3",
+              "upload_time": "2018-04-28",
+              "total_downloads": 205112,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.14.4",
+              "upload_time": "2018-06-07",
+              "total_downloads": 46209,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.14.5",
+              "upload_time": "2018-06-13",
+              "total_downloads": 353157,
+              "file_count": 35,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.14.6",
+              "upload_time": "2018-09-25",
+              "total_downloads": 382585,
+              "file_count": 60,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.15.0",
+              "upload_time": "2018-07-31",
+              "total_downloads": 135357,
+              "file_count": 11,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.15.1",
+              "upload_time": "2018-08-21",
+              "total_downloads": 1182672,
+              "file_count": 19,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.15.2",
+              "upload_time": "2018-09-24",
+              "total_downloads": 716711,
+              "file_count": 44,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.15.3",
+              "upload_time": "2018-10-23",
+              "total_downloads": 1352970,
+              "file_count": 14,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.15.4",
+              "upload_time": "2018-11-04",
+              "total_downloads": 848123,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.16.0",
+              "upload_time": "2019-01-14",
+              "total_downloads": 103835,
+              "file_count": 14,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.16.1",
+              "upload_time": "2019-02-01",
+              "total_downloads": 133933,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.16.2",
+              "upload_time": "2019-02-27",
+              "total_downloads": 508600,
+              "file_count": 26,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.16.3",
+              "upload_time": "2019-04-22",
+              "total_downloads": 331492,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.16.4",
+              "upload_time": "2019-05-28",
+              "total_downloads": 807777,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.16.5",
+              "upload_time": "2019-11-03",
+              "total_downloads": 854693,
+              "file_count": 33,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.16.6",
+              "upload_time": "2020-12-14",
+              "total_downloads": 256217,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.17.0",
+              "upload_time": "2019-08-01",
+              "total_downloads": 318845,
+              "file_count": 10,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.17.1",
+              "upload_time": "2019-08-27",
+              "total_downloads": 120049,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.17.2",
+              "upload_time": "2019-09-07",
+              "total_downloads": 394566,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.17.3",
+              "upload_time": "2019-10-24",
+              "total_downloads": 945396,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.17.5",
+              "upload_time": "2020-01-19",
+              "total_downloads": 693731,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.18.1",
+              "upload_time": "2020-02-03",
+              "total_downloads": 1056072,
+              "file_count": 42,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.18.4",
+              "upload_time": "2020-05-04",
+              "total_downloads": 332304,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.18.5",
+              "upload_time": "2020-06-06",
+              "total_downloads": 1219272,
+              "file_count": 19,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.19.0",
+              "upload_time": "2020-07-16",
+              "total_downloads": 490291,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.19.1",
+              "upload_time": "2020-07-23",
+              "total_downloads": 1821100,
+              "file_count": 52,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.19.2",
+              "upload_time": "2020-10-10",
+              "total_downloads": 827365,
+              "file_count": 64,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.19.4",
+              "upload_time": "2020-11-05",
+              "total_downloads": 2266075,
+              "file_count": 63,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.19.5",
+              "upload_time": "2021-01-05",
+              "total_downloads": 6682344,
+              "file_count": 107,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.20.0",
+              "upload_time": "2021-01-31",
+              "total_downloads": 222273,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.20.1",
+              "upload_time": "2021-02-10",
+              "total_downloads": 870504,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.20.2",
+              "upload_time": "2021-03-28",
+              "total_downloads": 917466,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.20.3",
+              "upload_time": "2021-05-20",
+              "total_downloads": 2344497,
+              "file_count": 70,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.21.0",
+              "upload_time": "2021-06-22",
+              "total_downloads": 572426,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.21.1",
+              "upload_time": "2021-07-18",
+              "total_downloads": 1072351,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.21.2",
+              "upload_time": "2021-08-16",
+              "total_downloads": 1543035,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.21.3",
+              "upload_time": "2021-10-21",
+              "total_downloads": 428180,
+              "file_count": 50,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.21.4",
+              "upload_time": "2021-11-05",
+              "total_downloads": 1069096,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.21.5",
+              "upload_time": "2021-12-21",
+              "total_downloads": 1233653,
+              "file_count": 61,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.21.6",
+              "upload_time": "2022-04-12",
+              "total_downloads": 4034484,
+              "file_count": 33,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.22.0",
+              "upload_time": "2022-01-03",
+              "total_downloads": 372792,
+              "file_count": 36,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.22.1",
+              "upload_time": "2022-01-24",
+              "total_downloads": 219059,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.22.2",
+              "upload_time": "2022-02-04",
+              "total_downloads": 833147,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.22.3",
+              "upload_time": "2022-03-08",
+              "total_downloads": 3728618,
+              "file_count": 92,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.22.4",
+              "upload_time": "2022-05-23",
+              "total_downloads": 5730405,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.23.0",
+              "upload_time": "2022-06-23",
+              "total_downloads": 508333,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.23.1",
+              "upload_time": "2022-07-10",
+              "total_downloads": 1133160,
+              "file_count": 81,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.23.2",
+              "upload_time": "2022-08-16",
+              "total_downloads": 945370,
+              "file_count": 27,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.23.3",
+              "upload_time": "2022-09-11",
+              "total_downloads": 1154865,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.23.4",
+              "upload_time": "2022-10-18",
+              "total_downloads": 1489323,
+              "file_count": 62,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.23.5",
+              "upload_time": "2022-11-20",
+              "total_downloads": 3882321,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.24.0",
+              "upload_time": "2022-12-19",
+              "total_downloads": 273453,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.24.1",
+              "upload_time": "2022-12-30",
+              "total_downloads": 1184894,
+              "file_count": 68,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.24.2",
+              "upload_time": "2023-02-06",
+              "total_downloads": 4159546,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.24.3",
+              "upload_time": "2023-04-23",
+              "total_downloads": 3125808,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.24.4",
+              "upload_time": "2023-06-26",
+              "total_downloads": 3508943,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.25.0",
+              "upload_time": "2023-06-18",
+              "total_downloads": 690052,
+              "file_count": 23,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.25.1",
+              "upload_time": "2023-07-09",
+              "total_downloads": 681255,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.25.2",
+              "upload_time": "2023-08-03",
+              "total_downloads": 1257764,
+              "file_count": 23,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.26.0",
+              "upload_time": "2023-09-17",
+              "total_downloads": 2368122,
+              "file_count": 44,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.26.2",
+              "upload_time": "2023-11-25",
+              "total_downloads": 753696,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.26.3",
+              "upload_time": "2024-01-03",
+              "total_downloads": 780079,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.26.4",
+              "upload_time": "2024-02-06",
+              "total_downloads": 11074142,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.7.2",
+              "upload_time": "2017-07-26",
+              "total_downloads": 22658,
+              "file_count": 6,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.8.2",
+              "upload_time": "2017-07-27",
+              "total_downloads": 145795,
+              "file_count": 16,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.9.3",
+              "upload_time": "2017-07-19",
+              "total_downloads": 400551,
+              "file_count": 99,
+              "platforms": [
+                "linux",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.0.0",
+              "upload_time": "2024-06-17",
+              "total_downloads": 817959,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.0.0rc1",
+              "upload_time": "2024-03-31",
+              "total_downloads": 21836,
+              "file_count": 116,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.0.0rc2",
+              "upload_time": "2024-05-16",
+              "total_downloads": 44569,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.0.1",
+              "upload_time": "2024-07-26",
+              "total_downloads": 546201,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.0.2",
+              "upload_time": "2024-08-27",
+              "total_downloads": 1976478,
+              "file_count": 48,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.1.0",
+              "upload_time": "2024-08-19",
+              "total_downloads": 381827,
+              "file_count": 42,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.1.0rc1",
+              "upload_time": "2024-08-12",
+              "total_downloads": 8356,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.1.1",
+              "upload_time": "2024-09-04",
+              "total_downloads": 557012,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.1.2",
+              "upload_time": "2024-10-06",
+              "total_downloads": 683109,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.1.3",
+              "upload_time": "2024-11-02",
+              "total_downloads": 1083413,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.2.0",
+              "upload_time": "2024-12-08",
+              "total_downloads": 360194,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.2.0rc1",
+              "upload_time": "2024-11-27",
+              "total_downloads": 10170,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.2.1",
+              "upload_time": "2024-12-22",
+              "total_downloads": 628998,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.2.2",
+              "upload_time": "2025-01-20",
+              "total_downloads": 624640,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.2.3",
+              "upload_time": "2025-02-13",
+              "total_downloads": 908518,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.2.4",
+              "upload_time": "2025-03-17",
+              "total_downloads": 1063196,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.2.5",
+              "upload_time": "2025-04-20",
+              "total_downloads": 952914,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.2.6",
+              "upload_time": "2025-05-18",
+              "total_downloads": 2103932,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.3.0",
+              "upload_time": "2025-06-09",
+              "total_downloads": 705111,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.3.1",
+              "upload_time": "2025-07-01",
+              "total_downloads": 918689,
+              "file_count": 48,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.3.2",
+              "upload_time": "2025-07-25",
+              "total_downloads": 3108746,
+              "file_count": 96,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.3.3",
+              "upload_time": "2025-09-10",
+              "total_downloads": 1942054,
+              "file_count": 36,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.3.4",
+              "upload_time": "2025-10-22",
+              "total_downloads": 248720,
+              "file_count": 36,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            }
+          ],
+          "answer_count": 104,
+          "timestamp": "2025-10-30T11:19:15.009424",
+          "package": "numpy",
+          "channel": "conda-forge",
+          "ecosystem": "Conda",
+          "query_category": "base_enumeration"
+        },
+        {
+          "question": "列出Conda上numpy包的所有预发布版本",
+          "answers": [
+            {
+              "answer": "1.14.0rc1",
+              "upload_time": "2017-12-15",
+              "total_downloads": 4231,
+              "file_count": 6,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "2.0.0rc1",
+              "upload_time": "2024-03-31",
+              "total_downloads": 21836,
+              "file_count": 116,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "2.0.0rc2",
+              "upload_time": "2024-05-16",
+              "total_downloads": 44569,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "2.1.0rc1",
+              "upload_time": "2024-08-12",
+              "total_downloads": 8356,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "2.2.0rc1",
+              "upload_time": "2024-11-27",
+              "total_downloads": 10170,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            }
+          ],
+          "answer_count": 5,
+          "timestamp": "2025-10-30T11:19:15.009495",
+          "package": "numpy",
+          "channel": "conda-forge",
+          "ecosystem": "Conda",
+          "filter": "include_prerelease=True",
+          "match_percentage": "4.8%"
+        },
+        {
+          "question": "列出Conda上numpy包的所有稳定版本",
+          "answers": [
+            {
+              "answer": "1.10.4",
+              "upload_time": "2016-05-21",
+              "total_downloads": 253809,
+              "file_count": 38,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.11.0",
+              "upload_time": "2016-05-20",
+              "total_downloads": 139232,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.11.1",
+              "upload_time": "2016-07-08",
+              "total_downloads": 131354,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.11.2",
+              "upload_time": "2016-10-04",
+              "total_downloads": 139893,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.11.3",
+              "upload_time": "2016-12-19",
+              "total_downloads": 797485,
+              "file_count": 78,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.12.0",
+              "upload_time": "2017-01-16",
+              "total_downloads": 89636,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.12.1",
+              "upload_time": "2017-03-18",
+              "total_downloads": 511437,
+              "file_count": 27,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.13.0",
+              "upload_time": "2017-06-08",
+              "total_downloads": 74650,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.13.1",
+              "upload_time": "2017-07-07",
+              "total_downloads": 302831,
+              "file_count": 16,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.13.2",
+              "upload_time": "2017-09-28",
+              "total_downloads": 29083,
+              "file_count": 6,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.13.3",
+              "upload_time": "2017-09-30",
+              "total_downloads": 576286,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.14.0",
+              "upload_time": "2018-01-07",
+              "total_downloads": 164510,
+              "file_count": 10,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.14.1",
+              "upload_time": "2018-02-21",
+              "total_downloads": 106782,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.14.2",
+              "upload_time": "2018-03-13",
+              "total_downloads": 203455,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.14.3",
+              "upload_time": "2018-04-28",
+              "total_downloads": 205112,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.14.4",
+              "upload_time": "2018-06-07",
+              "total_downloads": 46209,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.14.5",
+              "upload_time": "2018-06-13",
+              "total_downloads": 353157,
+              "file_count": 35,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.14.6",
+              "upload_time": "2018-09-25",
+              "total_downloads": 382585,
+              "file_count": 60,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.15.0",
+              "upload_time": "2018-07-31",
+              "total_downloads": 135357,
+              "file_count": 11,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.15.1",
+              "upload_time": "2018-08-21",
+              "total_downloads": 1182672,
+              "file_count": 19,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.15.2",
+              "upload_time": "2018-09-24",
+              "total_downloads": 716711,
+              "file_count": 44,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.15.3",
+              "upload_time": "2018-10-23",
+              "total_downloads": 1352970,
+              "file_count": 14,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.15.4",
+              "upload_time": "2018-11-04",
+              "total_downloads": 848123,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.16.0",
+              "upload_time": "2019-01-14",
+              "total_downloads": 103835,
+              "file_count": 14,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.16.1",
+              "upload_time": "2019-02-01",
+              "total_downloads": 133933,
+              "file_count": 8,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.16.2",
+              "upload_time": "2019-02-27",
+              "total_downloads": 508600,
+              "file_count": 26,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.16.3",
+              "upload_time": "2019-04-22",
+              "total_downloads": 331492,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.16.4",
+              "upload_time": "2019-05-28",
+              "total_downloads": 807777,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.16.5",
+              "upload_time": "2019-11-03",
+              "total_downloads": 854693,
+              "file_count": 33,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.16.6",
+              "upload_time": "2020-12-14",
+              "total_downloads": 256217,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.17.0",
+              "upload_time": "2019-08-01",
+              "total_downloads": 318845,
+              "file_count": 10,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.17.1",
+              "upload_time": "2019-08-27",
+              "total_downloads": 120049,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.17.2",
+              "upload_time": "2019-09-07",
+              "total_downloads": 394566,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.17.3",
+              "upload_time": "2019-10-24",
+              "total_downloads": 945396,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.17.5",
+              "upload_time": "2020-01-19",
+              "total_downloads": 693731,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.18.1",
+              "upload_time": "2020-02-03",
+              "total_downloads": 1056072,
+              "file_count": 42,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.18.4",
+              "upload_time": "2020-05-04",
+              "total_downloads": 332304,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.18.5",
+              "upload_time": "2020-06-06",
+              "total_downloads": 1219272,
+              "file_count": 19,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.19.0",
+              "upload_time": "2020-07-16",
+              "total_downloads": 490291,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.19.1",
+              "upload_time": "2020-07-23",
+              "total_downloads": 1821100,
+              "file_count": 52,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.19.2",
+              "upload_time": "2020-10-10",
+              "total_downloads": 827365,
+              "file_count": 64,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.19.4",
+              "upload_time": "2020-11-05",
+              "total_downloads": 2266075,
+              "file_count": 63,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.19.5",
+              "upload_time": "2021-01-05",
+              "total_downloads": 6682344,
+              "file_count": 107,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.20.0",
+              "upload_time": "2021-01-31",
+              "total_downloads": 222273,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.20.1",
+              "upload_time": "2021-02-10",
+              "total_downloads": 870504,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.20.2",
+              "upload_time": "2021-03-28",
+              "total_downloads": 917466,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.20.3",
+              "upload_time": "2021-05-20",
+              "total_downloads": 2344497,
+              "file_count": 70,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.21.0",
+              "upload_time": "2021-06-22",
+              "total_downloads": 572426,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.21.1",
+              "upload_time": "2021-07-18",
+              "total_downloads": 1072351,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.21.2",
+              "upload_time": "2021-08-16",
+              "total_downloads": 1543035,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.21.3",
+              "upload_time": "2021-10-21",
+              "total_downloads": 428180,
+              "file_count": 50,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.21.4",
+              "upload_time": "2021-11-05",
+              "total_downloads": 1069096,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.21.5",
+              "upload_time": "2021-12-21",
+              "total_downloads": 1233653,
+              "file_count": 61,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.21.6",
+              "upload_time": "2022-04-12",
+              "total_downloads": 4034484,
+              "file_count": 33,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.22.0",
+              "upload_time": "2022-01-03",
+              "total_downloads": 372792,
+              "file_count": 36,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.22.1",
+              "upload_time": "2022-01-24",
+              "total_downloads": 219059,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.22.2",
+              "upload_time": "2022-02-04",
+              "total_downloads": 833147,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.22.3",
+              "upload_time": "2022-03-08",
+              "total_downloads": 3728618,
+              "file_count": 92,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.22.4",
+              "upload_time": "2022-05-23",
+              "total_downloads": 5730405,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.23.0",
+              "upload_time": "2022-06-23",
+              "total_downloads": 508333,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.23.1",
+              "upload_time": "2022-07-10",
+              "total_downloads": 1133160,
+              "file_count": 81,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.23.2",
+              "upload_time": "2022-08-16",
+              "total_downloads": 945370,
+              "file_count": 27,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.23.3",
+              "upload_time": "2022-09-11",
+              "total_downloads": 1154865,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.23.4",
+              "upload_time": "2022-10-18",
+              "total_downloads": 1489323,
+              "file_count": 62,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.23.5",
+              "upload_time": "2022-11-20",
+              "total_downloads": 3882321,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.24.0",
+              "upload_time": "2022-12-19",
+              "total_downloads": 273453,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.24.1",
+              "upload_time": "2022-12-30",
+              "total_downloads": 1184894,
+              "file_count": 68,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.24.2",
+              "upload_time": "2023-02-06",
+              "total_downloads": 4159546,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.24.3",
+              "upload_time": "2023-04-23",
+              "total_downloads": 3125808,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.24.4",
+              "upload_time": "2023-06-26",
+              "total_downloads": 3508943,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.25.0",
+              "upload_time": "2023-06-18",
+              "total_downloads": 690052,
+              "file_count": 23,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.25.1",
+              "upload_time": "2023-07-09",
+              "total_downloads": 681255,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.25.2",
+              "upload_time": "2023-08-03",
+              "total_downloads": 1257764,
+              "file_count": 23,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.26.0",
+              "upload_time": "2023-09-17",
+              "total_downloads": 2368122,
+              "file_count": 44,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.26.2",
+              "upload_time": "2023-11-25",
+              "total_downloads": 753696,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.26.3",
+              "upload_time": "2024-01-03",
+              "total_downloads": 780079,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.26.4",
+              "upload_time": "2024-02-06",
+              "total_downloads": 11074142,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.7.2",
+              "upload_time": "2017-07-26",
+              "total_downloads": 22658,
+              "file_count": 6,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.8.2",
+              "upload_time": "2017-07-27",
+              "total_downloads": 145795,
+              "file_count": 16,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.9.3",
+              "upload_time": "2017-07-19",
+              "total_downloads": 400551,
+              "file_count": 99,
+              "platforms": [
+                "linux",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.0.0",
+              "upload_time": "2024-06-17",
+              "total_downloads": 817959,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.0.1",
+              "upload_time": "2024-07-26",
+              "total_downloads": 546201,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.0.2",
+              "upload_time": "2024-08-27",
+              "total_downloads": 1976478,
+              "file_count": 48,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.1.0",
+              "upload_time": "2024-08-19",
+              "total_downloads": 381827,
+              "file_count": 42,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.1.1",
+              "upload_time": "2024-09-04",
+              "total_downloads": 557012,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.1.2",
+              "upload_time": "2024-10-06",
+              "total_downloads": 683109,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.1.3",
+              "upload_time": "2024-11-02",
+              "total_downloads": 1083413,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.2.0",
+              "upload_time": "2024-12-08",
+              "total_downloads": 360194,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.2.1",
+              "upload_time": "2024-12-22",
+              "total_downloads": 628998,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.2.2",
+              "upload_time": "2025-01-20",
+              "total_downloads": 624640,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.2.3",
+              "upload_time": "2025-02-13",
+              "total_downloads": 908518,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.2.4",
+              "upload_time": "2025-03-17",
+              "total_downloads": 1063196,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.2.5",
+              "upload_time": "2025-04-20",
+              "total_downloads": 952914,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.2.6",
+              "upload_time": "2025-05-18",
+              "total_downloads": 2103932,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.3.0",
+              "upload_time": "2025-06-09",
+              "total_downloads": 705111,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.3.1",
+              "upload_time": "2025-07-01",
+              "total_downloads": 918689,
+              "file_count": 48,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.3.2",
+              "upload_time": "2025-07-25",
+              "total_downloads": 3108746,
+              "file_count": 96,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.3.3",
+              "upload_time": "2025-09-10",
+              "total_downloads": 1942054,
+              "file_count": 36,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.3.4",
+              "upload_time": "2025-10-22",
+              "total_downloads": 248720,
+              "file_count": 36,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            }
+          ],
+          "answer_count": 99,
+          "timestamp": "2025-10-30T11:19:15.009587",
+          "package": "numpy",
+          "channel": "conda-forge",
+          "ecosystem": "Conda",
+          "filter": "exclude_prerelease=True",
+          "match_percentage": "95.2%"
+        }
+      ],
+      "api_info": {
+        "api_endpoint": "https://api.anaconda.org/package/conda-forge/numpy",
+        "method": "GET",
+        "parameters": {},
+        "authentication": "None",
+        "rate_limit": "No official limit",
+        "documentation": "https://docs.anaconda.com/anaconda-cloud/api/",
+        "metadata_fields": [
+          "version",
+          "upload_time",
+          "total_downloads",
+          "file_count",
+          "platforms"
+        ]
+      },
+      "summary": {
+        "total_versions": 104,
+        "prerelease_versions": 5,
+        "stable_versions": 99
+      }
+    },
+    {
+      "package": "pandas",
+      "channel": "conda-forge",
+      "tests": [
+        {
+          "question": "列出Conda conda-forge频道上pandas的所有版本",
+          "answers": [
+            {
+              "answer": "0.17.0",
+              "upload_time": "2016-07-24",
+              "total_downloads": 83563,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.17.1",
+              "upload_time": "2016-07-25",
+              "total_downloads": 87293,
+              "file_count": 23,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "0.18.1",
+              "upload_time": "2016-05-03",
+              "total_downloads": 222439,
+              "file_count": 48,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "0.19.0",
+              "upload_time": "2016-10-02",
+              "total_downloads": 114023,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "0.19.1",
+              "upload_time": "2016-11-04",
+              "total_downloads": 164665,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "0.19.2",
+              "upload_time": "2016-12-24",
+              "total_downloads": 538030,
+              "file_count": 68,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.20.0",
+              "upload_time": "2017-05-05",
+              "total_downloads": 90878,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.20.1",
+              "upload_time": "2017-05-05",
+              "total_downloads": 190460,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "0.20.2",
+              "upload_time": "2017-06-04",
+              "total_downloads": 266165,
+              "file_count": 60,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.20.3",
+              "upload_time": "2017-07-08",
+              "total_downloads": 557604,
+              "file_count": 52,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "0.21.0",
+              "upload_time": "2017-10-28",
+              "total_downloads": 286442,
+              "file_count": 12,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.21.0rc1",
+              "upload_time": "2017-10-18",
+              "total_downloads": 2928,
+              "file_count": 12,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.21.1",
+              "upload_time": "2017-12-12",
+              "total_downloads": 155958,
+              "file_count": 12,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.22.0",
+              "upload_time": "2017-12-30",
+              "total_downloads": 754807,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.23.0",
+              "upload_time": "2018-05-15",
+              "total_downloads": 185748,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.23.0rc2",
+              "upload_time": "2018-05-02",
+              "total_downloads": 2879,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "0.23.1",
+              "upload_time": "2018-06-12",
+              "total_downloads": 126584,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "0.23.2",
+              "upload_time": "2018-07-06",
+              "total_downloads": 31532,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.23.3",
+              "upload_time": "2018-07-07",
+              "total_downloads": 182004,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "0.23.4",
+              "upload_time": "2018-08-04",
+              "total_downloads": 4126235,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.24.0",
+              "upload_time": "2019-01-25",
+              "total_downloads": 81408,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "0.24.0rc1",
+              "upload_time": "2019-01-11",
+              "total_downloads": 7970,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.24.1",
+              "upload_time": "2019-02-04",
+              "total_downloads": 328394,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "0.24.2",
+              "upload_time": "2019-03-13",
+              "total_downloads": 2296004,
+              "file_count": 39,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.25.0",
+              "upload_time": "2019-07-18",
+              "total_downloads": 253186,
+              "file_count": 10,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.25.0rc0",
+              "upload_time": "2019-07-04",
+              "total_downloads": 1082,
+              "file_count": 6,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "0.25.1",
+              "upload_time": "2019-08-22",
+              "total_downloads": 512664,
+              "file_count": 10,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "0.25.2",
+              "upload_time": "2019-10-18",
+              "total_downloads": 116849,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "0.25.3",
+              "upload_time": "2019-11-01",
+              "total_downloads": 1025322,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.0.0",
+              "upload_time": "2020-01-29",
+              "total_downloads": 66903,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.0.0rc0",
+              "upload_time": "2020-01-10",
+              "total_downloads": 1335,
+              "file_count": 11,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.0.1",
+              "upload_time": "2020-02-05",
+              "total_downloads": 400768,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.0.2",
+              "upload_time": "2020-03-12",
+              "total_downloads": 51893,
+              "file_count": 12,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.0.3",
+              "upload_time": "2020-03-18",
+              "total_downloads": 872837,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.0.4",
+              "upload_time": "2020-05-29",
+              "total_downloads": 243374,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.0.5",
+              "upload_time": "2020-06-17",
+              "total_downloads": 1335776,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.1.0",
+              "upload_time": "2020-07-28",
+              "total_downloads": 377661,
+              "file_count": 16,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.1.0rc0",
+              "upload_time": "2020-07-19",
+              "total_downloads": 1056,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.1.1",
+              "upload_time": "2020-08-24",
+              "total_downloads": 501972,
+              "file_count": 16,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.1.2",
+              "upload_time": "2020-09-08",
+              "total_downloads": 404062,
+              "file_count": 16,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.1.3",
+              "upload_time": "2020-10-06",
+              "total_downloads": 590355,
+              "file_count": 83,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.1.4",
+              "upload_time": "2020-10-31",
+              "total_downloads": 1252224,
+              "file_count": 25,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.1.5",
+              "upload_time": "2020-12-08",
+              "total_downloads": 2606439,
+              "file_count": 26,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.2.0",
+              "upload_time": "2020-12-27",
+              "total_downloads": 232664,
+              "file_count": 38,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.2.0rc0",
+              "upload_time": "2020-12-10",
+              "total_downloads": 670,
+              "file_count": 17,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.2.1",
+              "upload_time": "2021-01-20",
+              "total_downloads": 254136,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.2.2",
+              "upload_time": "2021-02-09",
+              "total_downloads": 292499,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.2.3",
+              "upload_time": "2021-03-02",
+              "total_downloads": 1013589,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.2.4",
+              "upload_time": "2021-04-12",
+              "total_downloads": 1381982,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.2.5",
+              "upload_time": "2021-06-22",
+              "total_downloads": 754550,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.3.0",
+              "upload_time": "2021-07-02",
+              "total_downloads": 506421,
+              "file_count": 17,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.3.0rc1",
+              "upload_time": "2021-06-15",
+              "total_downloads": 806,
+              "file_count": 17,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.3.1",
+              "upload_time": "2021-07-25",
+              "total_downloads": 595502,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.3.2",
+              "upload_time": "2021-08-16",
+              "total_downloads": 533716,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.3.3",
+              "upload_time": "2021-09-12",
+              "total_downloads": 686911,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.3.4",
+              "upload_time": "2021-10-17",
+              "total_downloads": 4156736,
+              "file_count": 49,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.3.5",
+              "upload_time": "2021-12-13",
+              "total_downloads": 2135251,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.4.0",
+              "upload_time": "2022-01-22",
+              "total_downloads": 352767,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.4.0rc0",
+              "upload_time": "2022-01-06",
+              "total_downloads": 970,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.4.1",
+              "upload_time": "2022-02-12",
+              "total_downloads": 1265688,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.4.2",
+              "upload_time": "2022-04-02",
+              "total_downloads": 2245188,
+              "file_count": 74,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.4.3",
+              "upload_time": "2022-06-23",
+              "total_downloads": 1358035,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.4.4",
+              "upload_time": "2022-08-31",
+              "total_downloads": 889583,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.5.0",
+              "upload_time": "2022-09-19",
+              "total_downloads": 613115,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.5.0rc0",
+              "upload_time": "2022-08-24",
+              "total_downloads": 553,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "1.5.1",
+              "upload_time": "2022-10-19",
+              "total_downloads": 888232,
+              "file_count": 59,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.5.2",
+              "upload_time": "2022-11-22",
+              "total_downloads": 1304103,
+              "file_count": 82,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ]
+            },
+            {
+              "answer": "1.5.3",
+              "upload_time": "2023-01-19",
+              "total_downloads": 5163049,
+              "file_count": 64,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.0.0",
+              "upload_time": "2023-04-03",
+              "total_downloads": 458509,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.0.0rc0",
+              "upload_time": "2023-02-21",
+              "total_downloads": 617,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.0.0rc1",
+              "upload_time": "2023-03-16",
+              "total_downloads": 525,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.0.1",
+              "upload_time": "2023-04-24",
+              "total_downloads": 1626000,
+              "file_count": 64,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.0.2",
+              "upload_time": "2023-05-29",
+              "total_downloads": 852828,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.0.3",
+              "upload_time": "2023-06-29",
+              "total_downloads": 2628418,
+              "file_count": 66,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.1.0",
+              "upload_time": "2023-08-30",
+              "total_downloads": 356479,
+              "file_count": 16,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.1.0rc0",
+              "upload_time": "2023-08-12",
+              "total_downloads": 1178,
+              "file_count": 26,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.1.1",
+              "upload_time": "2023-09-20",
+              "total_downloads": 850491,
+              "file_count": 45,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.1.2",
+              "upload_time": "2023-10-27",
+              "total_downloads": 431940,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.1.3",
+              "upload_time": "2023-11-11",
+              "total_downloads": 769561,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.1.4",
+              "upload_time": "2023-12-08",
+              "total_downloads": 929574,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.2.0",
+              "upload_time": "2024-01-20",
+              "total_downloads": 624645,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.2.0rc0",
+              "upload_time": "2023-12-22",
+              "total_downloads": 1223,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.2.1",
+              "upload_time": "2024-02-23",
+              "total_downloads": 1288901,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.2.2",
+              "upload_time": "2024-04-10",
+              "total_downloads": 4422052,
+              "file_count": 58,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.2.3",
+              "upload_time": "2024-09-20",
+              "total_downloads": 4947034,
+              "file_count": 96,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.3.0",
+              "upload_time": "2025-06-05",
+              "total_downloads": 698041,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.3.1",
+              "upload_time": "2025-07-09",
+              "total_downloads": 906532,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.3.2",
+              "upload_time": "2025-08-21",
+              "total_downloads": 752281,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            },
+            {
+              "answer": "2.3.3",
+              "upload_time": "2025-09-30",
+              "total_downloads": 599681,
+              "file_count": 54,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ]
+            }
+          ],
+          "answer_count": 89,
+          "timestamp": "2025-10-30T11:19:19.347040",
+          "package": "pandas",
+          "channel": "conda-forge",
+          "ecosystem": "Conda",
+          "query_category": "base_enumeration"
+        },
+        {
+          "question": "列出Conda上pandas包的所有预发布版本",
+          "answers": [
+            {
+              "answer": "0.21.0rc1",
+              "upload_time": "2017-10-18",
+              "total_downloads": 2928,
+              "file_count": 12,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "0.23.0rc2",
+              "upload_time": "2018-05-02",
+              "total_downloads": 2879,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "0.24.0rc1",
+              "upload_time": "2019-01-11",
+              "total_downloads": 7970,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "0.25.0rc0",
+              "upload_time": "2019-07-04",
+              "total_downloads": 1082,
+              "file_count": 6,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "1.0.0rc0",
+              "upload_time": "2020-01-10",
+              "total_downloads": 1335,
+              "file_count": 11,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "1.1.0rc0",
+              "upload_time": "2020-07-19",
+              "total_downloads": 1056,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "1.2.0rc0",
+              "upload_time": "2020-12-10",
+              "total_downloads": 670,
+              "file_count": 17,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "1.3.0rc1",
+              "upload_time": "2021-06-15",
+              "total_downloads": 806,
+              "file_count": 17,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "1.4.0rc0",
+              "upload_time": "2022-01-06",
+              "total_downloads": 970,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "1.5.0rc0",
+              "upload_time": "2022-08-24",
+              "total_downloads": 553,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "2.0.0rc0",
+              "upload_time": "2023-02-21",
+              "total_downloads": 617,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "2.0.0rc1",
+              "upload_time": "2023-03-16",
+              "total_downloads": 525,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "2.1.0rc0",
+              "upload_time": "2023-08-12",
+              "total_downloads": 1178,
+              "file_count": 26,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            },
+            {
+              "answer": "2.2.0rc0",
+              "upload_time": "2023-12-22",
+              "total_downloads": 1223,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": true
+            }
+          ],
+          "answer_count": 14,
+          "timestamp": "2025-10-30T11:19:19.347110",
+          "package": "pandas",
+          "channel": "conda-forge",
+          "ecosystem": "Conda",
+          "filter": "include_prerelease=True",
+          "match_percentage": "15.7%"
+        },
+        {
+          "question": "列出Conda上pandas包的所有稳定版本",
+          "answers": [
+            {
+              "answer": "0.17.0",
+              "upload_time": "2016-07-24",
+              "total_downloads": 83563,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.17.1",
+              "upload_time": "2016-07-25",
+              "total_downloads": 87293,
+              "file_count": 23,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.18.1",
+              "upload_time": "2016-05-03",
+              "total_downloads": 222439,
+              "file_count": 48,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.19.0",
+              "upload_time": "2016-10-02",
+              "total_downloads": 114023,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.19.1",
+              "upload_time": "2016-11-04",
+              "total_downloads": 164665,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.19.2",
+              "upload_time": "2016-12-24",
+              "total_downloads": 538030,
+              "file_count": 68,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.20.0",
+              "upload_time": "2017-05-05",
+              "total_downloads": 90878,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.20.1",
+              "upload_time": "2017-05-05",
+              "total_downloads": 190460,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.20.2",
+              "upload_time": "2017-06-04",
+              "total_downloads": 266165,
+              "file_count": 60,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.20.3",
+              "upload_time": "2017-07-08",
+              "total_downloads": 557604,
+              "file_count": 52,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.21.0",
+              "upload_time": "2017-10-28",
+              "total_downloads": 286442,
+              "file_count": 12,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.21.1",
+              "upload_time": "2017-12-12",
+              "total_downloads": 155958,
+              "file_count": 12,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.22.0",
+              "upload_time": "2017-12-30",
+              "total_downloads": 754807,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.23.0",
+              "upload_time": "2018-05-15",
+              "total_downloads": 185748,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.23.1",
+              "upload_time": "2018-06-12",
+              "total_downloads": 126584,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.23.2",
+              "upload_time": "2018-07-06",
+              "total_downloads": 31532,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.23.3",
+              "upload_time": "2018-07-07",
+              "total_downloads": 182004,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.23.4",
+              "upload_time": "2018-08-04",
+              "total_downloads": 4126235,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.24.0",
+              "upload_time": "2019-01-25",
+              "total_downloads": 81408,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.24.1",
+              "upload_time": "2019-02-04",
+              "total_downloads": 328394,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.24.2",
+              "upload_time": "2019-03-13",
+              "total_downloads": 2296004,
+              "file_count": 39,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.25.0",
+              "upload_time": "2019-07-18",
+              "total_downloads": 253186,
+              "file_count": 10,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.25.1",
+              "upload_time": "2019-08-22",
+              "total_downloads": 512664,
+              "file_count": 10,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.25.2",
+              "upload_time": "2019-10-18",
+              "total_downloads": 116849,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "0.25.3",
+              "upload_time": "2019-11-01",
+              "total_downloads": 1025322,
+              "file_count": 15,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.0.0",
+              "upload_time": "2020-01-29",
+              "total_downloads": 66903,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.0.1",
+              "upload_time": "2020-02-05",
+              "total_downloads": 400768,
+              "file_count": 9,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.0.2",
+              "upload_time": "2020-03-12",
+              "total_downloads": 51893,
+              "file_count": 12,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.0.3",
+              "upload_time": "2020-03-18",
+              "total_downloads": 872837,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.0.4",
+              "upload_time": "2020-05-29",
+              "total_downloads": 243374,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.0.5",
+              "upload_time": "2020-06-17",
+              "total_downloads": 1335776,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.1.0",
+              "upload_time": "2020-07-28",
+              "total_downloads": 377661,
+              "file_count": 16,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.1.1",
+              "upload_time": "2020-08-24",
+              "total_downloads": 501972,
+              "file_count": 16,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.1.2",
+              "upload_time": "2020-09-08",
+              "total_downloads": 404062,
+              "file_count": 16,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.1.3",
+              "upload_time": "2020-10-06",
+              "total_downloads": 590355,
+              "file_count": 83,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.1.4",
+              "upload_time": "2020-10-31",
+              "total_downloads": 1252224,
+              "file_count": 25,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.1.5",
+              "upload_time": "2020-12-08",
+              "total_downloads": 2606439,
+              "file_count": 26,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.2.0",
+              "upload_time": "2020-12-27",
+              "total_downloads": 232664,
+              "file_count": 38,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.2.1",
+              "upload_time": "2021-01-20",
+              "total_downloads": 254136,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.2.2",
+              "upload_time": "2021-02-09",
+              "total_downloads": 292499,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.2.3",
+              "upload_time": "2021-03-02",
+              "total_downloads": 1013589,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.2.4",
+              "upload_time": "2021-04-12",
+              "total_downloads": 1381982,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.2.5",
+              "upload_time": "2021-06-22",
+              "total_downloads": 754550,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.3.0",
+              "upload_time": "2021-07-02",
+              "total_downloads": 506421,
+              "file_count": 17,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.3.1",
+              "upload_time": "2021-07-25",
+              "total_downloads": 595502,
+              "file_count": 22,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.3.2",
+              "upload_time": "2021-08-16",
+              "total_downloads": 533716,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.3.3",
+              "upload_time": "2021-09-12",
+              "total_downloads": 686911,
+              "file_count": 21,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.3.4",
+              "upload_time": "2021-10-17",
+              "total_downloads": 4156736,
+              "file_count": 49,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.3.5",
+              "upload_time": "2021-12-13",
+              "total_downloads": 2135251,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.4.0",
+              "upload_time": "2022-01-22",
+              "total_downloads": 352767,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.4.1",
+              "upload_time": "2022-02-12",
+              "total_downloads": 1265688,
+              "file_count": 18,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.4.2",
+              "upload_time": "2022-04-02",
+              "total_downloads": 2245188,
+              "file_count": 74,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.4.3",
+              "upload_time": "2022-06-23",
+              "total_downloads": 1358035,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.4.4",
+              "upload_time": "2022-08-31",
+              "total_downloads": 889583,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.5.0",
+              "upload_time": "2022-09-19",
+              "total_downloads": 613115,
+              "file_count": 28,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.5.1",
+              "upload_time": "2022-10-19",
+              "total_downloads": 888232,
+              "file_count": 59,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.5.2",
+              "upload_time": "2022-11-22",
+              "total_downloads": 1304103,
+              "file_count": 82,
+              "platforms": [
+                "linux",
+                "osx",
+                "win"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "1.5.3",
+              "upload_time": "2023-01-19",
+              "total_downloads": 5163049,
+              "file_count": 64,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.0.0",
+              "upload_time": "2023-04-03",
+              "total_downloads": 458509,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.0.1",
+              "upload_time": "2023-04-24",
+              "total_downloads": 1626000,
+              "file_count": 64,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.0.2",
+              "upload_time": "2023-05-29",
+              "total_downloads": 852828,
+              "file_count": 34,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.0.3",
+              "upload_time": "2023-06-29",
+              "total_downloads": 2628418,
+              "file_count": 66,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.1.0",
+              "upload_time": "2023-08-30",
+              "total_downloads": 356479,
+              "file_count": 16,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.1.1",
+              "upload_time": "2023-09-20",
+              "total_downloads": 850491,
+              "file_count": 45,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.1.2",
+              "upload_time": "2023-10-27",
+              "total_downloads": 431940,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.1.3",
+              "upload_time": "2023-11-11",
+              "total_downloads": 769561,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.1.4",
+              "upload_time": "2023-12-08",
+              "total_downloads": 929574,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.2.0",
+              "upload_time": "2024-01-20",
+              "total_downloads": 624645,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.2.1",
+              "upload_time": "2024-02-23",
+              "total_downloads": 1288901,
+              "file_count": 29,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.2.2",
+              "upload_time": "2024-04-10",
+              "total_downloads": 4422052,
+              "file_count": 58,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.2.3",
+              "upload_time": "2024-09-20",
+              "total_downloads": 4947034,
+              "file_count": 96,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.3.0",
+              "upload_time": "2025-06-05",
+              "total_downloads": 698041,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.3.1",
+              "upload_time": "2025-07-09",
+              "total_downloads": 906532,
+              "file_count": 30,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.3.2",
+              "upload_time": "2025-08-21",
+              "total_downloads": 752281,
+              "file_count": 24,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            },
+            {
+              "answer": "2.3.3",
+              "upload_time": "2025-09-30",
+              "total_downloads": 599681,
+              "file_count": 54,
+              "platforms": [
+                "linux",
+                "win",
+                "osx"
+              ],
+              "is_prerelease": false
+            }
+          ],
+          "answer_count": 75,
+          "timestamp": "2025-10-30T11:19:19.347177",
+          "package": "pandas",
+          "channel": "conda-forge",
+          "ecosystem": "Conda",
+          "filter": "exclude_prerelease=True",
+          "match_percentage": "84.3%"
+        }
+      ],
+      "api_info": {
+        "api_endpoint": "https://api.anaconda.org/package/conda-forge/pandas",
+        "method": "GET",
+        "parameters": {},
+        "authentication": "None",
+        "rate_limit": "No official limit",
+        "documentation": "https://docs.anaconda.com/anaconda-cloud/api/",
+        "metadata_fields": [
+          "version",
+          "upload_time",
+          "total_downloads",
+          "file_count",
+          "platforms"
+        ]
+      },
+      "summary": {
+        "total_versions": 89,
+        "prerelease_versions": 14,
+        "stable_versions": 75
+      }
+    }
+  ]
+}
